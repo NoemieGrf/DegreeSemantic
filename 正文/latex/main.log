@@ -1,0 +1,793 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.20)  21 JUN 2023 00:08
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**d:/Noemie/DegreeSemantic/正文/latex/main.tex
+(d:/Noemie/DegreeSemantic/正文/latex/main.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-16>
+(d:/Programmes/texlive/2023/texmf-dist/tex/latex/apa6/apa6.cls
+Document Class: apa6 2020/01/13 v2.34 APA formatting (6th edition)
+(d:/Programmes/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(d:/Programmes/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count193
+)
+Class apa6 Info: No bibliography package was specified; defaulting to (but not loading) Biblatex on input line 213.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (d:/Programmes/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen151
+\lightrulewidth=\dimen152
+\cmidrulewidth=\dimen153
+\belowrulesep=\dimen154
+\belowbottomsep=\dimen155
+\aboverulesep=\dimen156
+\abovetopsep=\dimen157
+\cmidrulesep=\dimen158
+\cmidrulekern=\dimen159
+\defaultaddspace=\dimen160
+\@cmidla=\count197
+\@cmidlb=\count198
+\@aboverulesep=\dimen161
+\@belowrulesep=\dimen162
+\@thisruleclass=\count199
+\@lastruleclass=\count266
+\@thisrulewidth=\dimen163
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box51
+)
+\b@level@one@skip=\skip50
+\e@level@one@skip=\skip51
+\b@level@two@skip=\skip52
+\e@level@two@skip=\skip53
+\b@level@three@skip=\skip54
+\e@level@three@skip=\skip55
+\b@level@four@skip=\skip56
+\e@level@four@skip=\skip57
+\b@level@five@skip=\skip58
+\e@level@five@skip=\skip59
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen164
+\captionmargin=\dimen165
+\caption@leftmargin=\dimen166
+\caption@rightmargin=\dimen167
+\caption@width=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count267
+\c@continuedfloat=\count268
+Package caption Info: threeparttable package is loaded.
+)
+\c@APAenum=\count269
+\@text@par@indent=\skip60
+\gr@box=\box52
+\gr@boxwidth=\skip61
+\gr@boxheight=\skip62
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+Package bm Info: No bold for \OMX/lmex/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+\c@appendix=\count270
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/endfloat/endfloat.sty
+Package: endfloat 2019/04/15 v2.7 LaTeX2e package puts figures and tables at end (jdm)
+\c@posttable=\count271
+\efloat@postttt=\write3
+\@ef@tttopen=\count272
+\c@postfigure=\count273
+\efloat@postfff=\write4
+\@ef@fffopen=\count274
+)) (d:/Programmes/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/05/11 v3.89 The Babel package
+\babel@savecnt=\count275
+\U@D=\dimen172
+\l@unhyphenated=\language87
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count276
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/babel-english/british.ldf
+Language: british 2017/06/06 v3.3r English support from the babel system
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+))) (d:/Programmes/texlive/2023/texmf-dist/tex/generic/babel/locale/en/babel-british.tex
+Package babel Info: Importing font and identification data for british
+(babel)             from babel-en-GB.ini. Reported on input line 11.
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (d:/Programmes/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count277
+\csq@gtype=\count278
+\csq@glevel=\count279
+\csq@qlevel=\count280
+\csq@maxlvl=\count281
+\csq@tshold=\count282
+\csq@ltx@everypar=\toks21
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-05-16 v7.00y Hypertext links for LaTeX
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-05-16 v2.51 Cross-referencing by name of section
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (d:/Programmes/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count283
+)
+\@linkdim=\dimen173
+\Hy@linkcounter=\count284
+\Hy@pagecounter=\count285
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-05-16 v7.00y Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (d:/Programmes/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count286
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-05-16 v7.00y Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count287
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen174
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count288
+\Field@Width=\dimen175
+\Fld@charsize=\dimen176
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count289
+\c@Item=\count290
+\c@Hfootnote=\count291
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-05-16 v7.00y Hyperref driver for pdfTeX
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip72
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count294
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count295
+\c@listtotal=\count296
+\c@listcount=\count297
+\c@liststart=\count298
+\c@liststop=\count299
+\c@citecount=\count300
+\c@citetotal=\count301
+\c@multicitecount=\count302
+\c@multicitetotal=\count303
+\c@instcount=\count304
+\c@maxnames=\count305
+\c@minnames=\count306
+\c@maxitems=\count307
+\c@minitems=\count308
+\c@citecounter=\count309
+\c@maxcitecounter=\count310
+\c@savedcitecounter=\count311
+\c@uniquelist=\count312
+\c@uniquename=\count313
+\c@refsection=\count314
+\c@refsegment=\count315
+\c@maxextratitle=\count316
+\c@maxextratitleyear=\count317
+\c@maxextraname=\count318
+\c@maxextradate=\count319
+\c@maxextraalpha=\count320
+\c@abbrvpenalty=\count321
+\c@highnamepenalty=\count322
+\c@lownamepenalty=\count323
+\c@maxparens=\count324
+\c@parenlevel=\count325
+\blx@tempcnta=\count326
+\blx@tempcntb=\count327
+\blx@tempcntc=\count328
+\c@blx@maxsection=\count329
+\blx@maxsegment@0=\count330
+\blx@notetype=\count331
+\blx@parenlevel@text=\count332
+\blx@parenlevel@foot=\count333
+\blx@sectionciteorder@0=\count334
+\blx@sectionciteorderinternal@0=\count335
+\blx@entrysetcounter=\count336
+\blx@biblioinstance=\count337
+\labelnumberwidth=\skip73
+\labelalphawidth=\skip74
+\biblabelsep=\skip75
+\bibitemsep=\skip76
+\bibnamesep=\skip77
+\bibinitsep=\skip78
+\bibparsep=\skip79
+\bibhang=\skip80
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language88
+\c@mincomprange=\count338
+\c@maxcomprange=\count339
+\c@mincompwidth=\count340
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count341
+\c@savedafterword=\count342
+\c@annotator=\count343
+\c@savedannotator=\count344
+\c@author=\count345
+\c@savedauthor=\count346
+\c@bookauthor=\count347
+\c@savedbookauthor=\count348
+\c@commentator=\count349
+\c@savedcommentator=\count350
+\c@editor=\count351
+\c@savededitor=\count352
+\c@editora=\count353
+\c@savededitora=\count354
+\c@editorb=\count355
+\c@savededitorb=\count356
+\c@editorc=\count357
+\c@savededitorc=\count358
+\c@foreword=\count359
+\c@savedforeword=\count360
+\c@holder=\count361
+\c@savedholder=\count362
+\c@introduction=\count363
+\c@savedintroduction=\count364
+\c@namea=\count365
+\c@savednamea=\count366
+\c@nameb=\count367
+\c@savednameb=\count368
+\c@namec=\count369
+\c@savednamec=\count370
+\c@translator=\count371
+\c@savedtranslator=\count372
+\c@shortauthor=\count373
+\c@savedshortauthor=\count374
+\c@shorteditor=\count375
+\c@savedshorteditor=\count376
+\c@narrator=\count377
+\c@savednarrator=\count378
+\c@execproducer=\count379
+\c@savedexecproducer=\count380
+\c@execdirector=\count381
+\c@savedexecdirector=\count382
+\c@with=\count383
+\c@savedwith=\count384
+\c@labelname=\count385
+\c@savedlabelname=\count386
+\c@institution=\count387
+\c@savedinstitution=\count388
+\c@lista=\count389
+\c@savedlista=\count390
+\c@listb=\count391
+\c@savedlistb=\count392
+\c@listc=\count393
+\c@savedlistc=\count394
+\c@listd=\count395
+\c@savedlistd=\count396
+\c@liste=\count397
+\c@savedliste=\count398
+\c@listf=\count399
+\c@savedlistf=\count400
+\c@location=\count401
+\c@savedlocation=\count402
+\c@organization=\count403
+\c@savedorganization=\count404
+\c@origlocation=\count405
+\c@savedoriglocation=\count406
+\c@origpublisher=\count407
+\c@savedorigpublisher=\count408
+\c@publisher=\count409
+\c@savedpublisher=\count410
+\c@language=\count411
+\c@savedlanguage=\count412
+\c@origlanguage=\count413
+\c@savedoriglanguage=\count414
+\c@citation=\count415
+\c@savedcitation=\count416
+\c@pageref=\count417
+\c@savedpageref=\count418
+\shorthandwidth=\skip81
+\shortjournalwidth=\skip82
+\shortserieswidth=\skip83
+\shorttitlewidth=\skip84
+\shortauthorwidth=\skip85
+\shorteditorwidth=\skip86
+\locallabelnumberwidth=\skip87
+\locallabelalphawidth=\skip88
+\localshorthandwidth=\skip89
+\localshortjournalwidth=\skip90
+\localshortserieswidth=\skip91
+\localshorttitlewidth=\skip92
+\localshortauthorwidth=\skip93
+\localshorteditorwidth=\skip94
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count419
+\c@textcitetotal=\count420
+\c@textcitemaxnames=\count421
+\c@biburlbigbreakpenalty=\count422
+\c@biburlbreakpenalty=\count423
+\c@biburlnumpenalty=\count424
+\c@biburlucpenalty=\count425
+\c@biburllcpenalty=\count426
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count427
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count428
+\c@bbx:relatedtotal=\count429
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-06-16 L3 programming layer (loader) 
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count430
+\l__pdf_internal_box=\box53
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2023-06-16 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (d:/Programmes/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'british'.
+ (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=15.2pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=95.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(d:/Programmes/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count431
+\scratchdimen=\dimen177
+\scratchbox=\box54
+\nofMPsegments=\count432
+\nofMParguments=\count433
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count434
+\MPscratchDim=\dimen178
+\MPnumerator=\count435
+\makeMPintoPDFobject=\count436
+\everyMPtoPDFconversion=\toks23
+) (d:/Programmes/texlive/2023/texmf-dist/tex/latex/apa6/config/APAamerican.txt
+File: APAamerican.txt 2012/02/23 v1.25 apa6 configuration for American English
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 53.
+ (./main.out) (./main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+Package biblatex Info: Trying to load language 'british' -> 'british-apa'...
+Package biblatex Info: ... file 'british-apa.lbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex-apa/british-apa.lbx
+File: british-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'british'...
+Package biblatex Info: ... file 'british.lbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+File: british.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'british'...
+Package biblatex Info: ... file 'british.lbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+File: british.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+))))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
+
+
+Class apa6 Warning: Short title not defined.
+
+
+Class apa6 Warning: Affiliation not defined.
+
+
+Class apa6 Warning: Abstract not defined.
+
+Class apa6 Info: Keywords not defined on input line 56.
+[1{d:/Programmes/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/Programmes/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
+
+]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 64.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 64.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 64.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 64.
+ (d:/Programmes/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 64.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 64.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 64.
+ [2{d:/Programmes/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/Programmes/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{d:/Programmes/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] [3] [4] [5] [6] [7] [8] [9
+
+] AED endfloat: Processing end Figures and Tables [10] (./main.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-16>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 3CB55C81E15BBE68AF9E8F14133B2267;1162.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 21254 strings out of 475723
+ 379425 string characters out of 5780357
+ 1861763 words of memory out of 5000000
+ 41736 multiletter control sequences out of 15000+600000
+ 545771 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,12n,95p,1574b,8651s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb><d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (10 pages, 119702 bytes).
+PDF statistics:
+ 117 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+
