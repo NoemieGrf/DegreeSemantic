@@ -1,9 +1,8 @@
-\documentclass[
-    a4paper,
-    man,
-    british
-]{apa6}
+\documentclass{ctexart}
 
+\usepackage{geometry}
+
+\geometry{a4paper, right=3cm, left=3cm, top=2cm, bottom=2cm}
 
 \usepackage[british]{babel}
 \usepackage[utf8]{inputenc}
@@ -24,36 +23,39 @@
 %    firstinits=false,
 ]{biblatex}
 
-\DeclareLanguageMapping{british}{british-apa}
-
 % maps apacite commands to biblatex commands
 \let \citeNP \cite
 \let \citeA \textcite
 \let \cite \parencite
 
-%%%
-% Apa Bib - enable reprint according to apa
-%%%
-
-% \input{enable-reprint}
-
 \bibliography{reference}
 
-\usepackage{graphicx} % Required for inserting images
-\graphicspath{{./pic/}}
+% Required for inserting images
+\usepackage{graphicx} 
+
+\pagestyle{plain} % 页码放下面
+\title{Semantics and Syntax of Gradable Adjectives in English and Mandarin}
+\date{\vspace{-10ex}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Semantics and Syntax of Gradable Adjectives in English and Mandarin}
-
-\author{Yifeng Zhang}
-
-\date{June 2023}
-
 \begin{document}
 
-\maketitle
+\thispagestyle{empty} % 这一页清空
+
+\begin{center}
+
+Name: $<<$* Zhang Yi Feng *$>>$ \\
+Student ID: $<<$* 1155166448 *$>>$
+
+\end{center}
+
+{\let\newpage\relax\maketitle}
+
+
 \section{Introduction}
+
+\setcounter{page}{1}
 
 \noindent
 Gradability is an essential concept in the studies of adjectives, which classifies adjectives into two major classes, non-gradable adjectives, like \textit{British}, etc. and gradable adjectives, like \textit{tall}, \textit{long}, etc. To grasp this distinction and particularly to account for the core characteristic of gradable adjectives, linguists conduct a great many investigations around DEGREE. Among various aspects for looking into the problem, this paper adopts the major approaches in the field of formal semantics as well as in generative grammar. The paper attempts to integrate formal semantics and generative syntax to reveal the core meaning of gradable adjectives and the syntactic constructions where they appear. The explanation for the noticeable differences between Mandarin comparisons and English comparisons will also be given.
@@ -149,13 +151,12 @@ In terms of the syntactic structure of degree constructions, Kennedy projects th
 
 \begin{itemize}
 \item[(4)]
-
 \end{itemize}
 
-%\begin{figure}[!htbp]
-%\centering
-%\includesvg{pic/pic1.svg}
-%\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pic/pic1.png}
+\end{figure}
 
 Typically, scholars think that the meaning of gradable adjectives is composed of two major parts: a measure function and an ordering relation\cite{carston2013,horn1992}.
 
@@ -168,7 +169,17 @@ Secondly, Kennedy makes refinement to the interpretation of degrees. He argues t
 *Carmen is taller than Mike is short.
 \end{itemize}
 
-\section{Ch2}
+\section{DegP hypothesis and Deg-Shell}
+
+\subsection{DegP hypothesis}
+
+\subsection{DegP-Shell}
+
+\subsubsection{DegP-Shell in English}
+
+\subsubsection{DegP-Shell in Mandarin}
+
+\newpage
 
 \printbibliography
 
