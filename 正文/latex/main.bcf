@@ -3097,6 +3097,10 @@
     <bcf:citekey order="19" intorder="3">bierwisch1989</bcf:citekey>
     <bcf:citekey order="19" intorder="4">lobner2010</bcf:citekey>
     <bcf:citekey order="20" intorder="1">abney1987</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">bowers1975</bcf:citekey>
+    <bcf:citekey order="21" intorder="2">jackendoff1977</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">corver1997a</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">svenonius2006</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

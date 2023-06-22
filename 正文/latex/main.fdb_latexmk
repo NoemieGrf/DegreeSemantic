@@ -1,18 +1,17 @@
 # Fdb version 4
-["biber main"] 1687360549 "main.bcf" "main.bbl" "main" 1687360554 0
-  "main.bcf" 1687360554 134926 2bd3ce85993438457926e7d7ea7f2ccc "pdflatex"
+["biber main"] 1687412576 "main.bcf" "main.bbl" "main" 1687436646 0
+  "main.bcf" 1687436646 135198 44ed79ada94ceb012b60e0fc24daf9a6 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1687360553 "d:/Noemie/DegreeSemantic/正文/latex/main.tex" "main.pdf" "main" 1687360554 0
+["pdflatex"] 1687436644 "d:/Noemie/DegreeSemantic/正文/latex/main.tex" "main.pdf" "main" 1687436646 0
   "c:/Windows/Fonts/msyh.ttc" 1651900759 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "c:/Windows/Fonts/simsun.ttc" 1651900759 17909384 a31f28cad247ad739adf0891b0f2f7f2 ""
-  "d:/Noemie/DegreeSemantic/正文/latex/main.tex" 1687360547 14696 c0643764119da6a89eb85aa159d3c9b1 ""
+  "d:/Noemie/DegreeSemantic/正文/latex/main.tex" 1687436644 20000 1c2c915139d5c1ecbbe119db4baa951e ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1687269214 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/sfd/ttf2pk/UGBK.sfd" 1687271184 182544 bcd31d5d273400b38612a969fcab55f9 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/sfd/ttf2pk/Unicode.sfd" 1687271184 103212 c249c63d38b8b55408aee52d643b0c18 ""
-  "d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1687268642 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1687268642 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1687268642 1528 abec98dbc43e172678c11b3b9031252a ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1687268642 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -29,13 +28,13 @@
   "d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1687268642 1120 8b7d695260f3cff42e636090a8002094 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1687268642 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong20.tfm" 1687271458 1172 c443622f792d7e5350ad5382dd8aebb3 ""
-  "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1687268176 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1687268176 32080 340ef9bf63678554ee606688e7b5339d ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1687268176 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1687268176 36281 c355509802a035cadc5f15869451dcee ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1687268176 35752 024fb6c41858982481f6968b5fc26508 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1687268176 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1687268176 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1687268176 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "d:/Programmes/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1687268176 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "d:/Programmes/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1687270070 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "d:/Programmes/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1687268246 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -113,6 +112,7 @@
   "d:/Programmes/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd" 1687268796 1820 94b600cf0e8675b72e2f47cdec13db0a ""
   "d:/Programmes/texlive/2023/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def" 1687268796 4952 f781dcade04ad6ae6d09fde004a752be ""
   "d:/Programmes/texlive/2023/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def" 1687268796 4622 4f152431881516d2a81822d98108b61f ""
+  "d:/Programmes/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1687269029 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "d:/Programmes/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1687269044 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "d:/Programmes/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty" 1687269044 4393 47f27fd4d95928d20b1885ba77de11d2 ""
   "d:/Programmes/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1687269075 46845 3b58f70c6e861a13d927bff09d35ecbc ""
@@ -147,11 +147,11 @@
   "d:/Programmes/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1687271485 4683031 99eb3f6b9ed8762ae6af0c17a2ae1b3a ""
   "d:/Programmes/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1687271597 7904124 bdaf6d2f29bcf6fd6d4c3a77e425ea3c ""
   "d:/Programmes/texlive/2023/texmf.cnf" 1687271475 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1687360554 8560 13c67d6c8e52477ace55e3f48c5b466d "pdflatex"
-  "main.bbl" 1687360552 72573 3afe9a7b910b03850358e1f4c657dceb "biber main"
-  "main.out" 1687360554 1505 464fc1cc25a8597158f968c736f4dd23 "pdflatex"
-  "main.run.xml" 1687360554 2492 aca4739918da35ad7dcad48064d67529 "pdflatex"
-  "main.tex" 1687360547 14696 c0643764119da6a89eb85aa159d3c9b1 ""
+  "main.aux" 1687436646 10610 f93d617087b52f3fc8a6a043c7c95041 "pdflatex"
+  "main.bbl" 1687412577 80639 dc38476924a8b9cbcc83fc039340ed11 "biber main"
+  "main.out" 1687436646 1709 857e2b25eb058cde5ba365ee64433b1e "pdflatex"
+  "main.run.xml" 1687436646 2492 aca4739918da35ad7dcad48064d67529 "pdflatex"
+  "main.tex" 1687436644 20000 1c2c915139d5c1ecbbe119db4baa951e ""
   "pic/pic1.png" 1687356039 24849 50be9c6b705cc7b26edf98e5889156ad ""
   (generated)
   "main.aux"
