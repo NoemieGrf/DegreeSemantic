@@ -309,7 +309,9 @@ Compare \ref{refOp1}\ref{refOp1a} and \ref{refOp1}\ref{refOp1b}, it is obvious t
 %%%%%% Mandarin transitive comparatives and the grammar of measurement (2012)
 %%%%%% Thomas Grano & Chris Kenndy
 
-% %%%%%% Introduction %%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % canonical comparative in Mandarin -> morpheme "bi"
 % A bi B gao (yi dian)
@@ -346,7 +348,9 @@ Compare \ref{refOp1}\ref{refOp1a} and \ref{refOp1}\ref{refOp1b}, it is obvious t
 % -- standard marker "bi"
 % -- covert morpheme like null operator in dialect in Norwegian, which is involved in the projection of measure phrase.
 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%%% The synatax and semantics of gradability and measurement %%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Rule(P227): If a measure phrase denotes a degree on a scale that is distinct form the one used by a particular adjective, then composiiton will be ruled out as a kind of selectional restriction violation.
 % * 20 kg gao (gao do not accept kg)
@@ -355,13 +359,52 @@ Compare \ref{refOp1}\ref{refOp1a} and \ref{refOp1}\ref{refOp1b}, it is obvious t
 % Rule(P227): Measure phrase do not combine with negative-pole adjectives.
 % * 1 mi duan
 % 1 mi chang
+
 % Problem: why "1 meter short" is ill form but "1 meter long" is correct. Futhermore, why "1 meter shorter" is correct.
 % Old schools belives that it is beacuse those expression do not include a fixed origin point. (Seuren 1978, von Stechow 1984b, Bierwisch 1989, Kennedy 2001, Sassoon 2010).
+
 % A solution from Schwarzschild 2005: change measure phrase's analysis from "a point in number axis" to "a gap or an interval in number axis".
 % Whcih means, this change lexical entry of mearsure phrase, forn "d" to "sets of d". thus, lexcial adjectives are type <d, <e, t>> and can not accept mearsure phrase as input.
 % Which means, "2 cm heavy" is ill-formed, but "2 meter high" is also ill-formed. Schwarzschild belive this is a good result because he thinks "measure phrase + postive adjective" is an idiosyncratic and language-specific.
-% So how to resolove the problem that measure phrase can not be a input to adjectives? See (25).
-% This paper's  author fully agree with Schwarzschild's contention.
+% So how to resolove the problem that measure phrase can not be a input to adjectives? See (25) Homonym Rule.
+
+% Another solution form Svenonius & Kenndy 2006: analyze gradable adjectives as measure function: expression of type <e, d>.
+% Which leads a problem immediately, if measure phrases are type d, they can not combine with gradable adjectives, this is ruled out on type-theoretic gounds.
+% Svenonius & Kenndy belive that this type mismatch can be resolved through the mediation of functionl morphplogy. So they propose that, among the inventory of degree morphemes is null head "u", whose semantic and syntactic function is to introduce a degree arguement.
+% [u] = \lambda g \lambda d \lambda x. g(x) \geq d
+% [tall] = height
+% [u]([tall]) = \lambda d \lambda x. height(x) \geq d
+% u combines freely with comparative adjectives, but only idiosyncratically with non-comparative adjectives, which is language-specific.
+% which means, "10 kg heavier" is ok, "10 meter longer" is ok. "10 ky heavy" is not ok because English do not allow it, "10 meter long" is ok. In German they both ok, in Japanese neither is ok.
+% u's position: DegP head -> [_{DegP} Mp [_{DegP^{\prime}} u \enspace AP]] -> 2 cm(MP) u(u) tall(AP).
+
+% Semantically, authors follow Faller(2000), Kenndey & McNally(2005a), Svenonius & Kenndy(2006), Kennedy & Levin(2008), who analyze comparative adjectives as special kinds of measure function called "difference function".
+% heavy: mapping individuals to values on weight scale.
+% heavier than Kim: mapping individuals to the subpart of the weight scale (> Kim's weight).
+% The comparative morphology turns measure function of type <e,d> into a difference fucntion <e,<e,d>>.
+% [comp] = \lambda g_<e,d> \lambda y. (g_y)^{\uparrow}
+% [heavier_{comp}]([than Kim]) = (weight_{Kim})^{\uparrow}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%% Analysis of Mandarin transitive comparatives %%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Mandarin comparative need morpheme "bi" as case assigner.
+% * A gao B
+% A bi B gao
+
+% So why Case violation can be repaired not just only by morpheme "bi", but also a measure phrase.
+% A gao B 2cm.
+% Author belive morpheme u takes the place of Case assigner under this case.
+
+
+
+
+
+
+
+
+
 
 
 
