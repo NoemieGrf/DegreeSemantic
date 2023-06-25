@@ -466,8 +466,50 @@
       \strng{authorbibnamehash}{d1f21606aa698ca27eed80be9ff6967f}
       \strng{authornamehash}{d1f21606aa698ca27eed80be9ff6967f}
       \strng{authorfullhash}{d1f21606aa698ca27eed80be9ff6967f}
+      \field{extraname}{1}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of East Asian Linguistics}
+      \field{title}{Mandarin transitive comparatives and the grammar of measurement}
+      \field{volume}{21}
+      \field{year}{2012}
+      \field{pages}{219\bibrangedash 266}
+      \range{pages}{48}
+    \endentry
+    \entry{grano2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=426dfa688552d387ec41aee389b394f6}{%
+           family={Grano},
+           familyi={G\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=4d177729a03f568ca1129df0fd5f723f}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{fullhash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{bibnamehash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{authorbibnamehash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{authornamehash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{authorfullhash}{d1f21606aa698ca27eed80be9ff6967f}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1349,8 +1391,50 @@
       \strng{authorbibnamehash}{d1f21606aa698ca27eed80be9ff6967f}
       \strng{authornamehash}{d1f21606aa698ca27eed80be9ff6967f}
       \strng{authorfullhash}{d1f21606aa698ca27eed80be9ff6967f}
+      \field{extraname}{1}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of East Asian Linguistics}
+      \field{title}{Mandarin transitive comparatives and the grammar of measurement}
+      \field{volume}{21}
+      \field{year}{2012}
+      \field{pages}{219\bibrangedash 266}
+      \range{pages}{48}
+    \endentry
+    \entry{grano2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=426dfa688552d387ec41aee389b394f6}{%
+           family={Grano},
+           familyi={G\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=4d177729a03f568ca1129df0fd5f723f}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{fullhash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{bibnamehash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{authorbibnamehash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{authornamehash}{d1f21606aa698ca27eed80be9ff6967f}
+      \strng{authorfullhash}{d1f21606aa698ca27eed80be9ff6967f}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
