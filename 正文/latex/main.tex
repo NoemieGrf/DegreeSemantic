@@ -4,6 +4,8 @@
 
 \geometry{a4paper, right=3cm, left=3cm, top=2cm, bottom=2cm}
 
+\usepackage{color}
+\usepackage{amsmath}
 \usepackage[british]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{epstopdf}
@@ -306,110 +308,117 @@ Compare \ref{refOp1}\ref{refOp1a} and \ref{refOp1}\ref{refOp1b}, it is obvious t
 
 \subsection{DegP Analysis in Mandarin}
 
-%%%%%% Mandarin transitive comparatives and the grammar of measurement (2012)
-%%%%%% Thomas Grano & Chris Kenndy
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Temp}
 
-% canonical comparative in Mandarin -> morpheme "bi"
-% A bi B gao (yi dian)
+In order to take a deep investigation about phenomenon mentioned in last section, we shall go back to the really beginning: the lexical entry of gradable adjectives. For our knowledge, there are two typical hypotheses of what should this lexical entry looks like, which are shown in \ref{tallLE}. The lexical entry definition of gradable adjectives is literally important, because different definitions of adjective's lexical entry always lead totally different results in semantics and syntax just like Butterfly Effect.
 
-% transitive comparative -> "bi" absent, gradable adj as gradable predicate
-% A gao B yi dian
+\begin{enumerate}[resume]
+    \item \label{tallLE}
+    
+    \begin{enumerate}
+    \item \label{tallLE_a} 
+    $[\![tall]\!]=\lambda d \lambda x.Height(x) \geq d$
+    
+    \item \label{tallLE_b} 
+    $[\![tall]\!]=Height(x)=d$
+    
+    \end{enumerate}
+\end{enumerate}
 
-% transitive compartive is not always abailable
-% * A piao liang B yi dian
-% Xiang(2005) gives two reason:
-% - transitive comparative must contain an overt differential term
-% - transitive comparative's gradable predicate must uses "conventional-measurement-system-defined" scale.
-% ("conventional measurement system defined" means "gao san gong fen" is ok, "piao liang san du" is ill form).
-% The background reason of weather a predicate can be used in transitive comparative is weather the comparative allows a differential measure phrase.
+\ref{tallLE_a} is a traditional lexical entry of gradable adjectives, and many researchers believe in it (\colorbox{yellow}{refhere}). Under this definition, gradable adjective \textit{tall} is considered as a relation of "greater equal", which is true when an individual $x$ as input and $x$'s height is at least as great as $d$.
 
-% Based on theories above, Xiang depart gradable predicate into two parts:
-% - Grammatical in Transitive Comparative: gao, ai, pang, show, qing, chang, duan,..
-% - Ungrammatical in Transitive Comparative: piao liang, you qu, gan jing, shu fu,..
+Since there are serval kinds of way to build a degree construction, such as positive form, comparative form and superlative form, a lexical meaning should have ability to give a interpretation of all these distribution. The lexical expression in \ref{tallLE}\ref{tallLE_a} works fine with comparative form and superlative form on account of it's "greater equal" relation. But when building a positive form, this "greater equal" relation may cause some unintended problem. For example in \ref{john_gao_2_mi}. And lexical entry analysis of \ref{john_gao_2_mi} is shown in \ref{john_gao_2_mi_LE}.
 
-% (Doetjes 1997, Neeleman 2004, Kennedy & McNaaly 2005b) Vague degree terms like "a bit, a little" can function either as true measure phrases or as a degree modifiers, which have different syntactic and semantic properties.
-% a bit heavy
-% * 40 kg heavy (disallow measure phrase)
-% very heavy (allow degree modifier very)
-% deepen the hole a bit
-% deepen the hole 2 feet (allow measure phrase)
-% * deepen the hole very (disallow degree modifer)
+\begin{enumerate}[resume]
+    \item \label{john_gao_2_mi}
+    Jhon gao 2 mi.  \\
+    \textit{Jhon tall 2 meters.}    \\
+    Jhon is 2 meters tall.
+    
+\end{enumerate}
 
-% (full discussion of difference between measure phrase & degree modifies is beyond this paper -> adopt the result of Kennedy & McNally 2005b -> measure phrase saturate a degree argument position while modifiers map properties to properties.)
+\begin{enumerate}[resume]
+    \item \label{john_gao_2_mi_LE}
+    
+    \begin{enumerate}
+    \item \label{john_gao_2_mi_LE_a} 
+    $[\![tall]\!] = \lambda d \lambda x.Height(x) \geq d$
+    
+    \item \label{john_gao_2_mi_LE_b} 
+    $\begin{aligned}[t]
+        [\![tall \enspace 2m]\!] &= [\![tall]\!](2m) \\
+        &= \lambda x.Height(x) \geq 2m
+    \end{aligned}$
+    
+    \item \label{john_gao_2_mi_LE_c} 
+    $\begin{aligned}[t]
+        [\![John \enspace tall \enspace 2m]\!] &= [\![tall \enspace 2m]\!](John) \\
+        &= Height(John) \geq 2m
+    \end{aligned}$
+    
+    \end{enumerate}
+\end{enumerate}
 
-% main purpose of this paper:
-% - explain why a differential phrase is obligatory in Mandarin transitive comparatives (Noted by Xiang).
-% - explain why the adjective must use a scale with a defined measurement system in Mandarin transitive comparatives (Noted by Xiang).
-% - argue that there are two case assigners for standards of comparsion in Mandarin.
-% -- standard marker "bi"
-% -- covert morpheme like null operator in dialect in Norwegian, which is involved in the projection of measure phrase.
+To resolve $\lambda$ abstraction, the lexical entry of \textit{tall} need a measure phrase with lexical entry $d$ and an individual $x$ , which are respectively \textit{2m} and \textit{John}. \textit{2m} change the semantic type of \textit{tall} from $<d,<e,t>>$ to $<e,t>$, and \textit{John} are input as type $e$ which makes final result to type $t$. The result of lexical entry calculation tells a truth that John's height is not only equal to 2 meters precisely, but also has a possibility to greater than 2 meters. But actually we do know that sentence in \ref{john_gao_2_mi} means John's height is 2 meters accurately, which is mismatch with the result of lexical entry calculation. The reason makes this mistake is that the partial ordering relation of degree is encoded in gradable adjective, and there is no way to resolve this "greater equal".
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%% The synatax and semantics of gradability and measurement %%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Base on the mistake mentioned above, there is another group of researchers propose that the gradable adjectives' lexical entry should not encode the partial ordering relation, instead, the gradable adjective should reveal the original property of individual, which means \textit{tall} should simply illustrate the height of an individual. Thus the lexical entry of gradable adjectives should looks like \ref{tallLE}\ref{tallLE_b}, in which there is just a single equal sign. 
 
-% Rule(P227): If a measure phrase denotes a degree on a scale that is distinct form the one used by a particular adjective, then composiiton will be ruled out as a kind of selectional restriction violation.
-% * 20 kg gao (gao do not accept kg)
-% * 5 du piao liang (piao liang use scales without defined measurement systems)
+Under this assumption, the partial ordering relation still needs a place to be introduced, Svenonius claims that there is a null operator whose semantic and syntactic function is to introduce a degree argument and bear the mission of introducing the "greater equal" meaning. The denotation of this null operator is spelled out in \ref{gao_nop_LE}, and the \ref{gao_nop_LE}\ref{gao_nop_LE_c} shows the composition of null operator and gradable adjective, which is same with \ref{tallLE}\ref{tallLE_a}.
 
-% Rule(P227): Measure phrase do not combine with negative-pole adjectives.
-% * 1 mi duan
-% 1 mi chang
+\begin{enumerate}[resume]
+    \item \label{gao_nop_LE}
 
-% Problem: why "1 meter short" is ill form but "1 meter long" is correct. Futhermore, why "1 meter shorter" is correct.
-% Old schools belives that it is beacuse those expression do not include a fixed origin point. (Seuren 1978, von Stechow 1984b, Bierwisch 1989, Kennedy 2001, Sassoon 2010).
+    \begin{enumerate}
+        \item \label{gao_nop_LE_a} 
+        $[\![nop]\!]=\lambda G\lambda d \lambda x.G(x) \geq d$
 
-% A solution from Schwarzschild 2005: change measure phrase's analysis from "a point in number axis" to "a gap or an interval in number axis".
-% Whcih means, this change lexical entry of mearsure phrase, forn "d" to "sets of d". thus, lexcial adjectives are type <d, <e, t>> and can not accept mearsure phrase as input.
-% Which means, "2 cm heavy" is ill-formed, but "2 meter high" is also ill-formed. Schwarzschild belive this is a good result because he thinks "measure phrase + postive adjective" is an idiosyncratic and language-specific.
-% So how to resolove the problem that measure phrase can not be a input to adjectives? See (25) Homonym Rule.
+        \item \label{gao_nop_LE_b} 
+        $[\![tall]\!]=Height(x)$
 
-% Another solution form Svenonius & Kenndy 2006: analyze gradable adjectives as measure function: expression of type <e, d>.
-% Which leads a problem immediately, if measure phrases are type d, they can not combine with gradable adjectives, this is ruled out on type-theoretic gounds.
-% Svenonius & Kenndy belive that this type mismatch can be resolved through the mediation of functionl morphplogy. So they propose that, among the inventory of degree morphemes is null head "u", whose semantic and syntactic function is to introduce a degree arguement.
-% [u] = \lambda g \lambda d \lambda x. g(x) \geq d
-% [tall] = height
-% [u]([tall]) = \lambda d \lambda x. height(x) \geq d
-% u combines freely with comparative adjectives, but only idiosyncratically with non-comparative adjectives, which is language-specific.
-% which means, "10 kg heavier" is ok, "10 meter longer" is ok. "10 ky heavy" is not ok because English do not allow it, "10 meter long" is ok. In German they both ok, in Japanese neither is ok.
-% u's position: DegP head -> [_{DegP} Mp [_{DegP^{\prime}} u \enspace AP]] -> 2 cm(MP) u(u) tall(AP).
+        \item \label{gao_nop_LE_c} 
+        $\begin{aligned}[t]
+            [\![nop \enspace tall]\!] &= [\![nop]\!]([\![tall]\!]) \\
+            &= \lambda d \lambda x.Height(x) \geq d
+        \end{aligned}$
 
-% Semantically, authors follow Faller(2000), Kenndey & McNally(2005a), Svenonius & Kenndy(2006), Kennedy & Levin(2008), who analyze comparative adjectives as special kinds of measure function called "difference function".
-% heavy: mapping individuals to values on weight scale.
-% heavier than Kim: mapping individuals to the subpart of the weight scale (> Kim's weight).
-% The comparative morphology turns measure function of type <e,d> into a difference fucntion <e,<e,d>>.
-% [comp] = \lambda g_<e,d> \lambda y. (g_y)^{\uparrow}
-% [heavier_{comp}]([than Kim]) = (weight_{Kim})^{\uparrow}
+    \end{enumerate}
+\end{enumerate}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%% Analysis of Mandarin transitive comparatives %%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Next question is where is this null operator and does it have a specific phonetic expression in language. Svenonius does a deep investigation about Icelandic and Norwegian, which shows that Norwegian does not exist a phonetic word of this null operator but Icelandic does. In Icelandic, \ref{Icelandic_example}.
 
-% Mandarin comparative need morpheme "bi" as case assigner.
-% * A gao B
-% A bi B gao
+\begin{enumerate}[resume]
+    \item \label{Icelandic_example}
+    
+    \begin{enumerate}
+        \item 
+        er du gammel \\
+        \textit{are you old} \\
+        how old are you?
+        
+        \item 
+        Hvað ertu gammall \\
+        what are you old \\
+        how old are you?
 
-% So why Case violation can be repaired not just only by morpheme "bi", but also a measure phrase.
-% A gao B 2cm.
-% Author belive morpheme u takes the place of Case assigner under this case.
-
-
-
-
-
-
-
-
+    \end{enumerate}   
+    
+\end{enumerate}
 
 
+\begin{enumerate}[resume]
+    \item \label{Icelandic_example_LE}
+    
+    \begin{enumerate}
+        \item $[_{CP}Nop_1 \enspace er_2[_{IP}du_3 \enspace t_2[_{VP} t_2[_{AP} t_3 \enspace t_1 \enspace gammel]]]]$
+        
+        \item $[_{CP}Hva$ð$_1 \enspace er_2[_{IP} \enspace -tu_3 \enspace t_2 [_{VP}t_2[_{AP}t_3 \enspace t_1 \enspace gammel]]]]$
+        
+    \end{enumerate}   
+    
+\end{enumerate}
 
-
-
-
+But, this solution still causes some mistake, such as following example in.
 
 
 
