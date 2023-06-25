@@ -836,6 +836,44 @@
       \field{pages}{336\bibrangedash 346}
       \range{pages}{11}
     \endentry
+    \entry{svenonius2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5dc055c6941bc22fd6f19813ae1fffc6}{%
+           family={Svenonius},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=bc94f2390d66eb60cfb8b4250e6abf85}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Mouton de Gruyter Berlin}%
+      }
+      \strng{namehash}{cd5f681db008c9a149983fa416532f08}
+      \strng{fullhash}{cd5f681db008c9a149983fa416532f08}
+      \strng{bibnamehash}{cd5f681db008c9a149983fa416532f08}
+      \strng{authorbibnamehash}{cd5f681db008c9a149983fa416532f08}
+      \strng{authornamehash}{cd5f681db008c9a149983fa416532f08}
+      \strng{authorfullhash}{cd5f681db008c9a149983fa416532f08}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phases of interpretation}
+      \field{title}{Northern Norwegian degree questions and the syntax of measurement}
+      \field{volume}{91}
+      \field{year}{2006}
+      \field{pages}{133\bibrangedash 161}
+      \range{pages}{29}
+    \endentry
     \entry{von1984a}{article}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=fb13eab198ab650cf4fca1aa84310abd}{%
@@ -1718,6 +1756,44 @@
       \field{year}{1978}
       \field{pages}{336\bibrangedash 346}
       \range{pages}{11}
+    \endentry
+    \entry{svenonius2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5dc055c6941bc22fd6f19813ae1fffc6}{%
+           family={Svenonius},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=bc94f2390d66eb60cfb8b4250e6abf85}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Mouton de Gruyter Berlin}%
+      }
+      \strng{namehash}{cd5f681db008c9a149983fa416532f08}
+      \strng{fullhash}{cd5f681db008c9a149983fa416532f08}
+      \strng{bibnamehash}{cd5f681db008c9a149983fa416532f08}
+      \strng{authorbibnamehash}{cd5f681db008c9a149983fa416532f08}
+      \strng{authornamehash}{cd5f681db008c9a149983fa416532f08}
+      \strng{authorfullhash}{cd5f681db008c9a149983fa416532f08}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phases of interpretation}
+      \field{title}{Northern Norwegian degree questions and the syntax of measurement}
+      \field{volume}{91}
+      \field{year}{2006}
+      \field{pages}{133\bibrangedash 161}
+      \range{pages}{29}
     \endentry
     \entry{von1984a}{article}{}
       \name{author}{1}{}{%

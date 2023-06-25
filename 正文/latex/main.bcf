@@ -3062,3 +3062,88 @@
     <bcf:citekey order="1" intorder="1">pan1998</bcf:citekey>
     <bcf:citekey order="2" intorder="1">cresswell1976</bcf:citekey>
     <bcf:citekey order="3" intorder="1">bartsch1974</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">von1984a</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">kennedy1997</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">rett2008</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">von1984a</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">heim1985</bcf:citekey>
+    <bcf:citekey order="7" intorder="3">bhatt2004</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">bierwisch1989</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">corver1990</bcf:citekey>
+    <bcf:citekey order="8" intorder="3">corver1993</bcf:citekey>
+    <bcf:citekey order="8" intorder="4">corver1997a</bcf:citekey>
+    <bcf:citekey order="8" intorder="5">kennedy1997</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">von1984a</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">bale2011</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">chomsky1977</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">kennedy1997</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">cresswell1976</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">bierwisch1989</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">ginet1973</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">kamp2013</bcf:citekey>
+    <bcf:citekey order="14" intorder="3">klein1980</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">hellan1981</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">hoeksema1983</bcf:citekey>
+    <bcf:citekey order="15" intorder="3">von1984a</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">russell1905</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">abney1987</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">corver1990</bcf:citekey>
+    <bcf:citekey order="17" intorder="3">corver1997b</bcf:citekey>
+    <bcf:citekey order="17" intorder="4">grimshaw1991</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">carston2013</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">horn1992</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">seuren1978</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">von1984b</bcf:citekey>
+    <bcf:citekey order="19" intorder="3">bierwisch1989</bcf:citekey>
+    <bcf:citekey order="19" intorder="4">lobner2010</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">svenonius2006</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="nyt">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nyt/apasortcite//global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="apasortcite"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="0"
+                name="nyt/global//global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

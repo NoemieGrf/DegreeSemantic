@@ -1,21 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[81] biber-MSWIN64:340> INFO - === 
-[115] Biber.pm:419> INFO - Reading 'main.bcf'
-[202] Biber.pm:979> INFO - Found 28 citekeys in bib section 0
-[214] Biber.pm:4419> INFO - Processing section 0
-[223] Biber.pm:4610> INFO - Looking for bibtex file 'reference.bib' for section 0
-[270] bibtex.pm:1713> INFO - LaTeX decoding ...
-[293] bibtex.pm:1519> INFO - Found BibTeX data source 'reference.bib'
-[383] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[383] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[383] Biber.pm:4239> INFO - Sorting list 'nyt/apasortcite//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[383] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
-[408] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[408] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[408] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[408] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
-[422] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[437] bbl.pm:763> INFO - Output to main.bbl
-[437] Biber.pm:131> WARN - Duplicate entry key: 'grimshaw1991' in file 'reference.bib', skipping ...
-[437] Biber.pm:133> INFO - WARNINGS: 1
+[68] biber-MSWIN64:340> INFO - === 
+[95] Biber.pm:419> INFO - Reading 'main.bcf'
+[175] Biber.pm:979> INFO - Found 29 citekeys in bib section 0
+[187] Biber.pm:4419> INFO - Processing section 0
+[195] Biber.pm:4610> INFO - Looking for bibtex file 'reference.bib' for section 0
+[233] bibtex.pm:1713> INFO - LaTeX decoding ...
+[255] bibtex.pm:1519> INFO - Found BibTeX data source 'reference.bib'
+[336] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[336] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[336] Biber.pm:4239> INFO - Sorting list 'nyt/apasortcite//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[336] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
+[360] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[360] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[360] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[360] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
+[373] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[388] bbl.pm:763> INFO - Output to main.bbl
+[388] Biber.pm:131> WARN - Duplicate entry key: 'grimshaw1991' in file 'reference.bib', skipping ...
+[388] Biber.pm:133> INFO - WARNINGS: 1
