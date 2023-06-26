@@ -167,10 +167,15 @@ Secondly, Kennedy makes refinement to the interpretation of degrees. He argues t
     \item \label{ref5} *Carmen is taller than Mike is short.
 \end{enumerate}
 
-
 \section{Temp}
 
-In order to take a deep investigation about phenomena mentioned in last section, we shall go back to the really beginning: the lexical entry of gradable adjectives. For our knowledge, there are two typical hypotheses of what this lexical entry should look like, which are shown in \ref{tallLE}. The definition of lexical entry  of gradable adjectives is literally important, because different definitions of adjectives' lexical entry always lead totally different results in semantics and syntax just like Butterfly Effect.
+\section{Semantic and syntactic analysis in Mandarin}
+
+In order to take a deep investigation about phenomena mentioned in last section, we shall go back to the really beginning: the lexical entry of gradable adjectives. 
+
+\subsection{lexical entry of gradable adjective}
+
+For our knowledge, there are two typical hypotheses of what this lexical entry should look like, which are shown in \ref{tallLE}. The definition of lexical entry of gradable adjectives is literally important, because different definitions of adjectives' lexical entry always lead totally different results in semantics and syntax just like Butterfly Effect.
 
 \begin{enumerate}[resume]
     \item \label{tallLE}
@@ -283,17 +288,46 @@ For the first question, Svenonius does a deep investigation about Icelandic and 
     
 \end{enumerate}
 
-Applying this assumption to Mandarin, I give a example in \ref{john_gao_2_mi_mu}. 
+Based on this "equal meaning" lexical entry of gradable adjectives, we can solve the problem which "greater equal" meaning lexical entry can not. For positive meaning, I assume that there is no null operator in syntactic structure, and it appears in comparative form and superlative form. Applying this assumption to Mandarin, I give two examples in \ref{john_gao_2_mi_nop}. In \ref{john_gao_2_mi_nop}\ref{john_gao_2_mi_nop_positive}, the degree construction is positive form, so the null operator does not exist, gradable adjective \textit{gao} composite with measure phrase \textit{2mi} directly, which makes final lexical entry calculation result is $Height(John)=2mi$. That gives a truth that John's height is exactly 2 meters, which is match with what we expect. When construction comes to comparative form like \ref{john_gao_2_mi_nop}\ref{john_gao_2_mi_nop_comparative}, there will be a null operator who should combine with \textit{gao} first, and changes the meaning of \textit{gao} form "equal meaning" to "greater equal meaning", and remain $\lambda$ calculation is same with before, namely \ref{john_gao_2_mi_LE}\ref{john_gao_2_mi_LE_c}.
 
 \begin{enumerate}[resume]
-    \item \label{john_gao_2_mi_mu}
-    Jhon ($\mu$) gao 2 mi.  \\
-    \textit{Jhon $\mu$ tall 2 meters.}    \\
-    Jhon is 2 meters tall.
+    \item \label{john_gao_2_mi_nop}
+    
+    \begin{enumerate}
+        \item \label{john_gao_2_mi_nop_positive}
+        Jhon gao 2 mi.  \\
+        \textit{Jhon tall 2 meters.}    \\
+        Jhon is 2 meters tall.
+
+        \item \label{john_gao_2_mi_nop_comparative}
+        Jhon bi Marry (nop) gao. \\  
+        \textit{Job er Marry (nop) tall.}    \\
+        Jhon is taller than Marry.
+
+    \end{enumerate}
     
 \end{enumerate}
 
-But, this solution still causes some mistakes, such as following example in.
+The second "equal meaning" lexical entry in \ref{tallLE}\ref{tallLE_b} looks like a perfect solution who resolve the meaning-mismatch problem via null operator. But, I have to point out that, this "equal meaning" solution still causes some mismatch mistakes, such as following example in \ref{equal_mistake_example}, with lexical entry calculation shown in \ref{equal_mistake_example_LE}.
+
+\begin{enumerate}[resume]
+    \item \label{equal_mistake_example}
+    Jhon bi Marry (nop) gao 2 mi. \\
+    \textit{Job er Marry (nop) tall 2 meters.}    \\
+    Jhon is 2 meters taller than Marry.
+\end{enumerate}
+
+\begin{enumerate}[resume]
+    \item \label{equal_mistake_example_LE}
+    \begin{enumerate}
+        \item $[\![gao]\!]=Height(x)=d$
+        \item $[\![nop \enspace tall]\!] = \lambda d \lambda x.Height(x) \geq d$
+        \item $[\![nop \enspace tall \enspace 2mi]\!] \lambda x.Height(x) \geq 2mi$ 
+        \item $[\![biP]\!]=\lambda G \lambda x \lambda y \lambda d. \exists d_1 \exists d_2 [(G(x) \geq d_1) \land (G(y) \geq d_2) \land (d_1-d_2 \geq 2m) ]$
+    \end{enumerate}
+\end{enumerate} 
+
+\subsection{transitive comparative in Mandarin}
 
 
 

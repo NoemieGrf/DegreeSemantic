@@ -1,8 +1,8 @@
-PWD d:/Noemie/DegreeSemantic/正文/latex
+PWD d:/Fork/DegreeSemantic/正文/latex
 INPUT d:/Programmes/texlive/2023/texmf.cnf
 INPUT d:/Programmes/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT d:/Programmes/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/Noemie/DegreeSemantic/正文/latex/main.tex
+INPUT d:/Fork/DegreeSemantic/正文/latex/main.tex
 OUTPUT main.log
 INPUT d:/Programmes/texlive/2023/texmf-dist/tex/latex/ctex/ctexart.cls
 INPUT d:/Programmes/texlive/2023/texmf-dist/tex/latex/ctex/ctexart.cls
