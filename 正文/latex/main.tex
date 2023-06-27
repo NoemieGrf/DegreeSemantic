@@ -180,7 +180,7 @@ For our knowledge, there are two typical hypotheses of what this lexical entry s
 \begin{enumerate}[resume]
     \item \label{tallLE}
     
-    \begin{enumerate}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
     \item \label{tallLE_a} 
     $[\![tall]\!]=\lambda d \lambda x.Height(x) \geq d$
     
@@ -190,9 +190,9 @@ For our knowledge, there are two typical hypotheses of what this lexical entry s
     \end{enumerate}
 \end{enumerate}
 
-\ref{tallLE}\ref{tallLE_a} is a traditional lexical entry of gradable adjectives, and many researchers believe in it (\colorbox{yellow}{refhere}). Under this definition, gradable adjective \textit{tall} is considered as a relation of "greater equal", which is true when an individual $x$ as input and $x$'s height is at least as great as $d$.
+\ref{tallLE_a} is a traditional lexical entry of gradable adjectives, and many researchers believe in it (\colorbox{yellow}{refhere}). Under this definition, gradable adjective \textit{tall} is considered as a relation of "greater equal", which is true when an individual $x$ as input and $x$'s height is at least as great as $d$.
 
-Since there are serval kinds of ways to build a degree construction, such as positive form, comparative form and superlative form, a lexical meaning should have ability to give a interpretation of all these constructions. The lexical expression in \ref{tallLE}\ref{tallLE_a} works fine with comparative form and superlative form on account of it's "greater equal" relation. But when building a positive form, this "greater equal" relation may cause some unintended problem. For example in \ref{john_gao_2_mi}. And lexical entry analysis of \ref{john_gao_2_mi} is shown in \ref{john_gao_2_mi_LE}.
+Since there are serval kinds of ways to build a degree construction, such as positive form, comparative form and superlative form, a lexical meaning should have ability to give a interpretation of all these constructions. The lexical expression in \ref{tallLE_a} works fine with comparative form and superlative form on account of it's "greater equal" relation. But when building a positive form, this "greater equal" relation may cause some unintended problem. For example in \ref{john_gao_2_mi}. And lexical entry analysis of \ref{john_gao_2_mi} is shown in \ref{john_gao_2_mi_LE}.
 
 \begin{enumerate}[resume]
     \item \label{john_gao_2_mi}
@@ -205,7 +205,7 @@ Since there are serval kinds of ways to build a degree construction, such as pos
 \begin{enumerate}[resume]
     \item \label{john_gao_2_mi_LE}
     
-    \begin{enumerate}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
     \item \label{john_gao_2_mi_LE_a} 
     $[\![gao]\!] = \lambda d \lambda x.Height(x) \geq d$
     
@@ -226,14 +226,14 @@ Since there are serval kinds of ways to build a degree construction, such as pos
 
 To resolve $\lambda$ \colorbox{yellow}{abstraction}, the lexical entry of \textit{tall} needs a measure phrase with lexical entry $d$ and an individual $x$ , which are respectively \textit{2m} and \textit{John}. \textit{2m} changes the semantic type of \textit{tall} from $<d,<e,t>>$ to $<e,t>$, and \textit{John} is input as type $e$ which makes final result to type $t$. The result of lexical entry calculation tells a truth that John's height is not only equal to 2 meters precisely, but also has a possibility to greater than 2 meters. But actually we do know that sentence in \ref{john_gao_2_mi} means John's height is 2 meters accurately, which is mismatch with the result of semantic calculation. The reason why this mistake is made is that the partial ordering relation of degree is encoded in gradable adjectives, \colorbox{yellow}{and there is no way to resolve this "greater equal".}
 
-Based on the mistake mentioned above, there is another group of researchers propose that the gradable adjectives' lexical entry should not encode the partial ordering relation, instead, the gradable adjectives should reveal the original property of an individual, which means \textit{tall} should simply illustrate the height of an individual. Thus the lexical entry of gradable adjectives should looks like \ref{tallLE}\ref{tallLE_b}, in which there is just a single equal sign. 
+Based on the mistake mentioned above, there is another group of researchers propose that the gradable adjectives' lexical entry should not encode the partial ordering relation, instead, the gradable adjectives should reveal the original property of an individual, which means \textit{tall} should simply illustrate the height of an individual. Thus the lexical entry of gradable adjectives should looks like \ref{tallLE_b}, in which there is just a single equal sign. 
 
-Under this assumption, the partial ordering relation still needs a place to be introduced, Svenonius\cite{svenonius2006} claims that there is a null operator whose semantic and syntactic function is to introduce a degree argument and bear the mission of introducing the "greater equal" meaning. The denotation of this null operator is spelled out in \ref{gao_nop_LE}, and the \ref{gao_nop_LE}\ref{gao_nop_LE_c} shows the composition of null operator and gradable adjective, which is same with \ref{tallLE}\ref{tallLE_a}.
+Under this assumption, the partial ordering relation still needs a place to be introduced, Svenonius\cite{svenonius2006} claims that there is a null operator whose semantic and syntactic function is to introduce a degree argument and bear the mission of introducing the "greater equal" meaning. The denotation of this null operator is spelled out in \ref{gao_nop_LE}, and the \ref{gao_nop_LE_c} shows the composition of null operator and gradable adjective, which is same with \ref{tallLE_a}.
 
 \begin{enumerate}[resume]
     \item \label{gao_nop_LE}
 
-    \begin{enumerate}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
         \item \label{gao_nop_LE_a} 
         $[\![nop]\!]=\lambda G\lambda d \lambda x.G(x) \geq d$
 
@@ -251,12 +251,12 @@ Under this assumption, the partial ordering relation still needs a place to be i
 
 Next questions are, whether this null operator has a specific phonetic expression in any language and where its position is in syntactic structure. 
 
-For the first question, Svenonius does a deep investigation about Icelandic and Norwegian, which shows that a phonetic word of this null operator does not exist in Norwegian but does exist in Icelandic. In Icelandic, \ref{Icelandic_example} gives three different ways to express the same meaning. In \ref{Icelandic_example}\ref{Icelandic_example_10}, the word \textit{Hversu} is mapping to two English words \textit{how.much}, but actually \textit{Hversu} only used as a degree operator, and it does not bear the function of manner adverbial. In \ref{Icelandic_example}\ref{Icelandic_example_a}, speaker can omit word \textit{Hversu} and \colorbox{yellow}{front predicate} to express the same meaning. Also, in \ref{Icelandic_example}\ref{Icelandic_example_b}, a word \textit{Hvað} can be placed at the beginning of the sentence, and keep all other morphemes in their original position. What should be noticed is that the Icelandic word \textit{Hvað} does not have real meaning, it is just a phonologically placeholder, which exactly is an evidence of the existence of null operator. For the latter question, Svenonius gives syntactic structures of \ref{Icelandic_example} respectively as shown in \ref{Icelandic_example_LE}. From Svenonius' perspective, null operator and the word \textit{Hvað} show the same locality conditions which is same with famous \textit{wh}-movement. 
+For the first question, Svenonius does a deep investigation about Icelandic and Norwegian, which shows that a phonetic word of this null operator does not exist in Norwegian but does exist in Icelandic. In Icelandic, \ref{Icelandic_example} gives three different ways to express the same meaning. In \ref{Icelandic_example_10}, the word \textit{Hversu} is mapping to two English words \textit{how.much}, but actually \textit{Hversu} only used as a degree operator, and it does not bear the function of manner adverbial. In \ref{Icelandic_example_a}, speaker can omit word \textit{Hversu} and \colorbox{yellow}{front predicate} to express the same meaning. Also, in \ref{Icelandic_example_b}, a word \textit{Hvað} can be placed at the beginning of the sentence, and keep all other morphemes in their original position. What should be noticed is that the Icelandic word \textit{Hvað} does not have real meaning, it is just a phonologically placeholder, which exactly is an evidence of the existence of null operator. For the latter question, Svenonius gives syntactic structures of \ref{Icelandic_example} respectively as shown in \ref{Icelandic_example_LE}. From Svenonius' perspective, null operator and the word \textit{Hvað} show the same locality conditions which is same with famous \textit{wh}-movement. 
 
 \begin{enumerate}[resume]
     \item \label{Icelandic_example}
     
-    \begin{enumerate}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
         \item \label{Icelandic_example_10}
         Hversu gammall ertu? \\
         \textit{how.much old are.you} \\
@@ -279,7 +279,7 @@ For the first question, Svenonius does a deep investigation about Icelandic and 
 \begin{enumerate}[resume]
     \item \label{Icelandic_example_LE}
     
-    \begin{enumerate}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
         \item $[_{CP}Nop_1 \enspace er_2[_{IP}du_3 \enspace t_2[_{VP} t_2[_{AP} t_3 \enspace t_1 \enspace gammel]]]]$
         
         \item $[_{CP}Hva$ð$_1 \enspace er_2[_{IP} \enspace -tu_3 \enspace t_2 [_{VP}t_2[_{AP}t_3 \enspace t_1 \enspace gammel]]]]$
@@ -288,12 +288,12 @@ For the first question, Svenonius does a deep investigation about Icelandic and 
     
 \end{enumerate}
 
-Based on this "equal meaning" lexical entry of gradable adjectives, we can solve the problem which "greater equal" meaning lexical entry can not. For positive meaning, I assume that there is no null operator in syntactic structure, and it appears in comparative form and superlative form. Applying this assumption to Mandarin, I give two examples in \ref{john_gao_2_mi_nop}. In \ref{john_gao_2_mi_nop}\ref{john_gao_2_mi_nop_positive}, the degree construction is positive form, so the null operator does not exist, gradable adjective \textit{gao} composite with measure phrase \textit{2mi} directly, which makes final lexical entry calculation result is $Height(John)=2mi$. That gives a truth that John's height is exactly 2 meters, which is match with what we expect. When construction comes to comparative form like \ref{john_gao_2_mi_nop}\ref{john_gao_2_mi_nop_comparative}, there will be a null operator who should combine with \textit{gao} first, and changes the meaning of \textit{gao} form "equal meaning" to "greater equal meaning", and remain $\lambda$ calculation is same with before, namely \ref{john_gao_2_mi_LE}\ref{john_gao_2_mi_LE_c}.
+Based on this "equal meaning" lexical entry of gradable adjectives, we can solve the problem which "greater equal" meaning lexical entry can not. For positive meaning, I assume that there is no null operator in syntactic structure, and it appears in comparative form and superlative form. Applying this assumption to Mandarin, I give two examples in \ref{john_gao_2_mi_nop}. In \ref{john_gao_2_mi_nop_positive}, the degree construction is positive form, so the null operator does not exist, gradable adjective \textit{gao} composite with measure phrase \textit{2mi} directly, which makes final lexical entry calculation result is $Height(John)=2mi$. That gives a truth that John's height is exactly 2 meters, which is match with what we expect. When construction comes to comparative form like \ref{john_gao_2_mi_nop_comparative} with lexical entry calculation in \ref{john_gao_2_mi_nop_comparative_LE}. There will be a null operator who should combine with \textit{gao} first, and changes the meaning of \textit{gao} from "equal meaning" to "greater equal meaning". Then, the lexical entry of important comparative morpheme \textit{bi} is shown in \ref{john_gao_2_mi_nop_comparative_LE_bi}.
 
 \begin{enumerate}[resume]
     \item \label{john_gao_2_mi_nop}
     
-    \begin{enumerate}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
         \item \label{john_gao_2_mi_nop_positive}
         Jhon gao 2 mi.  \\
         \textit{Jhon tall 2 meters.}    \\
@@ -308,7 +308,34 @@ Based on this "equal meaning" lexical entry of gradable adjectives, we can solve
     
 \end{enumerate}
 
-The second "equal meaning" lexical entry in \ref{tallLE}\ref{tallLE_b} looks like a perfect solution who resolve the meaning-mismatch problem via null operator. But, I have to point out that, this "equal meaning" solution still causes some mismatch mistakes. To illustrate this conclusion more clear, we have to introduce comparative morpheme first, who actually make a degree construction to be comparative form.
+\begin{enumerate}[resume]
+    \item \label{john_gao_2_mi_nop_comparative_LE}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+        \item $[\![tall]\!]=Height(x)=d$
+        \item $[\![nop]\!]=\lambda G\lambda d \lambda x.G(x) \geq d$
+        \item 
+        $\begin{aligned}[t]
+            [\![nop \enspace tall]\!] &= [\![nop]\!]([\![tall]\!]) \\
+            &= \lambda d \lambda x.Height(x) \geq d
+        \end{aligned}$ \label{john_gao_2_mi_nop_comparative_LE_bi}
+        \item $[\![bi]\!]= \lambda G_{<d,<e,t>>} \lambda y \lambda x . \exists \delta > 0 \enspace s.t.[G(x,d_x^{\prime}) - G(y,d_y^{\prime})>\delta]$
+        \item
+        $\begin{aligned}[t]
+            [\![bi \enspace nop \enspace gao]\!] &= [\![bi]\!]([\![nop \enspace tall]\!]) \\
+            &= \lambda y \lambda x . \exists \delta > 0 \enspace s.t.[Height(x,d_x^{\prime}) - Height(y,d_y^{\prime})>\delta]
+        \end{aligned}$
+        \item
+        $\begin{aligned}[t]
+            [\![John \enspace bi \enspace Marry \enspace nop \enspace gao]\!] 
+            &= [\![bi \enspace nop \enspace gao]\!]([\![John]\!])([\![Marry]\!]) \\
+            &= \exists \delta > 0 \enspace s.t.[Height(John,d_{John}^{\prime}) \\ 
+            & \qquad - Height(Marry,d_{Marry}^{\prime})>\delta]
+        \end{aligned}$
+    \end{enumerate}
+\end{enumerate}
+
+The second "equal meaning" lexical entry in \ref{tallLE_b} looks like a perfect solution who resolve the meaning-mismatch problem via null operator. But, I have to point out that, this "equal meaning" solution still causes some mismatch mistakes. To illustrate this conclusion more clear, we have to find out the lexical entry of comparative morpheme first. Back to example \ref{john_gao_2_mi_nop_comparative}
+
 
 
 
@@ -328,7 +355,7 @@ such as following example in \ref{equal_mistake_example}, with lexical entry cal
 
 \begin{enumerate}[resume]
     \item \label{equal_mistake_example_LE}
-    \begin{enumerate}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
         \item $[\![gao]\!]=Height(x)=d$
         \item $[\![nop \enspace tall]\!] = \lambda d \lambda x.Height(x) \geq d$
         \item $[\![nop \enspace tall \enspace 2mi]\!] \lambda x.Height(x) \geq 2mi$ 
