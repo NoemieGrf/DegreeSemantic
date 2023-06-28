@@ -169,11 +169,11 @@ Secondly, Kennedy makes refinement to the interpretation of degrees. He argues t
 
 \section{Temp}
 
-\section{Semantic and syntactic analysis in Mandarin}
+\section{Semantic analysis in Mandarin}
 
 In order to take a deep investigation about phenomena mentioned in last section, we shall go back to the really beginning: the lexical entry of gradable adjectives. 
 
-\subsection{lexical entry of gradable adjective}
+\subsection{Lexical entry of gradable adjective}
 
 For our knowledge, there are two typical hypotheses of what this lexical entry should look like, which are shown in \ref{tallLE}. The definition of lexical entry of gradable adjectives is literally important, because different definitions of adjectives' lexical entry always lead totally different results in semantics and syntax just like Butterfly Effect.
 
@@ -334,16 +334,60 @@ To fix the problem mentioned above, I am going to modify the lexical entry of nu
     \end{enumerate}
 \end{enumerate}
 
-Based on this "equal meaning" lexical entry of gradable adjectives, we can solve the problem which "greater equal" meaning lexical entry can not. For positive meaning, I assume that there is no null operator in syntactic structure, and it appears in comparative form and superlative form. Applying this assumption to Mandarin, I give two examples in \ref{john_gao_2_mi_nop}. In \ref{john_gao_2_mi_nop_positive}, the degree construction is positive form, so the null operator does not exist, gradable adjective \textit{gao} composite with measure phrase \textit{2mi} directly, which makes final lexical entry calculation result is $Height(John)=2mi$. That gives a truth that John's height is exactly 2 meters, which is match with what we expect. When construction comes to comparative form like \ref{john_gao_2_mi_nop_comparative} with lexical entry calculation in \ref{john_gao_2_mi_nop_comparative_LE}. There will be a null operator who should combine with \textit{gao} first, and changes the meaning of \textit{gao} from "equal meaning" to "greater equal meaning". Then, the lexical entry of important comparative morpheme \textit{bi} is shown in \ref{john_gao_2_mi_nop_comparative_LE_bi}.
+Based on this "equal meaning" lexical entry of gradable adjectives, we can solve the problem which "greater equal" meaning lexical entry can not. Applying this $\mu$'s lexical entry to Mandarin, I give a example in \ref{john_gao_2_mi_mu}, which is a positive form degree construction. The lexical calculation is shown in \ref{john_gao_2_mi_mu_LE}. The procedure of calculation is generally same with \ref{john_gao_2_mi_LE}, but because the $\mu$ has "equal meaning", the result was lead to a correct way which gives a truth that John's height is exactly 2 meters, and that is exactly what we expect to get.
+
+\begin{enumerate}[resume]
+    \item \label{john_gao_2_mi_mu} 
+    Jhon gao 2 mi. \\
+    \textit{Jhon tall 2 meters.} \\
+    Jhon is 2 meters tall.
+\end{enumerate}
+
+\begin{enumerate}[resume]
+    \item \label{john_gao_2_mi_mu_LE}
+    
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \item
+    $[\![\mu \enspace gao]\!] = \lambda d \lambda x.[Height(x) = d]$
+    
+    \item
+    $\begin{aligned}[t]
+        [\![\mu \enspace gao \enspace 2 \enspace mi]\!] &= [\![\mu \enspace gao]\!](2m) \\
+        &= \lambda x.[Height(x) = 2m]
+    \end{aligned}$
+    
+    \item
+    $\begin{aligned}[t]
+        [\![John \enspace \mu \enspace gao \enspace 2 \enspace mi]\!] &= [\![\mu \enspace gao \enspace 2 \enspace mi]\!](John) \\
+        &= Height(John) = 2m
+    \end{aligned}$
+    
+    \end{enumerate}
+\end{enumerate}
+
+
+\subsection{Application in Mandarin}
+
+In last section, I introduce two traditional lexical entries of gradable adjectives, and illustrate their flaws. At the end of last section, I propose my improvement of the lexical entry of gradable adjectives. In this section, I will show how this new definition work in Mandarin degree construction.
+
+\subsubsection{Positive form}
+
+A simple example of positive form was shown in last section in \ref{john_gao_2_mi_mu}. In Mandarin, some decorations can be added in positive form like "\textit{hen}(very)", "\textit{youdian}(a little)", 
+
+
+\subsubsection{Comparative form}
+
+
+Applying this $\mu$'s lexical entry to Mandarin, I give two examples in \ref{john_gao_2_mi_nop}. In \ref{john_gao_2_mi_nop_positive}, the degree construction is positive form, so the null operator does not exist, gradable adjective \textit{gao} composite with measure phrase \textit{2mi} directly, which makes final lexical entry calculation result is $Height(John)=2mi$. That gives a truth that John's height is exactly 2 meters, which is match with what we expect. When construction comes to comparative form like \ref{john_gao_2_mi_nop_comparative} with lexical entry calculation in \ref{john_gao_2_mi_nop_comparative_LE}. There will be a null operator who should combine with \textit{gao} first, and changes the meaning of \textit{gao} from "equal meaning" to "greater equal meaning". Then, the lexical entry of important comparative morpheme \textit{bi} is shown in \ref{john_gao_2_mi_nop_comparative_LE_bi}.
 
 \begin{enumerate}[resume]
     \item \label{john_gao_2_mi_nop}
     
     \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
         \item \label{john_gao_2_mi_nop_positive}
-        Jhon gao 2 mi.  \\
-        \textit{Jhon tall 2 meters.}    \\
-        Jhon is 2 meters tall.
+        Jhon ($\mu$) gao 2 mi.  \\
+        \textit{Jhon ($\mu$) tall 2 meters.}    \\
+        Jhon is 2 meters ($\mu$) tall.
 
         \item \label{john_gao_2_mi_nop_comparative}
         Jhon bi Marry (nop) gao. \\  
@@ -412,15 +456,7 @@ such as following example in \ref{equal_mistake_example}, with lexical entry cal
 
 
 
-
-\subsection{transitive comparative in Mandarin}
-
-
-
-
-
-
-\section{My Theory}
+\section{Conclusion}
 
 \newpage
 
