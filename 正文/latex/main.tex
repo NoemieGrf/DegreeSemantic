@@ -181,61 +181,62 @@ For our knowledge, there are two typical hypotheses of what this lexical entry s
     \item \label{tallLE}
     
     \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
-    \item \label{tallLE_a} 
-    $[\![tall]\!]=\lambda d \lambda x.Height(x) \geq d$
+        \item \label{tallLE_a} 
+        $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d]$
     
-    \item \label{tallLE_b} 
-    $[\![tall]\!]=Height(x)=d$
+        \item \label{tallLE_b} 
+        $[\![tall]\!]=Height(x)=d$
     
     \end{enumerate}
 \end{enumerate}
 
-\ref{tallLE_a} is a traditional lexical entry of gradable adjectives, and many researchers believe in it (\colorbox{yellow}{refhere}). Under this definition, gradable adjective \textit{tall} is considered as a relation of "greater equal", which is true when an individual $x$ as input and $x$'s height is at least as great as $d$.
-
-Since there are serval kinds of ways to build a degree construction, such as positive form, comparative form and superlative form, a lexical meaning should have ability to give a interpretation of all these constructions. The lexical expression in \ref{tallLE_a} works fine with comparative form and superlative form on account of it's "greater equal" relation. But when building a positive form, this "greater equal" relation may cause some unintended problem. For example in \ref{john_gao_2_mi}. And lexical entry analysis of \ref{john_gao_2_mi} is shown in \ref{john_gao_2_mi_LE}.
+\ref{tallLE_a} is a traditional lexical entry of gradable adjectives, and many researchers believe in it (\colorbox{yellow}{refhere}). Under this definition, gradable adjective \textit{tall} is considered as a relation of "greater equal", which is true when an individual $x$ as input and $x$'s height is at least as great as $d$. A simple application of this kind of lexical entry definition to \ref{old_school_def_example} is shown in \ref{old_school_def_example_LE}.
 
 \begin{enumerate}[resume]
-    \item \label{john_gao_2_mi}
-    Jhon gao 2 mi.  \\
-    \textit{Jhon tall 2 meters.}    \\
-    Jhon is 2 meters tall.
-    
+
+    \item \label{old_school_def_example} 2 meters tall.
+
 \end{enumerate}
 
 \begin{enumerate}[resume]
-    \item \label{john_gao_2_mi_LE}
+
+    \item \label{old_school_def_example_LE}
     
     \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
-    \item \label{john_gao_2_mi_LE_a} 
-    $[\![gao]\!] = \lambda d \lambda x.Height(x) \geq d$
-    
-    \item \label{john_gao_2_mi_LE_b} 
-    $\begin{aligned}[t]
-        [\![gao \enspace 2m]\!] &= [\![gao]\!](2m) \\
-        &= \lambda x.Height(x) \geq 2m
-    \end{aligned}$
-    
-    \item \label{john_gao_2_mi_LE_c} 
-    $\begin{aligned}[t]
-        [\![John \enspace gao \enspace 2m]\!] &= [\![gao \enspace 2m]\!](John) \\
-        &= Height(John) \geq 2m
-    \end{aligned}$
-    
+        
+        \item $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d]$
+        \item $[\![2 \enspace meters \enspace tall]\!]=\lambda x.[Height(x) \geq 2 \enspace meters]$
+
     \end{enumerate}
+
 \end{enumerate}
 
-To resolve $\lambda$ \colorbox{yellow}{abstraction}, the lexical entry of \textit{tall} needs a measure phrase with lexical entry $d$ and an individual $x$ , which are respectively \textit{2m} and \textit{John}. \textit{2m} changes the semantic type of \textit{tall} from $<d,<e,t>>$ to $<e,t>$, and \textit{John} is input as type $e$ which makes final result to type $t$. The result of lexical entry calculation tells a truth that John's height is not only equal to 2 meters precisely, but also has a possibility to greater than 2 meters. But actually we do know that sentence in \ref{john_gao_2_mi} means John's height is 2 meters accurately, which is mismatch with the result of semantic calculation. The reason why this mistake is made is that the partial ordering relation of degree is encoded in gradable adjectives, \colorbox{yellow}{and there is no way to resolve this "greater equal".}
+Actually, lexical entry definition like \ref{tallLE_a} remains a problem with corresponding examples shown in \ref{old_school_def_problem}. In English, sometimes measure phrase can not directly combine with negative-pole adjectives. We can say someone is "\textit{2 meters tall}", but can not say someone is "\textit{2 meters short}". But situation changes when suffix \textit{er} shows up in \ref{old_school_def_problem_correct}, "\textit{2 meters shorter}" is a correct usage in English. Besides, this phenomenon is also a language-specific problem, in Japanese, we can not combine measure phrase even with \textit{segatakai}(\textit{tall}). Traditional lexical entry of gradable adjectives has no ability to explain this phenomenon.
 
-Based on the mistake mentioned above, there is another group of researchers propose that the gradable adjectives' lexical entry should not encode the partial ordering relation, instead, the gradable adjectives should reveal the original property of an individual, which means \textit{tall} should simply illustrate the height of an individual. Thus the lexical entry of gradable adjectives should looks like \ref{tallLE_b}, in which there is just a single equal sign. 
+\begin{enumerate}[resume]
 
-Under this assumption, the partial ordering relation still needs a place to be introduced, Svenonius\cite{svenonius2006} claims that there is a null operator whose semantic and syntactic function is to introduce a degree argument and bear the mission of introducing the "greater equal" meaning. The denotation of this null operator is spelled out in \ref{gao_nop_LE}, and the \ref{gao_nop_LE_c} shows the composition of null operator and gradable adjective, which is same with \ref{tallLE_a}.
+    \item \label{old_school_def_problem}
+    
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+        
+        \item 2 meters tall. 10 years old.
+        \item *2 meters short. *10 years young.
+        \item \label{old_school_def_problem_correct} 2 meters shorter. 10 years younger.
+
+    \end{enumerate}
+
+\end{enumerate}
+
+Based on the problem mentioned above, there is another group of researchers propose that the gradable adjectives' lexical entry should not encode the partial ordering relation, instead, the gradable adjectives should reveal the original property of an individual, which means \textit{tall} should simply illustrate the height of an individual. Thus the lexical entry of gradable adjectives should looks like \ref{tallLE_b}, in which there is just a measure function. 
+
+Under this assumption, the partial ordering relation still needs a place to be introduced, if not, there will be a lexical entry type mismatch. The type of measure function \textit{tall} is $<e,d>$, but measure phrase is type $d$, so gradable adjectives are no way to composite with measure phrase on account of type-theoretic. To resolve this problem, Svenonius\cite{svenonius2006} claims that there is a null operator whose semantic function is linking the lexical entry of gradable adjectives and the lexical entry of measure phrase, and syntactic function is to introduce a degree argument and bear the mission of introducing the "greater equal" meaning. The denotation of this null operator is spelled out in \ref{gao_nop_LE}, and the \ref{gao_nop_LE_c} shows the composition of null operator and gradable adjective, which is same with \ref{tallLE_a}. The lexical entry of \ref{gao_nop_LE_c} is $<d,<e,t>>$, which can combine with measure phrase with out any type conflict.
 
 \begin{enumerate}[resume]
     \item \label{gao_nop_LE}
 
     \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
         \item \label{gao_nop_LE_a} 
-        $[\![nop]\!]=\lambda G\lambda d \lambda x.G(x) \geq d$
+        $[\![nop]\!]=\lambda G_{<e,d>}\lambda d \lambda x.[G(x) \geq d]$
 
         \item \label{gao_nop_LE_b} 
         $[\![tall]\!]=Height(x)$
@@ -243,11 +244,13 @@ Under this assumption, the partial ordering relation still needs a place to be i
         \item \label{gao_nop_LE_c} 
         $\begin{aligned}[t]
             [\![nop \enspace tall]\!] &= [\![nop]\!]([\![tall]\!]) \\
-            &= \lambda d \lambda x.Height(x) \geq d
+            &= \lambda d \lambda x.[Height(x) \geq d]
         \end{aligned}$
 
     \end{enumerate}
 \end{enumerate}
+
+Although the lexical result of null operator and adjectives in \ref{gao_nop_LE_c} looks exactly same with traditional lexical entry of gradable adjectives in \ref{tallLE_a}, which makes this null operator seems redundant. But this "null operator + gradable adjective" structure resolve the problem mentioned in \ref{old_school_def_problem}. Actually, this design separates the "individual property function" from "greater equal meaning", the former's owner is gradable function, and latter's owner is null operator. It is null operator who does not select for \textit{short} when measure phrase is \textit{2 meters}. And, this idiosyncratic property of null operator is language-specific. The advantage of this kind of structure is leaving language-specific problem to null operator and keeping gradable adjectives away form any idiosyncratic language-specific properties.
 
 Next questions are, whether this null operator has a specific phonetic expression in any language and where its position is in syntactic structure. 
 
@@ -286,6 +289,49 @@ For the first question, Svenonius does a deep investigation about Icelandic and 
         
     \end{enumerate}   
     
+\end{enumerate}
+
+The $<e,d>$ type gradable adjectives seems a perfect definition. But I have to point out that, both lexical entries in \ref{tallLE} may cause a mismatch between the meaning given by lexical calculation and meaning given by language common sense. 
+
+Since there are serval kinds of ways to build a degree construction, such as positive form, comparative form and superlative form, a lexical meaning should have ability to give a interpretation of all these constructions. \ref{tallLE_a} gives a positive form example, and it's lexical entry calculation is shown in \ref{john_gao_2_mi_LE}, who uses traditional gradable adjectives lexical type in \ref{tallLE_a}. To resolve $\lambda$ reduction, the lexical entry of \textit{tall} needs a measure phrase with lexical entry $d$ and an individual $x$ , which are respectively \textit{2 meters} and \textit{John}. \textit{2 meters} changes the semantic type of \textit{tall} from $<d,<e,t>>$ to $<e,t>$, and \textit{John} is input as type $e$ which makes final result to type $t$. The result of lexical entry calculation tells a truth that John's height is not only equal to 2 meters precisely, but also has a possibility to greater than 2 meters. But actually we do know that sentence in \ref{john_gao_2_mi} means John's height is 2 meters accurately, which is mismatch with the result of semantic calculation. The reason why this mistake is made is that the partial ordering relation of degree is encoded in gradable adjectives, \colorbox{yellow}{and there is no way to resolve this "greater equal"}. \ref{tallLE_b} will also lead this problem, since the lexical entry of the combination of null operator and gradable adjective is same with the lexical entry shown in \ref{tallLE_a}.
+
+\begin{enumerate}[resume]
+    \item \label{john_gao_2_mi} Jhon is 2 meters tall.
+\end{enumerate}
+
+\begin{enumerate}[resume]
+    \item \label{john_gao_2_mi_LE}
+    
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \item \label{john_gao_2_mi_LE_a} 
+    $[\![tall]\!] = \lambda d \lambda x.[Height(x) \geq d]$
+    
+    \item \label{john_gao_2_mi_LE_b} 
+    $\begin{aligned}[t]
+        [\![2 \enspace meters \enspace tall]\!] &= [\![tall]\!](2m) \\
+        &= \lambda x.[Height(x) \geq 2m]
+    \end{aligned}$
+    
+    \item \label{john_gao_2_mi_LE_c} 
+    $\begin{aligned}[t]
+        [\![John \enspace is \enspace 2 \enspace meters \enspace tall]\!] &= [\![tall \enspace 2m]\!](John) \\
+        &= Height(John) \geq 2m
+    \end{aligned}$
+    
+    \end{enumerate}
+\end{enumerate}
+
+To fix the problem mentioned above, I am going to modify the lexical entry of null operator, and for convenience, I will give null operator a simple name $\mu$. New lexical entry of $\mu$ is shown in \ref{mu_LE_1}, and the result lexical entry after the combination with gradable adjective \textit{tall} is shown in \ref{mu_LE_2}.
+
+\begin{enumerate}[resume]
+    \item \label{mu_LE}
+    
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+        \item \label{mu_LE_1}
+        $[\![\mu]\!] =  \lambda G_{<e,d>}\lambda d \lambda x.[G(x) = d]$
+        \item \label{mu_LE_2}
+        $[\![\mu \enspace tall]\!] = \lambda d \lambda x.[Height(x) = d]$
+    \end{enumerate}
 \end{enumerate}
 
 Based on this "equal meaning" lexical entry of gradable adjectives, we can solve the problem which "greater equal" meaning lexical entry can not. For positive meaning, I assume that there is no null operator in syntactic structure, and it appears in comparative form and superlative form. Applying this assumption to Mandarin, I give two examples in \ref{john_gao_2_mi_nop}. In \ref{john_gao_2_mi_nop_positive}, the degree construction is positive form, so the null operator does not exist, gradable adjective \textit{gao} composite with measure phrase \textit{2mi} directly, which makes final lexical entry calculation result is $Height(John)=2mi$. That gives a truth that John's height is exactly 2 meters, which is match with what we expect. When construction comes to comparative form like \ref{john_gao_2_mi_nop_comparative} with lexical entry calculation in \ref{john_gao_2_mi_nop_comparative_LE}. There will be a null operator who should combine with \textit{gao} first, and changes the meaning of \textit{gao} from "equal meaning" to "greater equal meaning". Then, the lexical entry of important comparative morpheme \textit{bi} is shown in \ref{john_gao_2_mi_nop_comparative_LE_bi}.
@@ -362,6 +408,10 @@ such as following example in \ref{equal_mistake_example}, with lexical entry cal
         \item $[\![biP]\!]=\lambda G \lambda x \lambda y \lambda d. \exists d_1 \exists d_2 [(G(x) \geq d_1) \land (G(y) \geq d_2) \land (d_1-d_2 \geq 2m) ]$
     \end{enumerate}
 \end{enumerate} 
+
+
+
+
 
 \subsection{transitive comparative in Mandarin}
 
