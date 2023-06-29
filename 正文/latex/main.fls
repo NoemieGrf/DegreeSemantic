@@ -309,8 +309,8 @@ INPUT d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cm
 INPUT d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
-INPUT d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
+INPUT d:/Programmes/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT d:/Programmes/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 INPUT d:/Programmes/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 INPUT d:/Programmes/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
