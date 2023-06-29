@@ -1,6 +1,0 @@
-\begin{figure*}[hbt]
-\ifnextchar[{\eatarg}{}
-[!htbp]
-\centering
-\includesvg{pic/pic1.svg}
-\end{figure*}
