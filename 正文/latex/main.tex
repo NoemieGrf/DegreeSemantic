@@ -466,15 +466,47 @@ To fix this problem, this paper propose that the lexical entries of gradable adj
 
 \subsection{DegP hypotheses and DegP-Shell}
 
+Before Abney, most researchers believe degree phrase is a specifier of adjective phrase, but Abney argues that degree phrase is a functional projection which is above the adjective phrase \cite{abney1987}. This theory is called DegP hypotheses by later scholars. In DegP hypotheses, the general structure is described as followed. The XP in \ref{abney_deg_p} is different in different situation, it may quantifier phrase, or differential phrase, or measure phrase. Three examples and their syntactic structures shown in \ref{abney_deg_p_example}.
+
+\begin{enumerate}[resume]
+    \item \label{abney_deg_p} $[_{DegP} XP [_{Deg^{\prime}}Deg^0[_{AP}...]]] $
+\end{enumerate}
+
+\begin{enumerate}[resume]
+    \item \label{abney_deg_p_example}
+    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+        \item \label{abney_deg_p_example_1}
+        much too tall.\\
+        $[_{DegP} [_{QP} much]] [_{Deg^{\prime}}Deg^0 \enspace too [_{AP}tall]] $
+        \item \label{abney_deg_p_example_2}
+        two meters as tall.\\
+        $[_{DegP} [_{MP} two \enspace meters]] [_{Deg^{\prime}}Deg^0 \enspace as [_{AP}tall]] $
+        \item \label{abney_deg_p_example_3}
+        two meters taller.\\
+        $[_{DegP} [_{DiffP} two \enspace meters]] [_{Deg^{\prime}}Deg^0 \enspace er [_{AP}tall]] $
+
+    \end{enumerate}
+\end{enumerate}
+
+After basic DegP hypotheses, there are serval modified versions raised up by later researchers. The most important modification of DegP hypotheses is the Larson's DegP-shell structure \cite{larson1991}. In Larson's research, he propose a DegP-shell based on VP-shell structure, which is shown in \ref{deg_p_shell}. Compare to single layer DegP hypotheses, shelled structure has the ability to described a whole comparative form, such as example in \ref{deg_p_shell_example}.
+
+\begin{enumerate}[resume]
+    \item \label{deg_p_shell} $[_{DegP} [_{Deg^{\prime}} Deg^0 [_{DegP} AP [_{Deg^{\prime}} Deg^0 [_{PP}...]]]]] $
+\end{enumerate}
+
+\begin{enumerate}[resume]
+    \item \label{deg_p_shell_example} 
+    John is taller than Mary.
+    $[_{DegP} John [_{Deg^{\prime}} Deg^0 [_{DegP} AP [_{Deg^{\prime}} Deg^0 [_{PP}...]]]]] $
+\end{enumerate}
+
 \section{Mandarin degree semantic analyses}
 
 In this section, this paper will do serval works to give a semantic and syntactic analyses of simple degree structure in Mandarin. At the first, based on former researchers' work, this paper will give lexical entry of gradable adjectives. After that, based on classification given in introduction, this paper will give a whole analyses respectively.
 
-\subsection{Lexical entry of gradable adjective}
-
 From this paper's view, different meaning of degree constructions should have different lexical entries of gradable adjectives. Because the function of gradable adjectives is totally different in superiority meaning and assignable meaning. As discussed in introduction, a degree structure is superiority meaning when gradable adjective bears comparison function, so this paper adopt the partial ordering definition of lexical entry, which is re-wrote in \ref{tallLE_re_a}; and on the opposite, a degree structure is assignable meaning when gradable adjective bears assignment function, thus the lexical entry of gradable adjective should have a equal sign, which is shown in \ref{tallLE_re_b}.
 
-Another reason which supports the separation of lexical entries is the mistake mentioned in last section. If a positive form has "greater than" meaning in gradable adjective, a wrong result will be calculated which makes "\textit{John is 2 meters tall}" 
+Another reason which supports the separation of lexical entries is the mistake mentioned in last section. If a positive form has "greater than" meaning in gradable adjective, a wrong result will be calculated which makes "\textit{John is 2 meters tall}" expresses "John is more than 2 meters tall".
 
 \begin{enumerate}[resume]
     \item \label{tallLE_re}
@@ -484,15 +516,24 @@ Another reason which supports the separation of lexical entries is the mistake m
         $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d]$
     
         \item \label{tallLE_re_b} 
-        $[\![tall]\!]=Height(x)=d$
+        $[\![tall]\!]=\lambda d \lambda x.[Height(x) = d]$
     
     \end{enumerate}
 \end{enumerate}
 
-
-
+Next, follow the classification given in the introduction, the syntactic structure and semantic calculation will be given respectively in follow parts.
 
 \subsection{Comparative meaning}
+
+At the beginning, this paper proposes that there are two types syntactic structures in comparative meaning. For convenient, we give the two layers structure a name "DegP-AP" structure, and three layers structure a name "DegP-DegP-AP". 
+
+In the "DegP-DegP-AP" structure, the head of the higher DegP functions to introduce the standard, and the head of the lower DegP functions to introduce the difference between the comparee and the standard which is denoted by a differential phrase. The gradable adjective is the head of the adjective phrase. For the semantic part, given the DegP hypotheses illustrated above, the higher DegP is obligatory in that, the extra argument $d$ should be bound by a functional projection which ultimately shifts the semantic type of gradable adjectives form $<d,<e,t>>$ to $<e,t>$, in order to absorb the comparee typed $e$ successfully. The differential phrase is not required by the lexical entry of gradable adjectives, which can also support its optional appearance. From our intuition, the non-appearance of a standard (explicit or implicit) leads to the failure of expressing the comparative meaning, in contrast, the difference between the comparee and the standard should in no way be expressed consistently. In addition, the occurrence of the difference between two objects naturally requires the the occurrence of the two objects to be compared as a prerequisite. Here we assume that the lower DegP is projected if and only if there is an explicit differential phrase and the differential phrase is strictly greater than zero. The explanations of this assumption will be elaborated immediately on the below.
+
+
+
+
+
+
 
 \subsubsection{Superiority}
 
