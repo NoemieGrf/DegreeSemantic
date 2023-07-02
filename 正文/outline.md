@@ -56,5 +56,14 @@
 
 
 
+首次出现的简写
+
+AP
+DP
+DegP
+Mp
+DiffP
+
+
 
 
