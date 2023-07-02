@@ -65,5 +65,23 @@ Mp
 DiffP
 
 
+待办
+
+C de lexical entry
+
+Equality和Superiorty分类需要一个引用
+
+comparative construction: a comparee, a standard, a marker, a gradable predicate, marker introduce standard (guo)
+
+our propose:
+
+semantic: a comparee a standard a (diffP) a gradable predicate
+
+syntactic: marker, comparative morpheme
+
+assignment construction: an assignee, an assignor, a gradable predicate
+
+
+
 
 
