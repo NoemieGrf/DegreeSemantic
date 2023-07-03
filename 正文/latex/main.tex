@@ -660,7 +660,7 @@ Now, let us look at the syntactic structure of the Positivity head. According to
     \end{caption}
 \end{figure}
 
-The null nature of DegP head should be licensed by the corresponding expression, which is undertaken by the obligatory \textit{hen} in this sentence, hence occupies the specifier position of DegP. The obligatoriness of \textit{hen}-like degree adverbs (\textit{feichang}, \textit{ting}, etc.) can be reflected by the ungrammaticality of the sentence in \ref{positivity_example_5}.
+The null nature of DegP head should be licensed by the corresponding expression, which is undertaken by the obligatory \textit{hen} in this sentence, hence occupies the specifier position of DegP. The obligatoriness of \textit{hen}-like degree adverbs (\textit{feichang}, \textit{ting}, etc.) can be reflected by the ungrammatical of the sentence in \ref{positivity_example_5}.
 
 \begin{enumerate}
     \item \label{positivity_example_5}
@@ -774,7 +774,7 @@ Although types of the standard in these three sentences above are different, the
     \includegraphics[width=0.5\textwidth]{pic/superiority_structure.png}
     \begin{caption}
         \\ \vspace{-1.1ex}
-        Structure for Superiority.
+        Structure for Superiority with standard phrase.
     \end{caption}
 \end{figure}
 
@@ -890,7 +890,7 @@ Semantic calculations in \ref{superiority_example_6} corresponds to the sentence
 
         \item \label{superiority_example_6_c}
         $\begin{aligned}[t]
-            [\![bi \enspace Mary \enspace \xi_2 \enspace gao]\!] 
+            [\![bi \enspace Mary \enspace & \xi_2 \enspace gao]\!] \\
             &= \lambda y \lambda x.[height(x) \geq Max \enspace d_2(height(y) \geq d_2)]([\![bi \enspace Mary]\!]) \\
             &= \lambda y \lambda x.[height(x) \geq Max \enspace d_2(height(y) \geq d_2)](Mary) \\
             &= \lambda x.[height(x) \geq Max \enspace d_2(height(Mary) \geq d_2)] \qquad <e,t>
@@ -898,7 +898,7 @@ Semantic calculations in \ref{superiority_example_6} corresponds to the sentence
 
         \item \label{superiority_example_6_d}
         $\begin{aligned}[t]
-            [\![John \enspace bi \enspace Mary \enspace \xi_2 \enspace gao]\!] 
+            [\![John \enspace bi \enspace & Mary \enspace \xi_2 \enspace gao]\!] \\
             &= \lambda x.[height(x) \geq Max \enspace d_2(height(Mary) \geq d_2)](John) \\
             &= height(John) \geq Max \enspace d_2(height(Mary) \geq d_2 ) \qquad <t>
         \end{aligned}$
@@ -909,35 +909,134 @@ Semantic calculations in \ref{superiority_example_6} corresponds to the sentence
     \end{enumerate}
 \end{enumerate}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$[\![\mu]\!]=\lambda G \lambda d^{\prime} \lambda d \lambda x. \exists d_1[G(x, d_1) \land | Max \enspace d_1 G(x,d_1)-d | =d^{\prime}] \qquad <<d,<e,t>>, <d,<d,<e,t>>>>$
-
-
-
-
-% 这里细分diffP的implicite和explicite
+Semantic calculations in \ref{superiority_example_7} corresponds to the sentence in \ref{superiority_example_1_c} where the standard is set of individual typed $<e,t>$. The lexical entry of the degree head $\xi_3$ is given in \ref{superiority_example_7_a}. The output proposition is paraphrased as \ref{superiority_example_7_e}, which derives the meaning of the sentence correctly.
 
 \begin{enumerate}
-    \item
+    \item \label{superiority_example_7}
     \begin{enumerate}
-        \item John bi 2 mi gao.
-        \item John bi Mary gao.
-        \item zai yi ban, John zui gao.
+        \item \label{superiority_example_7_a}
+        $\begin{aligned}[t]
+            [\![\xi_3]\!] 
+            &= \lambda G \lambda C \lambda x.[G(x,Max \enspace d_2(G(C,d_2)))] \\
+            & \qquad <<d,<e,t>>,<<e,t>,<e,t>>>
+        \end{aligned}$
+
+        \item \label{superiority_example_7_b}
+        $\begin{aligned}[t]
+            [\![\xi_3 \enspace gao]\!] 
+            &= \lambda G \lambda C \lambda x.[G(x,Max \enspace d_2(G(C,d_2)))]([\![gao]\!]) \\
+            &= \lambda C \lambda x.[height(x) \geq Max \enspace d_2(height(C) \geq d_2)] \qquad <<e,t>,<e,t>>
+        \end{aligned}$
+
+        \item \label{superiority_example_7_c}
+        $\begin{aligned}[t]
+            [\![zai \enspace yiban \enspace & zhong \enspace \xi_3 \enspace gao]\!] \\
+            &= \lambda C \lambda x.[height(x) \geq Max \enspace d_2(height(C) \geq d_2)]([\![zai \enspace yiban \enspace zhong]\!]) \\
+            &= \lambda C \lambda x.[height(x) \geq Max \enspace d_2(height(C) \geq d_2)](yiban) \\
+            &= \lambda x.[height(x) \geq Max \enspace d_2(height(yiban) \geq d_2)] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{superiority_example_7_d}
+        $\begin{aligned}[t]
+            [\![John \enspace zai \enspace yiban & \enspace zhong \enspace \xi_3 \enspace gao]\!] \\
+            &= \lambda x.[height(x) \geq Max \enspace d_2(height(yiban) \geq d_2)](John) \\
+            &= height(John) \geq Max \enspace d_2(height(yiban) \geq d_2) \qquad <t>
+        \end{aligned}$
+
+        \item \label{superiority_example_7_e}
+        \ref{superiority_example_7_d} is paraphrased as "the height of John exceeds or equal to the  maximum height of all students in class one"
+
     \end{enumerate}
 \end{enumerate}
+
+Based on the assumption illustrated in the beginning of this section, Superiority sentences with DiffP own two functional layers above AP, taking ``DegP-DegP-AP'' as their syntactic structure. Examples are shown in \ref{superiority_example_8}:
+
+\begin{enumerate}
+    \item \label{superiority_example_8}
+    \begin{enumerate}
+        \item \label{superiority_example_8_a}
+        John bi 1.7mi gao 2limi. \\
+        John than 1.7meters tall 2 centimeters. \\
+        `John is 2 centimeters taller than 1.7 meters.'
+
+        \item \label{superiority_example_8_b}
+        John bi Mary gao 2limi. \\
+        John than Mary tall 2 centimeters.  \\
+        `John is 2 centimeters taller than Mary.'
+
+    \end{enumerate}
+\end{enumerate}
+
+Superiority sentences with overt DiffP expression need an additional DegP to host this DiffP, which indicates the difference between the value of the standard and the comparee along the dimension of scale denoted by the gradable adjective. Hence, the functional head of the additional lower DegP serves to introduce this DiffP. As mentioned above, distinct from the obligatory projection of the higher DegP, this lower DegP projects iff DiffP is overtly expressed and DiffP is not equal to zero. Please note that the ungrammatical of the sentence in \ref{superiority_example_9_a} can be explained by the DiffP which is equal to zero. In fact, the meaning of \ref{superiority_example_9_a} can be well expressed by another kind of construction with no DiffP named Equality, as shown in \ref{superiority_example_9_b}. Details on Equality sentences like \ref{superiority_example_9_b} will be illustrated in the next subsection.
+
+\begin{enumerate}
+    \item \label{superiority_example_9}
+    \begin{enumerate}
+        \item \label{superiority_example_9_a}
+        * John bi 1.7mi gao 0limi. \\
+        \hspace*{0.5em} John than 1.7meters tall 0 centimeters. \\
+        \hspace*{0.5em} `John is 0 centimeters taller than 1.7 meters.'
+
+        \item \label{superiority_example_9_b}
+        John he Mary yiyang gao. \\
+        John with Mary same tall.  \\
+        `John is as tall as Mary.'
+
+    \end{enumerate}
+\end{enumerate}
+
+Now let us look at the syntactic structure of  Superiority sentences with DiffP. no matter what type of the standard is taken, the general structure is almost the same. The only difference from Superiority without DiffP is that Superiority with DiffP needs an additional projection DegP, of which the specifier position is occupied by DiffP and the head is represented as mu. The syntactic structure of Superiority with DiffP is show in \ref{superiority_structure_with_diffP}:
+
+\begin{enumerate}
+    \item \label{superiority_structure_with_diffP}
+    $\begin{aligned}[t]
+        [_{IP} [CompareeP] [_{I^{\prime}} I^{0} [_{...} [[_{DegP} [StndP] [_{Deg^{\prime}} \xi_{n} [_{DegP} [DiffP] [_{Deg^{\prime}} \mu [_{AP} & [_{A^{\prime}} A^{0}]]]]]]]]]] \\
+        & n \in \{1, 2, 3\}
+    \end{aligned}$
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{pic/superiority_structure_diff.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Structure for Superiority with differential phrase.
+    \end{caption}
+\end{figure}
+
+\begin{enumerate}
+    \item \label{superiority_example_10}
+    \begin{enumerate}
+        \item \label{superiority_example_10_a}
+        for $\xi_n$, $n=1$ if and only if the standard is a degree;
+
+        \item \label{superiority_example_10_b}
+        for $\xi_n$, $n=2$ if and only if the standard is an individual;
+
+        \item \label{superiority_example_10_c}
+        for $\xi_n$, $n=3$ if and only if the standard is a set of individuals;
+
+    \end{enumerate}
+\end{enumerate}
+
+Continuous head movements are involved. The head of AP first moves upwards to combine with the head of lower DegP, which is instantiated as a null morpheme $\emptyset$ or a bound morpheme with phonetic realization such as \textit{chu}(`exceed'), to form a compound, and then moves together to further combine with the head of the higher DegP when it is instantiated as a bound morpheme. Given that the specifier of AP is not a position to which Case can be assigned, the comparee denoted by NP(CP) moves to the specifier of TP in order to obtain its Nominative Case.
+
+There is an alternative solution which inverse the hierarchy of the lower DegP and AP, which can be briefly represented as ``DegP-AP-DegP'', supported by many scholars \hl{ref}. This structure can also derive out the correct linear order of the sentence. We illustrate this structure as below (The structure shown in \ref{superiority_example_11} is slightly different from the original version. Here we do not care about unrelated technical details but just focus on the general structure of the hierarchy of the three layers, i.e., two DegPs and one AP), where AP take the lower DegP as its complement:
+
+\begin{enumerate}
+    \item \label{superiority_example_11}
+    $\begin{aligned}[t]
+        [_{IP} [CompareeP] [_{I^{\prime}} I^{0} [_{...} [[_{DegP} [StndP] [_{Deg^{\prime}} \xi [_{AP} [_{A^{\prime}} A^{0}]]]]]]]] \qquad n \in \{1, 2, 3\}
+    \end{aligned}$
+\end{enumerate}
+
+In spite of the correct linear order derived, \hl{ref} has argued that the direction of head movements in the syntactic structure shown in \ref{superiority_example_11} is actually impossible. He claims that a functional head is an incorporated element rather than an incorporating element, giving rise to the impossibility of the movement from a functional degree head to a lexical adjective head. \hl{this ref} eliminate the alternative ``DegP-AP-DegP'' solution from a view of lexicon-syntax, while I propose another piece of evidence for eliminating the ``DegP-AP-DeP'' analysis from the perspective of formal semantics, which will be illustrated immediately below.
+
+Now let us turn to semantic part of Superiority sentences with DiffP. The semantic interpretation of the higher DegP remains the same as that of Superiority sentences without DiffP, so we will not illustrate it in detail again. For the lower DegP, in this paper we assume that it undertake the mere function of measuring the difference between the value of the comparee and the value of  the standard along the dimension of scale denoted by the gradable adjective. It should be pointed out that this difference is expressed in the form of the absolute value for the reason that this difference itself indicates no ordering relation between the two values input into the comparative construction.  The ordering relation is encoded in the lexical entry of gradable adjectives,  indicated neither by the head of higher DegP (which serves merely to usher in the standard) nor by the head of lower DegP (which serves merely to introduce the absolute value of the difference between the two values compared). 
+
+Most of  previous studied are inclined to appoint too heavy semantic function to one of the degree head and as a result make the semantic function of the other degree head marginal and transparent. What is worse, the "greater than" meaning encoded in the lexical entry of gradable adjective is seized by a degree head which should not have been in charge of indicating the ordering relation between the comparee and the standard. In addition, the transfer of the "greater than" meaning from gradable adjectives to the degree head would give rise to  wrong reading of sentences made out of gradable adjectives with DiffP. Here we illustrate this fatal disadvantage with an instance from von Stechow \hl{ref}.
+
+This clear division of labor in terms of the semantic meaning bore by each component is crucial for the whole analysis and this perspective is also significantly different from previous analyses.
 
 \subsubsection{Equality}
 
