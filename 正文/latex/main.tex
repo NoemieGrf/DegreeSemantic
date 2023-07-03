@@ -66,7 +66,7 @@
 
 % enumerate列表格式
 \setlist[enumerate,1]{resume,label=(\arabic*)}
-\setlist[enumerate,2]{label=(\alph*)}
+\setlist[enumerate,2]{itemindent=1em,label=(\alph*),ref=(\arabic{enumi}\alph*)}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -129,7 +129,7 @@ The differential phrase in examples above are specific value differential phrase
 
 \begin{enumerate}
     \item
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{dp_big_vague_example}
         John bi Mary gao hen duo.\\
         \textit{John than Mary tall much.} \\
@@ -145,7 +145,7 @@ The differential phrase in examples above are specific value differential phrase
 
 \begin{enumerate}
     \item
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{dp_value_big_vague_example}
         John bi Mary gao liang mi duo.\\
         \textit{John than Mary tall 2 meters more.} \\
@@ -163,7 +163,7 @@ In comparative structure built by gradable adjectives, sometimes, the standard i
 
 \begin{enumerate}
     \item
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{specific_value_comparison_example}
         John bi 2 mi gao.\\
         \textit{John than 2 meters tall.} \\
@@ -280,7 +280,7 @@ Here some examples of possible semantic variants of "\textit{er}" are illustrate
 
 \begin{enumerate}
     \item
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{er_var_1} John is taller than 6 feet.
         \item \label{er_var_2} John is taller than Mary.
         \item \label{er_var_3} John is taller than Mary is.
@@ -356,7 +356,7 @@ After a series of debates, form the modern view, there are two typical hypothese
 \begin{enumerate}
     \item \label{tallLE}
     
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{tallLE_a} 
         $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d]$
     
@@ -379,7 +379,7 @@ After a series of debates, form the modern view, there are two typical hypothese
 
     \item \label{old_school_def_example_LE}
     
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         
         \item $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d]$
         \item $[\![2 \enspace meters \enspace tall]\!]=\lambda x.[Height(x) \geq 2 \enspace meters]$
@@ -395,7 +395,7 @@ Actually, lexical entry definition like \ref{tallLE_a} remains a problem with co
 
     \item \label{old_school_def_problem}
     
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         
         \item 2 meters tall. 10 years old.
         \item *2 meters short. *10 years young.
@@ -413,7 +413,7 @@ Under this assumption, the partial ordering relation still needs a place to be i
 \begin{enumerate}
     \item \label{gao_nop_LE}
 
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{gao_nop_LE_a} 
         $[\![nop]\!]=\lambda G_{<e,d>}\lambda d \lambda x.[G(x) \geq d]$
 
@@ -439,7 +439,7 @@ For the first question, Svenonius does a deep investigation about Icelandic and 
 \begin{enumerate}
     \item \label{Icelandic_example}
     
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{Icelandic_example_10}
         Hversu gammall ertu? \\
         \textit{how.much old are.you} \\
@@ -462,7 +462,7 @@ For the first question, Svenonius does a deep investigation about Icelandic and 
 \begin{enumerate}
     \item \label{Icelandic_example_LE}
     
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item $[_{CP}Nop_1 \enspace er_2[_{IP}du_3 \enspace t_2[_{VP} t_2[_{AP} t_3 \enspace t_1 \enspace gammel]]]]$
         
         \item $[_{CP}Hva$ð$_1 \enspace er_2[_{IP} \enspace -tu_3 \enspace t_2 [_{VP}t_2[_{AP}t_3 \enspace t_1 \enspace gammel]]]]$
@@ -483,7 +483,7 @@ Since there are serval kinds of constructions of degree structure, positive form
 \begin{enumerate}
     \item \label{john_gao_2_mi_LE}
     
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
     \item \label{john_gao_2_mi_LE_a} 
     $[\![tall]\!] = \lambda d \lambda x.[Height(x) \geq d]$
     
@@ -516,7 +516,7 @@ Before Abney, most researchers believe degree phrase is a specifier of adjective
 
 \begin{enumerate}
     \item \label{abney_deg_p_example}
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{abney_deg_p_example_1}
         much too tall.\\
         $[_{DegP} [_{QP} much]] [_{Deg^{\prime}}Deg^0 \enspace too [_{AP}tall]] $
@@ -555,7 +555,7 @@ Another reason which supports the separation of lexical entries is the mistake m
 \begin{enumerate}
     \item \label{tallLE_re}
     
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item \label{tallLE_re_a} 
         $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d]$
     
@@ -613,7 +613,7 @@ $[\![\mu]\!]=\lambda G \lambda d^{\prime} \lambda d \lambda x. \exists d_1[G(x, 
 
 \begin{enumerate}
     \item
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item John bi 2 mi gao.
         \item John bi Mary gao.
         \item zai yi ban, John zui gao.
@@ -624,7 +624,7 @@ $[\![\mu]\!]=\lambda G \lambda d^{\prime} \lambda d \lambda x. \exists d_1[G(x, 
 
 \begin{enumerate}
     \item
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item John he Mary yi yang gao.
     \end{enumerate}
 \end{enumerate}
@@ -633,7 +633,7 @@ $[\![\mu]\!]=\lambda G \lambda d^{\prime} \lambda d \lambda x. \exists d_1[G(x, 
 
 \begin{enumerate}
     \item
-    \begin{enumerate}[ref=(\arabic{enumi}\alph*)]
+    \begin{enumerate}
         \item John gao 2 mi.
         \item John you 2 mi gao.
     \end{enumerate}
