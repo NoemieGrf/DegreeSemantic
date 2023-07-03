@@ -12,6 +12,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage[T1]{fontenc}
 \usepackage{enumitem}
+\usepackage{caption} 
 \usepackage{graphicx}  % Required for inserting images
 \usepackage[
     style=apa,
@@ -42,6 +43,12 @@
         titleformat+ = \textit, % 标题内容斜体
         aftername = \hspace{2pt}
     },
+}
+
+% figure caption
+\captionsetup[figure]{
+    labelfont = {it}, % 斜体Figure
+    labelsep = space, % 去掉冒号
 }
 
 % maps apacite commands to biblatex commands
@@ -332,6 +339,10 @@ In terms of the syntactic structure of degree constructions, Kennedy projects th
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.5\textwidth]{pic/pic1.png}
+\begin{caption}
+     \\ \vspace{-1.1ex}
+     Kennedy's syntactic structure
+\end{caption}
 \end{figure}
 
 \noindent
