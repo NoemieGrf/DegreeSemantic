@@ -72,8 +72,17 @@
 \date{\vspace{-10ex}}
 
 % enumerate列表格式
-\setlist[enumerate,1]{resume,label=(\arabic*)}
-\setlist[enumerate,2]{itemindent=1em,label=(\alph*),ref=(\arabic{enumi}\alph*)}
+\setlist[enumerate,1]{
+    resume,
+    label=(\arabic*)
+    }
+
+\setlist[enumerate,2]{
+    leftmargin=*,
+    labelindent=16pt,
+    label=(\alph*),
+    ref=(\arabic{enumi}\alph*),
+    }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -561,7 +570,7 @@ In this section, this paper will do serval works to give a semantic and syntacti
 
 From this paper's view, different meaning of degree constructions should have different lexical entries of gradable adjectives. Because the function of gradable adjectives is totally different in superiority meaning and assignable meaning. As discussed in introduction, a degree structure is superiority meaning when gradable adjective bears comparison function, so this paper adopt the partial ordering definition of lexical entry, which is re-wrote in \ref{tallLE_re_a}; and on the opposite, a degree structure is assignable meaning when gradable adjective bears assignment function, thus the lexical entry of gradable adjective should have a equal sign, which is shown in \ref{tallLE_re_b}.
 
-Another reason which supports the separation of lexical entries is the mistake mentioned in last section. If a positive form has "greater than" meaning in gradable adjective, a wrong result will be calculated which makes "\textit{John is 2 meters tall}" expresses "John is more than 2 meters tall".
+Another reason which supports the separation of lexical entries is the mistake mentioned in last section. If a positive form has "greater than" meaning in gradable adjective, a wrong result will be calculated which makes \textit{John is 2 meters tall} expresses \textit{John is more than 2 meters tall}.
 
 \begin{enumerate}
     \item \label{tallLE_re}
@@ -582,7 +591,7 @@ Next, follow the classification given in the introduction, the syntactic structu
 \subsection{Comparative meaning}
 
 \noindent
-At the beginning, this paper proposes that there are two types syntactic structures in comparative meaning. For convenient, we give the two layers structure a name "DegP-AP" structure, and three layers structure a name "DegP-DegP-AP". 
+At the beginning, this paper proposes that there are two types syntactic structures in comparative meaning. For convenient, we give the two layers structure a name ``DegP-AP'' structure, and three layers structure a name ``DegP-DegP-AP''. 
 
 In the "DegP-DegP-AP" structure, the head of the higher DegP functions to introduce the standard, and the head of the lower DegP functions to introduce the difference between the comparee and the standard which is denoted by a differential phrase. The gradable adjective is the head of the adjective phrase. For the semantic part, given the DegP hypotheses illustrated above, the higher DegP is obligatory in that, the extra argument $d$ should be bound by a functional projection which ultimately shifts the semantic type of gradable adjectives form $<d,<e,t>>$ to $<e,t>$, in order to absorb the comparee typed $e$ successfully. The differential phrase is not required by the lexical entry of gradable adjectives, which can also support its optional appearance. From our intuition, the non-appearance of a standard (explicit or implicit) leads to the failure of expressing the comparative meaning, in contrast, the difference between the comparee and the standard should in no way be expressed consistently. In addition, the occurrence of the difference between two objects naturally requires the the occurrence of the two objects to be compared as a prerequisite. Here we assume that the lower DegP is projected if and only if there is an explicit differential phrase and the differential phrase is strictly greater than zero. The explanations of this assumption will be elaborated immediately on the below. In addition, the non-appearance of a projection when it is not needed in completing the meaning of an utterance also satisfies the economical principal of language.
 
@@ -590,30 +599,329 @@ We further classifies the comparative meaning into three distinct subtypes, whic
 
 \subsubsection{Positivity}
 
+Firstly, let us look at the sentence shown in \ref{positivity_example_1}. Literaturally, it is classified into the positive form. In this paper, we identify this sentence as positivity ushered in the comparative meaning, which is significantly from previous analyses. The reason for why we classify this sentence as expressing kind of comparative meaning is that the positive judgment of this sentence is based on a comparison between the height of \textit{John} and a value of height considered as the standard by people in mind, which needs not to be indicated or inferred from the context. In fact, this standard value is encoded into the comparative morpheme in positivity sentences. It deserves some notice that positivity is different from superiority with implicit standard, in that the implicit standard can be inferred from the context rather than encoded by the comparative morpheme itself. The contrast between the sentences in \ref{positivity_example_2_a} and \ref{positivity_example_2_b} can well reveal this point, where the implicit standard is represented as Pro, which can be replaced with the corresponding expression from the context. The meaning of \ref{positivity_example_2_a} and \ref{positivity_example_2_b} is exactly the same, which can also demonstrate the correctness of identifying the implicit standard as Pro. In contrast, we cannot reconstruct the explicit standard from the context for Positivity which explains for the Illegitimacy of the sentence in \ref{positivity_example_3_a}.
 
+\begin{enumerate}
+    \item \label{positivity_example_1}
+    John hen gao.  \\
+    John very tall \\
+    `John is very tall'.
+\end{enumerate}
 
+\begin{enumerate}
+    \item \label{positivity_example_2}
+    \begin{enumerate}
+        \item \label{positivity_example_2_a}
+        John he Mary shui gao? \\
+        John and Mary who tall? \\
+        `Who is taller between John and Mary?' \\
+        - John Pro gao.\\
+        - John Pro tall. \\
+        - `John is taller'.
+
+        \item \label{positivity_example_2_b}
+        John he Mary shui gao? \\
+        John and Mary who tall? \\
+        `Who is taller between John and Mary?' \\
+        - John bi Mary gao.\\
+        - John than Mary tall. \\
+        - `John is taller than Mary'.
+
+    \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{positivity_example_3}
+    \begin{enumerate}
+        \item \label{positivity_example_3_a}
+        * John hen Pro gao.  \\
+        \hspace*{0.5em} John very Pro tall \\
+        \hspace*{0.5em} `John is very Pro tall'.
+
+        \item \label{positivity_example_3_b}
+        John hen gao.  \\
+        John very tall \\
+        `John is very tall'.
+    \end{enumerate}
+\end{enumerate}
+
+Now, let us look at the syntactic structure of the Positivity head. According to the assumption about one functional layer or two functional layers on the beginning of this section, given no appearance of DiffP in Positivity, one layer of DegP above AP is considered as the correct syntactic structure for Positivity, which is illustrated as below:
+
+\begin{enumerate}
+    \item $John [_{DegP} hen \enspace \xi [_{AP} gao]]$
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pic/positive_structure.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Structure for Positivity.
+    \end{caption}
+\end{figure}
+
+The null nature of DegP head should be licensed by the corresponding expression, which is undertaken by the obligatory \textit{hen} in this sentence, hence occupies the specifier position of DegP. The obligatoriness of \textit{hen}-like degree adverbs (\textit{feichang}, \textit{ting}, etc.) can be reflected by the ungrammaticality of the sentence in \ref{positivity_example_5}.
+
+\begin{enumerate}
+    \item \label{positivity_example_5}
+    * John gao.  \\
+    \hspace*{0.5em} John tall \\
+    \hspace*{0.5em} John is tall'.
+\end{enumerate}
+
+However, what should be pointed out is that \textit{hen} is not prohibited from dropping in other sentences involving positivity. As shown by sentences \ref{positivity_example_6}, \textit{hen}-like degree adverbs are allowed to drop:
+
+\begin{enumerate}
+    \item \label{positivity_example_6}
+    \begin{enumerate}
+        \item \label{positivity_example_6_a}
+        John bu gao. \\
+        John not tall. \\
+        `John is not tall' 
+
+        \item \label{positivity_example_6_b}
+        John gao ma? \\
+        John tall? \\
+        `Is John tall?' 
+
+        \item \label{positivity_example_6_c}
+        John gao, Mary ai. \\
+        John tall, Mary short. \\
+        `John is tall, Mary is short.' 
+
+    \end{enumerate}
+\end{enumerate}
+
+We will not go into the reasons why sentences like above allow the dropping of "hen"deeply because they are not canonical sentences, which go beyond the scope of this research. In brief, the sentences above involve other elements related to degree, for example, negative adverb, sentence final particles, focus constructions, etc., which can also license the null degree head. \hl{Ref}
+
+Now let us turn to the semantics of Positivity.  \hl{Ref} represents the lexical entry of the degree head in Positivity as \ref{positivity_example_7_a}, where $d_{stnd}$ refers to the value of corresponding dimension considered as the standard by people in mind. With the standard value encoded, the degree head si of Positivity has both evaluative function and type-shift function \hl{Ref}. Given the equivalence relation proven by me which is illustrated in \ref{positivity_example_7_b}, this paper simplifies the lexical entry of the degree head as \ref{positivity_example_8_a}.
+
+\begin{enumerate}
+    \item \label{positivity_example_7}
+    \begin{enumerate}
+        \item \label{positivity_example_7_a}
+        $[\![\xi]\!]=\lambda G \lambda x. \exists d [G(x,d) \land (d=d_{stnd})] \qquad <d,<e,t>,<e,t>>$
+
+        \item \label{positivity_example_7_b}
+        $\exists d [G(x,d) \land (d=d_{stnd})] \Leftrightarrow G(x,d_{stnd}) \enspace where \enspace G(x,d) = G-degree(x) ≥ d$
+
+    \end{enumerate}
+\end{enumerate}
+
+With the lexical entry of the gradable adjective \textit{tall} given in \ref{tallLE_re_a}, we can successfully figure out the meaning of the sentence in \ref{positivity_example_1} following the semantic calculation illustrated in \ref{positivity_example_8}, which is paraphrases as \ref{positivity_example_8_d}.
+
+\begin{enumerate}
+    \item \label{positivity_example_8}
+    \begin{enumerate}
+        \item \label{positivity_example_8_a}
+        $[\![\xi]\!]=\lambda G \lambda x. [G(x,d_{stnd})] \qquad <d,<e,t>,<e,t>>$
+
+        \item \label{positivity_example_8_b}
+        $\begin{aligned}[t]
+            [\![\xi \enspace gao]\!] &= \lambda G \lambda x. [G(x,d_{stnd})]([\![gao]\!]) \\
+            &= \lambda x.[height(x) \geq d_{stnd}] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{positivity_example_8_c}
+        $\begin{aligned}[t]
+            [\![John \enspace \xi \enspace gao]\!] &= \lambda x.[height(x) \geq d_{stnd}]([\![John]\!]) \\
+            &= height(John) \geq d_{stnd} \qquad <t>
+        \end{aligned}$
+
+        \item \label{positivity_example_8_d}
+        \ref{positivity_example_8_c} is paraphrased as "the height of John exceeds the standard height considered by people in mind"
+
+    \end{enumerate}
+\end{enumerate}
 
 
 \subsubsection{Superiority}
 
-% si的角标的第er个位置区分Stnd的显隐性，1表示显性，2表示隐形
-% si的角标的第yi个位置区分Stnd的语义类型，1表示d，2表示e，3表示set
+According to the assumption in the beginning of this section, Superiority sentences without DiffP are assumed to project only one functional layer above AP, taking ``DegP-AP'' as their syntactic structure.
+
+Here we take a look at sentences in \ref{superiority_example_1} which are all classified as Superiority sentences of comparative meaning in this paper. Please note that sentence \ref{superiority_example_1_a} is classified as superlative form in the literature, which is different from the classification method taken in this paper.
+
+\begin{enumerate}
+    \item \label{superiority_example_1}
+    \begin{enumerate}
+        \item \label{superiority_example_1_a}
+        John bi 1.7 mi gao. \\
+        John than 1.7 meters gao. \\
+        `John is taller than 1.7 mi' 
+
+        \item \label{superiority_example_1_b}
+        John bi Mary gao. \\
+        John than Mary tall. \\
+        `John is taller than Mary.' 
+
+        \item \label{superiority_example_1_c}
+        John zai yiban zhong zui gao. \\
+        John in class.one in most tall. \\
+        `John is tallest in class one' 
+
+    \end{enumerate}
+\end{enumerate}
+
+Although types of the standard in these three sentences above are different, they are all classified as Superiority sentences expressing comparative meaning in that they all implicate some kind of comparison made along the dimension of scale denoted by the gradable adjective between the comparee and another element serving as the standard in the comparison, and the difference between degree along the dimension denoted by the gradable adjective of the comparee and of the standard is not equal to zero. Types of element serving as the standard in the comparison can be variable: a degree denoted by direct degree expression in \ref{superiority_structure}, an individual denoted by NP(DP) in \ref{superiority_example_2_b}, a set of individuals denoted by \hl{ji he ming ci} in \ref{superiority_example_2_c}.
+
+\begin{enumerate}
+    \item \label{superiority_structure}
+    $[_{IP} [CompareeP] [_{I^{\prime}} I^{0} [_{...} [[_{DegP} [StndP] [_{Deg^{\prime}} \xi_{n} [_{AP} [_{A^{\prime}} A^{0}]]]]]]]] \qquad n \in \{1, 2, 3\}$
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pic/superiority_structure.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Structure for Superiority.
+    \end{caption}
+\end{figure}
+
+\begin{enumerate}
+    \item \label{superiority_example_2}
+    \begin{enumerate}
+        \item \label{superiority_example_2_a}
+        for $\xi_n$, $n=1$ if and only if the standard is a degree;
+
+        \item \label{superiority_example_2_b}
+        for $\xi_n$, $n=2$ if and only if the standard is an individual;
+
+        \item \label{superiority_example_2_c}
+        for $\xi_n$, $n=3$ if and only if the standard is a set of individuals;
+
+    \end{enumerate}
+\end{enumerate}
+
+For the syntactic part, no matter what type of the standard is taken, the general structure is almost the same. For achieving a unifying analysis, we use $\xi_n$ to represent for the degree head in higher DegP, in which the index $n$ is to distinguish variants of the degree head. The syntactic structure of Superiority without DiffP is illustrated in \ref{superiority_structure}, with clear account of the index of $\xi_n$ given in \ref{superiority_example_2_a}.
+
+Some more words perhaps should be said about instantiation of the degree head. When the standard is a degree or an individual, the degree morpheme could be a null morpheme $\emptyset$, could have phonetic realization as \textit{geng}(`more'), \textit{hai}(`still'), etc, as shown in \ref{superiority_example_3_a}. It should be pointed out the null functional morpheme  always only has the neutral meaning, while its co-existent counterpart with phonetic realizations should have some minor distinct meaning, otherwise it is redundant to use  different morphemes to undertake the single one function as well as express exactly the same meaning. Some \hl{Ref} argue that \textit{geng}(`more'), \textit{hai}(`still') are degree adverbs in Mandarin rather than degree morphemes. I do not agree with this perspective. Criteria for distinguishing functional morphemes and lexical morphemes are ...\hl{Ref} Besides, in the environment where the standard is implicit and there is no other potential licensors for the degree head, an overt degree head is obligatorily required, as shown in \ref{superiority_example_3_b}. Please note that Pro cannot license a null functional morpheme \hl{Ref} and why sentence in \ref{positivity_example_2_a} of last sub section allows the null degree head is due to some other reason \hl{...?}. In fact, when the standard is implicit, it is \textit{geng}-like morphemes that indicates the Superiority meaning of a sentence. However, when comes to the standard as a set of individuals, whether the standard is explicit or implicit, the degree morpheme should consistently realized as \textit{zui}(`most'), which hosts the neutral meaning, as shown by \ref{superiority_example_4}.
+
+\begin{enumerate}
+    \item \label{superiority_example_3}
+    \begin{enumerate}
+        \item \label{superiority_example_3_a}
+        John bi Mary (geng/hai) gao. \\
+        John than Mary much tall. \\
+        `John is much taller than Mary'
+
+        \item \label{superiority_example_3_b}
+        John Pro *(geng) gao. \\
+        John Pro *(much) tall.  \\
+        `John is *(much) tall.'
+
+    \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{superiority_example_4}
+    \begin{enumerate}
+        \item \label{superiority_example_4_a}
+        John za yiban zhong *(zui) gao. \\
+        John in class.one *(most) tall. \\
+        `John is tallest in class one'
+
+        \item \label{superiority_example_4_b}
+        John Pro *(zui) gao. \\
+        John Pro *(most) tall.  \\
+        `John is tallest.'
+
+    \end{enumerate}
+\end{enumerate}
+
+When the degree head is a null morpheme $\emptyset$ or a bound morpheme with phonetic realization like \textit{geng}(more) and \textit{zui}(most), the gradable adjective moves up to combine with the degree head \hl{Ref}. The comparee denoted by NP(DP) is base generated in the specifier of AP, where no case can be assigned. Therefore the comparee moves to the specifier of the IP to be assigned Nominative Case. \hl{do some lambda cal}
+
+Now let us turn to the semantic part. According to Abney's DegP hypothesis, the functional projection DegP in Superiority sentences consistently serves to bind the extra argument $d$ in the lexical entry of gradable adjectives by introducing the standard in comparative meaning. In terms of the function of the head of DegP, we make a significant  difference from previous scholars. The majority of previous analyses \hl{Ref} considers the comparative morpheme which occupies the head position of DegP bear the crucial ``greater than'' meaning in making comparison. However, the lexical entry of gradable adjectives shown in \ref{tallLE_re_a} which is repeated here as \ref{tallLE_re_re}, has already included ``the partial ordering relation'' which is established between the comparee and the standard along the dimension of scale denoted by the gradable adjective, which conveys the ``greater than'' meaning. Hence it is quite redundant to appoint another morpheme to denote the ``greater than'' meaning.  Here we assume that the functional head of DegP severs to usher in the standard as well as adjust the the method of absorbing the standard accordingly so that it be incorporated into the degree argument of the gradable. As a result, the semantic type and lexical entry of the head of DegP are variable corresponding to distinct standard types.
+
+\begin{enumerate}
+    \item \label{tallLE_re_re}
+    $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d] \qquad <d,<e,t>>$
+\end{enumerate}
+
+Semantics of these three variants $\xi_1$, $\xi_2$ and $\xi_3$ are elaborated as below.
+
+Semantic calculations in \ref{superiority_example_5} corresponds to the sentence in \ref{superiority_example_1_a} where the standard is a degree typed $d$. The lexical entry of the degree head $\xi_1$ is given in \ref{superiority_example_5_a}. The output proposition is paraphrased as \ref{superiority_example_5_e}, which derives the meaning of the sentence correctly.
+
+\begin{enumerate}
+    \item \label{superiority_example_5}
+    \begin{enumerate}
+        \item \label{superiority_example_5_a}
+        $[\![\xi_1]\!] = \lambda G \lambda d \lambda x.[G(x) \geq d] \qquad <<d,<e,t>>,<d,<e,t>>>$
+
+        \item \label{superiority_example_5_b}
+        $\begin{aligned}[t]
+            [\![\xi_1 \enspace gao]\!] &= \lambda G \lambda d \lambda x.[G(x) \geq d]([\![gao]\!]) \\
+            &= \lambda d \lambda x.[height(x) \geq d] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{superiority_example_5_c}
+        $\begin{aligned}[t]
+            [\![bi \enspace 1.7mi \enspace \xi_1 \enspace gao]\!] &= \lambda d \lambda x.[height(x) \geq d]([\![bi \enspace 1.7mi]\!]) \\
+            &= \lambda d \lambda x.[height(x) \geq d](1.7mi) \\
+            &= \lambda x.[height(x) \geq 1.7mi] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{superiority_example_5_d}
+        $\begin{aligned}[t]
+            [\![John \enspace bi \enspace 1.7mi \enspace \xi_1 \enspace gao]\!] &= \lambda x.[height(x) \geq 1.7mi](John) \\
+            &= height(John) \geq 1.7mi \qquad <t>
+        \end{aligned}$
+
+        \item \label{superiority_example_5_e}
+        \ref{superiority_example_5_d} is paraphrased as "the height of John exceeds 1.7 metres"
+
+    \end{enumerate}
+\end{enumerate}
+
+Semantic calculations in \ref{superiority_example_6} corresponds to the sentence in \ref{superiority_example_1_b} where the standard is an individual typed $e$. The lexical entry of the degree head $\xi_2$ is given in \ref{superiority_example_6_a}. The output proposition is paraphrased as \ref{superiority_example_6_e}, which derives the meaning of the sentence correctly.
+
+\begin{enumerate}
+    \item \label{superiority_example_6}
+    \begin{enumerate}
+        \item \label{superiority_example_6_a}
+        $[\![\xi_2]\!] = \lambda G \lambda y \lambda x.[G(x,Max \enspace d_2(G(y,d_2)))] \qquad <<d,<e,t>>,<e,<e,t>>>$
+
+        \item \label{superiority_example_6_b}
+        $\begin{aligned}[t]
+            [\![\xi_2 \enspace gao]\!] 
+            &= \lambda G \lambda y \lambda x.[G(x,Max \enspace d_2(G(y,d_2)))]([\![gao]\!]) \\
+            &= \lambda y \lambda x.[height(x) \geq Max \enspace d_2(height(y) \geq d_2)] \qquad <e,<e,t>>
+        \end{aligned}$
+
+        \item \label{superiority_example_6_c}
+        $\begin{aligned}[t]
+            [\![bi \enspace Mary \enspace \xi_2 \enspace gao]\!] 
+            &= \lambda y \lambda x.[height(x) \geq Max \enspace d_2(height(y) \geq d_2)]([\![bi \enspace Mary]\!]) \\
+            &= \lambda y \lambda x.[height(x) \geq Max \enspace d_2(height(y) \geq d_2)](Mary) \\
+            &= \lambda x.[height(x) \geq Max \enspace d_2(height(Mary) \geq d_2)] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{superiority_example_6_d}
+        $\begin{aligned}[t]
+            [\![John \enspace bi \enspace Mary \enspace \xi_2 \enspace gao]\!] 
+            &= \lambda x.[height(x) \geq Max \enspace d_2(height(Mary) \geq d_2)](John) \\
+            &= height(John) \geq Max \enspace d_2(height(Mary) \geq d_2 ) \qquad <t>
+        \end{aligned}$
+
+        \item \label{superiority_example_6_e}
+        \ref{superiority_example_6_d} is paraphrased as "the height of John exceeds the height of Mary"
+
+    \end{enumerate}
+\end{enumerate}
 
 
-$[\![\xi_{1,1}]\!]=\lambda G \lambda d \lambda x .[G(x,d)] \qquad <<d,<e,t>>,<d,<e,t>>$
 
 
-$[\![\xi_{1,2}]\!]=\lambda G \lambda x .[G(x,d_{stnd})] \qquad <<d,<e,t>>,<e,t>>$
 
-$[\![\xi_{2,1}]\!]=\lambda G \lambda y \lambda x . \exists d_1 [G(x,d_1) \land d_1=Max \enspace d_2(G(y,d_2))] \qquad <<d,<e,t>>,<e,<e,t>>>$
 
-$[\![\xi_{2,2}]\!]=\lambda G \lambda x . \exists d_1 [G(x,d_1) \land d_1=Max \enspace d_2(G(y_{stnd},d_2))] \qquad <<d,<e,t>>,<e,t>>$
 
-$[\![\xi_{3,1}]\!]=\lambda G \lambda C \lambda x . \exists d_1 [G(x,d_1) \land d_1=Max \enspace d_2(G(C,d_2))] \qquad <<d,<e,t>>,<e,<e,t>>>$
 
-$[\![\xi_{3,2}]\!]=\lambda G \lambda x . \exists d_1 [G(x,d_1) \land d_1=Max \enspace d_2(G(C_{stnd},d_2))] \qquad <<d,<e,t>>,<e,t>>$
 
-% mu对所有xi都只有一种
+
+
+
+
+
 
 $[\![\mu]\!]=\lambda G \lambda d^{\prime} \lambda d \lambda x. \exists d_1[G(x, d_1) \land | Max \enspace d_1 G(x,d_1)-d | =d^{\prime}] \qquad <<d,<e,t>>, <d,<d,<e,t>>>>$
 
