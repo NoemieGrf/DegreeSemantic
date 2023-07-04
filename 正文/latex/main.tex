@@ -3,6 +3,7 @@
 \usepackage{geometry}
 \usepackage{ctex}
 \usepackage{color}
+\usepackage{float}
 \usepackage{soul}
 \usepackage{amsmath}
 \usepackage[british]{babel}
@@ -245,8 +246,6 @@ For now, we give a clear classification to degree structures, and in next sectio
 
 \section{FORMER DEGREE SEMANTICS RESEARCH}
 
-\subsection{Some history}
-
 \noindent
 First founder of analysis on gradable adjectives is Cresswell \cite{cresswell1976}, who creates a third primitive semantic type $d$ besides the two primitive semantic types $e$ and $t$ in classical semantics Degree semanticists also identify three major parts of gradable adjectives:
 
@@ -256,38 +255,76 @@ First founder of analysis on gradable adjectives is Cresswell \cite{cresswell197
     \item[3.] The degree variable, indicating the value of $G(x)$. A gradable adjective of predictive use is analysed as a two-place predicate with the individual and the degree as its arguments.
 \end{itemize}
 
-Since Cresswell, the semantic type of gradable adjectives is largely debated. Von Stechow proposes a comprehensive constructive analysis of comparisons \cite{von1984a}, which becomes the so-called standard analysis later \cite{bale2011}. From his view, the meaning of gradable adjectives are interpreted as a measure function and an ordering relation. The measure function maps the individual to the dimension denoted by gradable adjectives and the ordering relation ensures that the scale of the individual exceeds the degree to compare. In generative grammar, a gradable adjective is the head of adjective phrase. It functions as a two-place predicate, with an individual typed $e$ and a degree typed $d$ as its two arguments. What deserves a note is it is von Stechow who in first seriously regards degrees denoted by symbol $d$ as one of the primitive semantic types and it is degree $d$ that captures the difference between gradable adjectives and non-gradable adjectives. Here the semantic type of gradable adjectives is manifested as $<d,<e,t>>$. Still giving \textit{tall} as an instance, the lexical entry of a gradable adjective is shown in \ref{von_stechow_LE}, in which height denotes the measure function encoded by \textit{tall} and $\geq$ denotes the ordering relation between the individual and the degree:
+After this, lots of research of degree sematic are raised up in past decades. Generally, there are two directions to discuss degree semantics, a syntactic way and semantic way. In syntax, scholars talk about the syntactic structure of degree phrase(DegP) and adjective phrase(AP), and serval classical structure came up in years. In semantic, scholars discuss the lexical entry of gradable adjectives and other morphemes appeared in degree construction, make lexical calculation, and try to make the application of their definition as large as possible.
+
+\subsection{Syntactic way}
+
+At the beginning, most researchers believe degree phrase is a specifier of adjective phrase \cite{chomsky1977,selkirk2015,bresnan1973,heim2000}, this kind of structure shows in \ref{old_deg_structure}. The main problem of this structure is that, standard as complement of the degree head will cause different degree heads lead different kinds of complements. In example \ref{old_deg_structure_example} shows this conflict, morpheme \textit{er} selects \textit{than Mary} as its complement, and \textit{est} selects \textit{all students} as its complement. But \textit{est} can not select \textit{than Mary}, which will cause grammar failure. The other problem of this kind of syntactic structure is that, a movement exists in this structure which makes gradable adjective moves from head of AP to AP's specifier phrase's head, aiming to combine with the degree head, shown in \ref{traditional_move}. This is not a acceptable movement.  
 
 \begin{enumerate}
-    \item \label{von_stechow_LE} $[\![tall]\!] = \lambda d \lambda x. [height(x) \geq d]$
+    \item \label{old_deg_structure} $[_{AP}[_{DegP}Deg[Standard]][_{A}...]]$
 \end{enumerate}
 
-The analysis of DegP headed by a degree morpheme is much more complicated. The semantic type of DegP is $<d,<e,t>>$. Based on the approach in generative grammar, DegP lands at an adjunct position of AP in the deep structure and then undergoes quantifier raising in the logical form to a node above the original IP inside which DegP is initially located, with the trace left denoting a $d$ type argument. The motivation for this movement is that, according to von Stechow’s analysis DegP can be regarded as isomorphic to a generalised quantifier phrase, an account under large debate afterwards.
-
-The head of DegP, giving the comparative morpheme -\textit{er} as the typical one, takes a ``than phrase'' (thanP) as its complement and a differential phrase as its specifier. Depending on various categories of complement in thanP as well as the overt appearance, such as \textit{2 meters}, or covert appearance of differential phrase. -\textit{er} has kinds of semantic variants:
-
-\begin{itemize}
-\item[1.]
-thanP can take three types of complement:
-
-\begin{itemize}
-\item[i.]
-A direct degree expression, such as than \textit{2 meters}, which denotes a degree argument typed $d$.
-\item[ii.]
-A comparative clause, such as \textit{than Mary is tall}, which denotes a property of degree argument, typed $<d,t>$ because according to the view of Chomsky, the comparative clause \textit{than Mary is tall} owns a deep structure looking like ``\textit{than} $how_i$ \textit{Mary is} $t_i$ \textit{tall}'' which undergoes \textit{wh}-movement, leaving the trace $t_i$ denoting a degree variable bound by $\lambda$-operator \cite{chomsky1977}.
-\item[iii.]
-A bare NP, such as \textit{than Mary}, regarded as a deletion from the full comparative clause \textit{than Mary is tall}, also denotes a property of degree argument typed $<d,t>$.
-\end{itemize}
-
-\item[2.]
-DiffP with overt appearance denotes a degree argument, typed $d$.
-
-\end{itemize}
-
-Here some examples of possible semantic variants of \textit{er} are illustrated:
+\begin{enumerate}
+    \item \label{old_deg_structure_example}
+    \begin{enumerate}
+        \item John is taller than Mary.
+        \item John is tallest of all students.
+    \end{enumerate}
+\end{enumerate}
 
 \begin{enumerate}
-    \item
+    \item \label{traditional_move}
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{pic/traditional_move.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Adjective movement when DegP as specifier of AP.
+    \end{caption}
+\end{figure}
+
+Abney argues that degree phrase is a functional projection which is above the adjective phrase \cite{abney1987}, and a lot of researchers follow it \cite{corver1993,zwarts1992}. This structure treats DegP as a natural extended projection of the gradable adjectives \cite{grimshaw2005}, and as a functional projection, selecting AP as its complement. This theory is called DegP hypothesis by later scholars. In DegP hypothesis, the general structure is described as followed. The XP in \ref{abney_deg_p} is different in different situation, it may quantifier phrase, or differential phrase, or measure phrase. Three examples and their syntactic structures shown in \ref{abney_deg_p_example}.
+
+\begin{enumerate}
+    \item \label{abney_deg_p} $[_{DegP} XP [_{Deg^{\prime}}Deg^0[_{AP}...]]] $
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{abney_deg_p_example}
+    \begin{enumerate}
+        \item \label{abney_deg_p_example_1}
+        much too tall.\\
+        $[_{DegP} [_{QP} much]] [_{Deg^{\prime}}Deg^0 \enspace too [_{AP}tall]] $
+        \item \label{abney_deg_p_example_2}
+        two meters as tall.\\
+        $[_{DegP} [_{MP} two \enspace meters]] [_{Deg^{\prime}}Deg^0 \enspace as [_{AP}tall]] $
+        \item \label{abney_deg_p_example_3}
+        two meters taller.\\
+        $[_{DegP} [_{DiffP} two \enspace meters]] [_{Deg^{\prime}}Deg^0 \enspace er [_{AP}tall]] $
+
+    \end{enumerate}
+\end{enumerate}
+
+DegP hypothesis fixes the problems mentioned above. For the first problem, degree head's complement becomes AP, and the comparee become AP's specifier. For the second problem, form \ref{degp_hypothesis}, we can tell that the gradable adjective moves form AP's head to DegP's head. The head of DegP, giving the comparative morpheme \textit{er} as the typical one, takes a ``than phrase'' (thanP) as its complement and a differential phrase as its specifier. Depending on various categories of complement in thanP as well as the overt appearance, such as \textit{2 meters}, or covert appearance of differential phrase. \textit{er} has kinds of semantic variants. First, \textit{er} can take a direct degree expression, such as than \textit{2 meters}, which denotes a degree argument typed $d$. Second, a comparative clause, such as \textit{than Mary is tall}, which denotes a property of degree argument, typed $<d,t>$ because according to the view of Chomsky, the comparative clause \textit{than Mary is tall} owns a deep structure looking like ``\textit{than} $how_i$ \textit{Mary is} $t_i$ \textit{tall}'' which undergoes \textit{wh}-movement, leaving the trace $t_i$ denoting a degree variable bound by $\lambda$-operator \cite{chomsky1977}. Third, a bare NP, such as \textit{than Mary}, regarded as a deletion from the full comparative clause \textit{than Mary is tall}, also denotes a property of degree argument typed $<d,t>$. Examples illustrated in \ref{er_var_example} are possible semantic variants of \textit{er}.
+
+\begin{enumerate}
+    \item \label{degp_hypothesis}
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{pic/degP_hy.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Adjective movement in DegP hypothesis.
+    \end{caption}
+\end{figure}
+
+\begin{enumerate}
+    \item \label{er_var_example}
     \begin{enumerate}
         \item \label{er_var_1} John is taller than 6 feet.
         \item \label{er_var_2} John is taller than Mary.
@@ -297,103 +334,79 @@ Here some examples of possible semantic variants of \textit{er} are illustrated:
 
 \end{enumerate}
 
-The thanP takes a direct degree expression as complement in \ref{er_var_1}, a bare NP in \ref{er_var_2}, a comparative clause in \ref{er_var_3} and \ref{er_var_4}. Optional differential phrase only owns overt appearance in \ref{er_var_4}. Based on the analysis above, sematic type of \textit{er} in \ref{er_var_1} is $<d,<<d,t>,t>>$, in \ref{er_var_2} as well as \ref{er_var_3} is $<<d,t>,<<d,t>,t>>$, in \ref{er_var_4} is $<<d,t>,<d,<<d,t>,t>>>$.
-
-According to type-driven computation in formal semantics, the gradable adjective typed $<d,<e,t>>$ first combines the trace of the semantic type $d$ which is left by DegP in the process of QR, then combines the subject in the matrix clause of the semantic type $e$, outputting a $t$ type proposition with a free degree variable. $\lambda$-abstraction turns this $t$ type open proposition into a property of degree typed $<d,t>$ which saturates DegP typed $<<d,t>,t>$. Finally, a $t$ type proposition is made out. Here we have successfully recapitulated the procedure in von Stechow's analysis of how to derive a comparative construction.
-
-The research of Kennedy investigates what the so-called gradable adjectives refer to as well as in what kind of constructions they appear, which is referred to as degree constructions in his paper \cite{kennedy1997}. In this research, Kennedy combines semantics and syntax to reveal the essence of this largely discussed topic.
-
-As to the semantic interpretation of gradable adjectives, there are two major schools:
-
-\begin{itemize}
-    \item[1.] Scalar analyses, in which the set of scales corresponding to a gradable adjective is compatible with the partial ordering relation\cite{cresswell1976,bierwisch1989}.
-    \item[2.] Vague predicate analyses, in which the extensions of gradable adjectives need to be determined according to the context\cite{ginet1973,kamp2013,klein1980}. 
-\end{itemize}
-
-Kennedy's analysis falls into the general family of scalar analyses. However, Kennedy also makes some revolution to the classical scalar analysis, particularly as to the semantic type of gradable adjectives, as well as the interpretation of degrees.
-
-Firstly, classical scalar analyses characterize the core meaning of gradable adjectives as an ordering relation between the target and the degree. Most scholars employing scalar approaches also believes the free variable degree to be bound by a quantificational expression\cite{hellan1981,hoeksema1983,von1984a}. In contrast, Kennedy assumes that gradable adjectives denote measure function, giving rise to his non-quantificational analysis of degree constructions.
-
-Kennedy identifies three semantic constituents in degree constructions \cite{russell1905}: 
-
-\begin{itemize}
-    \item[1.] A reference value $G(x)$, expressing the projection from the target $x$ to the scale associated with the gradable adjective $G$.
-    \item[2.] A standard value $s$, which is indicated via measure phrase or the comparative clause landing at the complement position of the preposition \textit{than}. 
-    \item[3.] Degree relation $R$, a partial ordering relation encoded by degree morphemes, elements of \{\textit{er/more, less, as, too, enough, so, how, ...}\}, which compares the reference value and the standard value. 
-\end{itemize}
-
-The formalization of degree constructions is shown in \ref{ref3}.
+After basic DegP hypothesis, there are serval modified versions raised up by later researchers. The most important modification of DegP hypothesis is the Larson's two layers DegP-shell structure \cite{larson1991}, and this kind of two layers shelled structure is the most famous structure in degree semantic these years \cite{grano2012,guo2012,xiang2005,fabregas2020}. In Larson's research, he propose a DegP-shell based on VP-shell structure, which is shown in \ref{deg_p_shell}. 
 
 \begin{enumerate}
-\item \label{ref3} $\lambda x.[R(G(x))(s)]$
+    \item \label{deg_p_shell} $[_{DegP} [_{Deg^{\prime}} Deg^0 [_{DegP} AP [_{Deg^{\prime}} Deg^0 [_{PP}...]]]]] $
 \end{enumerate}
 
-In terms of the syntactic structure of degree constructions, Kennedy projects the degree phrase headed by a degree morpheme as a functional phrase above the adjective phrase headed by a gradable morpheme, an account which is developed from approaches where adjectives are projected to an extended functional structure \cite{abney1987,corver1990,corver1997b,grimshaw1991}. The syntactic tree structure of degree constructions is shown in \ref{ref4}:
+In this structure, the specifier of higher DegP is empty position, whose only job is to introduce lower DegP's head. So there are two movements need to be done. \ref{larson_structure} gives a movement structure of \textit{taller than Mary}. The first movement is comparative morpheme \textit{er} moving form lower DegP's head to higher DegP's head, where is empty position in original, second movement is gradable adjective moving form lower DegP's specifier to higher DegP's head, to combine with comparative morpheme \textit{er} moved here before.
 
 \begin{enumerate}
-\item \label{ref4}
+    \item \label{larson_structure}
 \end{enumerate}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.5\textwidth]{pic/pic1.png}
-\begin{caption}
-     \\ \vspace{-1.1ex}
-     Kennedy's syntactic structure
-\end{caption}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pic/larson1.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Movements in Larson's DegP-shell structure.
+    \end{caption}
 \end{figure}
 
-Typically, scholars think that the meaning of gradable adjectives is composed of two major parts: a measure function and an ordering relation \cite{carston2013,horn1992}.
-
-In contrast, Kennedy's analysis excludes the relational component from the meaning of gradable adjectives, rather assigning this semantic part to the degree morphology. This division of labour between the gradable adjective and the degree morphology is also reflected by the AP/DegP extended projection. Therefore, Kennedy's analysis revises the semantic type of gradable adjectives from the traditional version $<d,<e,t>>$ to the simplified version $<e,t>$, making the complexity transmitted to the degree morphology.
-
-Secondly, Kennedy makes refinement to the interpretation of degrees. He argues that degrees should be formalized as extents\cite{seuren1978,von1984b,bierwisch1989,lobner2010} rather than as points on a scale, which is different from classical scalar analyses. Based on this extent-scalar view, Kennedy assumes that gradable adjectives characteristic of adjectival polarity can be divided into positive adjectives, such as \textit{tall}, and negative ones, such as \textit{short}. According to this distinction, the anomaly of comparisons made between antonymous adjectives as shown in \ref{ref5} can be explained by the undefined ordering relation for extents of opposite polarity:
+In Mandarin degree semantic, Xiang gives his structure with AP as higher DegP's complement and lower DegP as AP's complement. Structure's layout is shown in \ref{xiang_structure} explaining the movement of \ref{xiang_structure_example}, illustrates that AP is sandwiched by two DegPs \cite{xiang2005}. This structure is adopted by Grano who does little adjustment to explain transitive degree structure in Mandarin \cite{grano2012}. 
 
 \begin{enumerate}
-\item \label{ref5}
-*Carmen is taller than Mike is short.
+    \item \label{xiang_structure_example}
+    John bi Mary gao chu 2 limi.  \\
+    John than Mary tall exceed 2 centimeters. \\
+    `John is 2 centimeters taller than Mary.'
 \end{enumerate}
 
-\subsection{Lexical entry of gradable adjective}
-
-\noindent
-In order to take a deep investigation about phenomena mentioned in last section, we shall go back to the really beginning: the lexical entry of gradable adjectives. After a series of debates, form the modern view, there are two typical hypotheses of what this lexical entry should look like, which are shown in \ref{tallLE}. The definition of lexical entry of gradable adjectives is literally important, because different definitions of adjectives' lexical entry always lead totally different results in semantics and syntax just like butterfly effect.
-
 \begin{enumerate}
-    \item \label{tallLE}
-    
-    \begin{enumerate}
-        \item \label{tallLE_a} 
-        $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d]$
-    
-        \item \label{tallLE_b} 
-        $[\![tall]\!]=Height(x)=d$
-    
-    \end{enumerate}
+    \item \label{xiang_structure}
 \end{enumerate}
 
-\ref{tallLE_a} is a traditional lexical entry of gradable adjectives, and many researchers believe in it (\colorbox{yellow}{refhere}). Under this definition, gradable adjective \textit{tall} is considered as a relation of ``greater equal'', which is true when an individual $x$ as input and $x$'s height is at least as great as $d$. A simple application of this kind of lexical entry definition to \ref{old_school_def_example} is shown in \ref{old_school_def_example_LE}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pic/xiang.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Movements in Xiang's DegP-shell structure.
+    \end{caption}
+\end{figure}
+
+
+\subsection{Semantic way}
+
+The definition of lexical entry of gradable adjectives is literally important, because different definitions of adjectives' lexical entry always lead totally different results in semantics and syntax just like butterfly effect. Since Cresswell, the semantic type of gradable adjectives is largely debated. Von Stechow proposes a comprehensive constructive analysis of comparisons \cite{von1984a}, which becomes the so-called standard analysis later \cite{bale2011}. From his view, the meaning of gradable adjectives are interpreted as a measure function and an ordering relation. The measure function maps the individual to the dimension denoted by gradable adjectives and the ordering relation ensures that the scale of the individual exceeds the degree to compare. In generative grammar, a gradable adjective is the head of adjective phrase. It functions as a two-place predicate, with an individual typed $e$ and a degree typed $d$ as its two arguments. What deserves a note is it is von Stechow who in first seriously regards degrees denoted by symbol $d$ as one of the primitive semantic types and it is degree $d$ that captures the difference between gradable adjectives and non-gradable adjectives. Here the semantic type of gradable adjectives is manifested as $<d,<e,t>>$. Still giving \textit{tall} as an instance, the lexical entry of a gradable adjective is shown in \ref{von_stechow_LE}, in which height denotes the measure function encoded by \textit{tall} and $\geq$ denotes the ordering relation between the individual and the degree:
 
 \begin{enumerate}
+    \item \label{von_stechow_LE} $[\![tall]\!] = \lambda d \lambda x. [height(x) \geq d]$
+\end{enumerate}
 
+The analysis of DegP headed by a degree morpheme is much more complicated. The semantic type of DegP is $<d,<e,t>>$. Based on the approach in generative grammar, DegP lands at an adjunct position of AP in the deep structure and then undergoes quantifier raising in the logical form to a node above the original IP inside which DegP is initially located, with the trace left denoting a $d$ type argument. The motivation for this movement is that, according to von Stechow's analysis, DegP can be regarded as isomorphic to a generated quantifier phrase, an account under large debate afterwards.
+
+According to type-driven computation in formal semantics, the gradable adjective typed $<d,<e,t>>$ first combines the trace of the semantic type $d$ which is left by DegP in the process of QR, then combines the subject in the matrix clause of the semantic type $e$, outputting a $t$ type proposition with a free degree variable. $\lambda$-abstraction turns this $t$ type open proposition into a property of degree typed $<d,t>$ which saturates DegP typed $<<d,t>,t>$. Finally, a $t$ type proposition is made out. And this is the procedure in von Stechow's analysis of how to derive a comparative construction.
+
+Base on $<d,<e,t>>$ type gradable adjective and syntactic structure mentioned above, we can give the lexical entries in \ref{er_var_example}. The thanP takes a direct degree expression as complement in \ref{er_var_1}, a bare NP in \ref{er_var_2}, a comparative clause in \ref{er_var_3} and \ref{er_var_4}. Optional differential phrase only owns overt appearance in \ref{er_var_4}. Based on the analysis above, sematic type of \textit{er} in \ref{er_var_1} is $<d,<<d,t>,t>>$, in \ref{er_var_2} as well as \ref{er_var_3} is $<<d,t>,<<d,t>,t>>$, in \ref{er_var_4} is $<<d,t>,<d,<<d,t>,t>>>$.
+
+Under this definition, gradable adjective \textit{tall} is considered as a relation of ``greater equal'', which is true when an individual $x$ as input and $x$'s height is at least as great as $d$. A simple application of this kind of lexical entry definition to \ref{old_school_def_example} is shown in \ref{old_school_def_example_LE}.
+
+\begin{enumerate}
     \item \label{old_school_def_example} 2 meters tall.
-
 \end{enumerate}
 
 \begin{enumerate}
-
     \item \label{old_school_def_example_LE}
-    
     \begin{enumerate}
-        
         \item $[\![tall]\!]=\lambda d \lambda x.[Height(x) \geq d]$
         \item $[\![2 \enspace meters \enspace tall]\!]=\lambda x.[Height(x) \geq 2 \enspace meters]$
-
     \end{enumerate}
-
 \end{enumerate}
 
-Actually, lexical entry definition like \ref{tallLE_a} remains a problem with corresponding examples shown in \ref{old_school_def_problem}. In English, sometimes measure phrase can not directly combine with negative-pole adjectives. We can say someone is \textit{2 meters tall}, but can not say someone is \textit{2 meters short}. But situation changes when suffix \textit{er} shows up in \ref{old_school_def_problem_correct}, \textit{2 meters shorter} is a correct usage in English. Besides, this phenomenon is also a language-specific problem, in Japanese, we can not combine measure phrase even with \textit{segatakai}(`tall'). Traditional lexical entry of gradable adjectives has no ability to explain this phenomenon.
+Actually, lexical entry definition like \ref{von_stechow_LE} remains a problem with corresponding examples shown in \ref{old_school_def_problem}. In English, sometimes measure phrase can not directly combine with negative-pole adjectives. We can say someone is \textit{2 meters tall}, but can not say someone is \textit{2 meters short}. But situation changes when suffix \textit{er} shows up in \ref{old_school_def_problem_correct}, \textit{2 meters shorter} is a correct usage in English. Besides, this phenomenon is also a language-specific problem, in Japanese, we can not combine measure phrase even with \textit{segatakai}(`tall'). Traditional lexical entry of gradable adjectives has no ability to explain this phenomenon.
 
 \begin{enumerate}
 
@@ -411,7 +424,12 @@ Actually, lexical entry definition like \ref{tallLE_a} remains a problem with co
 
 Based on the problem mentioned above, there is another group of researchers propose that the gradable adjectives' lexical entry should not encode the partial ordering relation, instead, the gradable adjectives should reveal the original property of an individual, which means \textit{tall} should simply illustrate the height of an individual. Thus the lexical entry of gradable adjectives should looks like \ref{tallLE_b}, in which there is just a measure function. 
 
-Under this assumption, the partial ordering relation still needs a place to be introduced, if not, there will be a lexical entry type mismatch. The type of measure function \textit{tall} is $<e,d>$, but measure phrase is type $d$, so gradable adjectives are no way to composite with measure phrase on account of type-theoretic. To resolve this problem, Svenonius\cite{svenonius2006} claims that there is a null operator whose semantic function is linking the lexical entry of gradable adjectives and the lexical entry of measure phrase, and syntactic function is to introduce a degree argument and bear the mission of introducing the ``greater equal'' meaning. The denotation of this null operator is spelled out in \ref{gao_nop_LE}, and the \ref{gao_nop_LE_c} shows the composition of null operator and gradable adjective, which is same with \ref{tallLE_a}. The lexical entry of \ref{gao_nop_LE_c} is $<d,<e,t>>$, which can combine with measure phrase with out any type conflict.
+\begin{enumerate}
+    \item \label{tallLE_b} 
+    $[\![tall]\!]=Height(x)=d$
+\end{enumerate}
+
+Under this assumption, the partial ordering relation still needs a place to be introduced, if not, there will be a lexical entry type mismatch. The type of measure function \textit{tall} is $<e,d>$, but measure phrase is type $d$, so gradable adjectives are no way to composite with measure phrase on account of type-theoretic. To resolve this problem, Svenonius \cite{svenonius2006} claims that there is a null operator whose semantic function is linking the lexical entry of gradable adjectives and the lexical entry of measure phrase, and syntactic function is to introduce a degree argument and bear the mission of introducing the ``greater equal'' meaning. The denotation of this null operator is spelled out in \ref{gao_nop_LE}, and the \ref{gao_nop_LE_c} shows the composition of null operator and gradable adjective, which is same with \ref{von_stechow_LE}. The lexical entry of \ref{gao_nop_LE_c} is $<d,<e,t>>$, which can combine with measure phrase with out any type conflict.
 
 \begin{enumerate}
     \item \label{gao_nop_LE}
@@ -432,7 +450,7 @@ Under this assumption, the partial ordering relation still needs a place to be i
     \end{enumerate}
 \end{enumerate}
 
-Although the lexical result of null operator and adjectives in \ref{gao_nop_LE_c} looks exactly same with traditional lexical entry of gradable adjectives in \ref{tallLE_a}, which makes this null operator seems redundant. But this ``null operator + gradable adjective'' structure resolve the problem mentioned in \ref{old_school_def_problem}. Actually, this design separates the ``individual property function'' from ``greater equal meaning'', the former's owner is gradable function, and latter's owner is null operator. It is null operator who does not select for \textit{short} when measure phrase is \textit{2 meters}. And, this idiosyncratic property of null operator is language-specific. The advantage of this kind of structure is leaving language-specific problem to null operator and keeping gradable adjectives away form any idiosyncratic language-specific properties.
+Although the lexical result of null operator and adjectives in \ref{gao_nop_LE_c} looks exactly same with traditional lexical entry of gradable adjectives in \ref{von_stechow_LE}, which makes this null operator seems redundant. But this ``null operator + gradable adjective'' structure resolve the problem mentioned in \ref{old_school_def_problem}. Actually, this design separates the ``individual property function'' from ``greater equal meaning'', the former's owner is gradable function, and latter's owner is null operator. It is null operator who does not select for \textit{short} when measure phrase is \textit{2 meters}. And, this idiosyncratic property of null operator is language-specific. The advantage of this kind of structure is leaving language-specific problem to null operator and keeping gradable adjectives away form any idiosyncratic language-specific properties.
 
 Next questions are, whether this null operator has a specific phonetic expression in any language and where its position is in syntactic structure. 
 
@@ -473,9 +491,9 @@ For the first question, Svenonius does a deep investigation about Icelandic and 
     
 \end{enumerate}
 
-The $<e,d>$ type gradable adjectives seems a perfect definition. But I have to point out that, both lexical entries in \ref{tallLE} may cause a mismatch between the meaning given by lexical calculation and meaning given by language common sense. 
+The $<e,d>$ type gradable adjectives seems a perfect definition. But I have to point out that, both lexical entries in \ref{von_stechow_LE} and \ref{tallLE_b} may cause a mismatch between the meaning given by lexical calculation and meaning given by language common sense. 
 
-Since there are serval kinds of constructions of degree structures mentioned in first section which are comparative meaning and assignable meaning, a lexical should have ability to give a interpretation of all these structures. \ref{john_gao_2_mi} gives a assignable meaning form example, and it's lexical entry calculation is shown in \ref{john_gao_2_mi_LE}, who uses traditional gradable adjectives lexical type in \ref{tallLE_a}. To resolve $\lambda$ reduction, the lexical entry of \textit{tall} needs a measure phrase with lexical entry $d$ and an individual $x$ , which are respectively \textit{2 meters} and \textit{John}. \textit{2 meters} changes the semantic type of \textit{tall} from $<d,<e,t>>$ to $<e,t>$, and \textit{John} is input as type $e$ which makes final result to type $t$. The result of lexical entry calculation tells a truth that John's height is not only equal to 2 meters precisely, but also has a possibility to greater than 2 meters. But actually we do know that sentence in \ref{john_gao_2_mi} means John's height is 2 meters accurately, which is mismatch with the result of semantic calculation. The reason why this mistake is made is that the partial ordering relation of degree is encoded in gradable adjectives, \colorbox{yellow}{and there is no way to resolve this ``greater equal''}. \ref{tallLE_b} will also lead this problem, since the lexical entry of the combination of null operator and gradable adjective is same with the lexical entry shown in \ref{tallLE_a}.
+Since there are serval kinds of constructions of degree structures mentioned in first section which are comparative meaning and assignable meaning, a lexical should have ability to give a interpretation of all these structures. \ref{john_gao_2_mi} gives a assignable meaning form example, and it's lexical entry calculation is shown in \ref{john_gao_2_mi_LE}, who uses traditional gradable adjectives lexical type in \ref{von_stechow_LE}. To resolve $\lambda$ reduction, the lexical entry of \textit{tall} needs a measure phrase with lexical entry $d$ and an individual $x$ , which are respectively \textit{2 meters} and \textit{John}. \textit{2 meters} changes the semantic type of \textit{tall} from $<d,<e,t>>$ to $<e,t>$, and \textit{John} is input as type $e$ which makes final result to type $t$. The result of lexical entry calculation tells a truth that John's height is not only equal to 2 meters precisely, but also has a possibility to greater than 2 meters. But actually we do know that sentence in \ref{john_gao_2_mi} means John's height is 2 meters accurately, which is mismatch with the result of semantic calculation. The reason why this mistake is made is that the partial ordering relation of degree is encoded in gradable adjectives, \colorbox{yellow}{and there is no way to resolve this ``greater equal''}. \ref{tallLE_b} will also lead this problem, since the lexical entry of the combination of null operator and gradable adjective is same with the lexical entry shown in \ref{von_stechow_LE}.
 
 \begin{enumerate}
     \item \label{john_gao_2_mi} Jhon is 2 meters tall.
@@ -505,42 +523,6 @@ Since there are serval kinds of constructions of degree structures mentioned in 
 
 To fix this problem, this paper propose that the lexical entries of gradable adjective in superiority meaning and assignable meaning should be different. The detail will be discussed in next section.
 
-\subsection{DegP hypotheses and DegP-Shell}
-
-\noindent
-Before Abney, most researchers believe degree phrase is a specifier of adjective phrase, but Abney argues that degree phrase is a functional projection which is above the adjective phrase \cite{abney1987}. This theory is called DegP hypotheses by later scholars. In DegP hypotheses, the general structure is described as followed. The XP in \ref{abney_deg_p} is different in different situation, it may quantifier phrase, or differential phrase, or measure phrase. Three examples and their syntactic structures shown in \ref{abney_deg_p_example}.
-
-\begin{enumerate}
-    \item \label{abney_deg_p} $[_{DegP} XP [_{Deg^{\prime}}Deg^0[_{AP}...]]] $
-\end{enumerate}
-
-\begin{enumerate}
-    \item \label{abney_deg_p_example}
-    \begin{enumerate}
-        \item \label{abney_deg_p_example_1}
-        much too tall.\\
-        $[_{DegP} [_{QP} much]] [_{Deg^{\prime}}Deg^0 \enspace too [_{AP}tall]] $
-        \item \label{abney_deg_p_example_2}
-        two meters as tall.\\
-        $[_{DegP} [_{MP} two \enspace meters]] [_{Deg^{\prime}}Deg^0 \enspace as [_{AP}tall]] $
-        \item \label{abney_deg_p_example_3}
-        two meters taller.\\
-        $[_{DegP} [_{DiffP} two \enspace meters]] [_{Deg^{\prime}}Deg^0 \enspace er [_{AP}tall]] $
-
-    \end{enumerate}
-\end{enumerate}
-
-After basic DegP hypotheses, there are serval modified versions raised up by later researchers. The most important modification of DegP hypotheses is the Larson's DegP-shell structure \cite{larson1991}. In Larson's research, he propose a DegP-shell based on VP-shell structure, which is shown in \ref{deg_p_shell}. Compare to single layer DegP hypotheses, shelled structure has the ability to described a whole comparative form, such as example in \ref{deg_p_shell_example}.
-
-\begin{enumerate}
-    \item \label{deg_p_shell} $[_{DegP} [_{Deg^{\prime}} Deg^0 [_{DegP} AP [_{Deg^{\prime}} Deg^0 [_{PP}...]]]]] $
-\end{enumerate}
-
-\begin{enumerate}
-    \item \label{deg_p_shell_example} 
-    John is taller than Mary. \\
-    $[_{DegP} John [_{Deg^{\prime}} Deg^0 [_{DegP} AP [_{Deg^{\prime}} Deg^0 [_{PP}...]]]]] $
-\end{enumerate}
 
 \section{MANDARIN DEGREE SEMANTIC ANALYSIS}
 
@@ -571,7 +553,7 @@ Next, follow the classification given in the introduction, the syntactic structu
 \noindent
 At the beginning, here we propose that there are two types syntactic structures in comparative meaning. For convenient, we give the two layers structure a name ``DegP-AP'' structure, and three layers structure a name ``DegP-DegP-AP''. 
 
-In the ``DegP-DegP-AP'' structure, the head of the higher DegP functions to introduce the standard, and the head of the lower DegP functions to introduce the difference between the comparee and the standard which is denoted by a differential phrase. The gradable adjective is the head of the adjective phrase. For the semantic part, given the DegP hypotheses illustrated above, the higher DegP is obligatory in that, the extra argument $d$ should be bound by a functional projection which ultimately shifts the semantic type of gradable adjectives form $<d,<e,t>>$ to $<e,t>$, in order to absorb the comparee typed $e$ successfully. The differential phrase is not required by the lexical entry of gradable adjectives, which can also support its optional appearance. From our intuition, the non-appearance of a standard (explicit or implicit) leads to the failure of expressing the comparative meaning, in contrast, the difference between the comparee and the standard should in no way be expressed consistently. In addition, the occurrence of the difference between two objects naturally requires the the occurrence of the two objects to be compared as a prerequisite. Here we assume that the lower DegP is projected if and only if there is an explicit differential phrase and the differential phrase is strictly greater than zero. The explanations of this assumption will be elaborated immediately on the below. In addition, the non-appearance of a projection when it is not needed in completing the meaning of an utterance also satisfies the economical principal of language.
+In the ``DegP-DegP-AP'' structure, the head of the higher DegP functions to introduce the standard, and the head of the lower DegP functions to introduce the difference between the comparee and the standard which is denoted by a differential phrase. The gradable adjective is the head of the adjective phrase. For the semantic part, given the DegP hypothesis illustrated above, the higher DegP is obligatory in that, the extra argument $d$ should be bound by a functional projection which ultimately shifts the semantic type of gradable adjectives form $<d,<e,t>>$ to $<e,t>$, in order to absorb the comparee typed $e$ successfully. The differential phrase is not required by the lexical entry of gradable adjectives, which can also support its optional appearance. From our intuition, the non-appearance of a standard (explicit or implicit) leads to the failure of expressing the comparative meaning, in contrast, the difference between the comparee and the standard should in no way be expressed consistently. In addition, the occurrence of the difference between two objects naturally requires the the occurrence of the two objects to be compared as a prerequisite. Here we assume that the lower DegP is projected if and only if there is an explicit differential phrase and the differential phrase is strictly greater than zero. The explanations of this assumption will be elaborated immediately on the below. In addition, the non-appearance of a projection when it is not needed in completing the meaning of an utterance also satisfies the economical principal of language.
 
 We further classifies the comparative meaning into three distinct subtypes, which are positivity, superiority and equality. We will unfold the syntactic structures and the semantic interpretations of these three subtypes below.
 
@@ -630,7 +612,7 @@ According to the assumption about one functional layer or two functional layers 
     \item $John [_{DegP} hen \enspace \xi [_{AP} gao]]$
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{pic/positive_structure.png}
     \begin{caption}
@@ -749,9 +731,9 @@ Although types of the standard in these three sentences above are different, the
     $[_{IP} [CompareeP] [_{I^{\prime}} I^{0} [_{...} [[_{DegP} [StndP] [_{Deg^{\prime}} \xi_{n} [_{AP} [_{A^{\prime}} A^{0}]]]]]]]] \qquad n \in \{1, 2, 3\}$
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{pic/superiority_structure.png}
+    \includegraphics[width=0.6\textwidth]{pic/superiority_structure.png}
     \begin{caption}
         \\ \vspace{-1.1ex}
         Structure for Superiority with standard phrase.
@@ -975,7 +957,7 @@ Syntactic structure is the first priority, \ref{superiority_structure_with_diffP
     \end{aligned}$
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{pic/superiority_structure_diff.png}
     \begin{caption}
