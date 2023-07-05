@@ -27,13 +27,11 @@ DiffP
 
 
 
-Equality和Superiorty分类需要一个引用
-
-
 格式未调整部分
 
 
 图片位置
 
+G的det
 
 
