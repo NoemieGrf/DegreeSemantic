@@ -880,14 +880,15 @@ Semantic calculations in \ref{superiority_example_7} corresponds to the sentence
         $\begin{aligned}[t]
             [\![\xi_3]\!] 
             &= \lambda G \lambda C \lambda x.[G(x,Max \enspace d_2(G(C,d_2)))] \\
-            & \qquad <<d,<e,t>>,<<e,t>,<e,t>>>
+            & <<d,<e,t>>,<<e,t>,<e,t>>>
         \end{aligned}$
 
         \item \label{superiority_example_7_b}
         $\begin{aligned}[t]
             [\![\xi_3 \enspace gao]\!] 
             &= \lambda G \lambda C \lambda x.[G(x,Max \enspace d_2(G(C,d_2)))]([\![gao]\!]) \\
-            &= \lambda C \lambda x.[height(x) \geq Max \enspace d_2(height(C) \geq d_2)] \qquad <<e,t>,<e,t>>
+            &= \lambda C \lambda x.[height(x) \geq Max \enspace d_2(height(C) \geq d_2)] \\ 
+            &<<e,t>,<e,t>>
         \end{aligned}$
 
         \item \label{superiority_example_7_c}
@@ -895,14 +896,16 @@ Semantic calculations in \ref{superiority_example_7} corresponds to the sentence
             [\![zai \enspace yiban \enspace & zhong \enspace \xi_3 \enspace gao]\!] \\
             &= \lambda C \lambda x.[height(x) \geq Max \enspace d_2(height(C) \geq d_2)]([\![zai \enspace yiban \enspace zhong]\!]) \\
             &= \lambda C \lambda x.[height(x) \geq Max \enspace d_2(height(C) \geq d_2)](yiban) \\
-            &= \lambda x.[height(x) \geq Max \enspace d_2(height(yiban) \geq d_2)] \qquad <e,t>
+            &= \lambda x.[height(x) \geq Max \enspace d_2(height(yiban) \geq d_2)] \\
+            & <e,t>
         \end{aligned}$
 
         \item \label{superiority_example_7_d}
         $\begin{aligned}[t]
             [\![John \enspace zai \enspace yiban & \enspace zhong \enspace \xi_3 \enspace gao]\!] \\
             &= \lambda x.[height(x) \geq Max \enspace d_2(height(yiban) \geq d_2)](John) \\
-            &= height(John) \geq Max \enspace d_2(height(yiban) \geq d_2) \qquad <t>
+            &= height(John) \geq Max \enspace d_2(height(yiban) \geq d_2) \\
+            &<t>
         \end{aligned}$
 
         \item \label{superiority_example_7_e}
@@ -1002,28 +1005,20 @@ This clear division of labor in terms of the semantic meaning bore by each compo
 
 \subsubsection{Equality}
 
-Some examples of comparative of equality are shown in \ref{equality_example}. What should be noticed again is that, the equality form is kind of comparative meaning under the classification given in the introduction. The gradable adjectives in equality form bear the function of ``comparsion'' rather than ``assignment''. For example, in \ref{equality_example_1_a}, gradable adjective \textit{gao}(`tall') does not assign the value of \textit{Mary}'s height to \textit{John}'s height, but make difference between the value of \textit{Mary}'s height and \textit{John}'s height, and the morpheme \textit{yiyang}(`same') gives the truth that this difference is equal to zero. Thus the equality form is a kind of comparative meaning.
+A simple example of comparative of equality are shown in \ref{equality_example}. What should be noticed again is that, the equality form is kind of comparative meaning under the classification given in the introduction. The gradable adjectives in equality form bear the function of ``comparsion'' rather than ``assignment''. For example, in \ref{equality_example_1}, gradable adjective \textit{gao}(`tall') does not assign the value of \textit{Mary}'s height to \textit{John}'s height, but make difference between the value of \textit{Mary}'s height and \textit{John}'s height, and the morpheme \textit{yiyang}(`same') gives the truth that this difference is equal to zero. Thus the equality form is a kind of comparative meaning.
 
 \begin{enumerate}
     \item \label{equality_example_1}
-    \begin{enumerate}
-        \item \label{equality_example_1_a}
-        John he Mary yiyang gao. \\
-        John and Mary same tall. \\
-        `John is as tall as Mary.'
-
-        \item \label{equality_example_1_b}
-        John he Mary yiyang gao 2 mi. \\
-        John and Mary same tall 2 meters. \\
-        `John is as 2 meters tall as Mary.'
-    \end{enumerate}
+    John he Mary yiyang gao. \\
+    John and Mary same tall. \\
+    `John is as tall as Mary.'
 \end{enumerate}
 
-The comparative of equality only need two layer structure ``DegP-AP'' to finish its syntactic job, and the tree structure is shown in \ref{equality_example_2} \hl{replace figure here}. The \textit{he}(`and') phrase (heP) occupies the specifier of DegP, and the morpheme \textit{yiyang}(`as') is free morpheme, which will block the movement of the gradable adjective \textit{gao}(`tall'). The comparee phrase is denoted by NP(DP) which needs to be assigned with Case. However, the specifier of AP is a position where no Case can be assigned. As a result, the comparee phrase moves to the specifier of IP, where it is assigned Nominative Case.
+The comparative of equality only need two layer structure ``DegP-AP'' to finish its syntactic job, and the tree structure is shown in \ref{equality_example_2}. The \textit{he}(`and') phrase (heP) occupies the specifier of DegP, and the morpheme \textit{yiyang}(`same') is free morpheme, which will block the movement of the gradable adjective \textit{gao}(`tall'). The comparee phrase is denoted by NP(DP) which needs to be assigned with Case. However, the specifier of AP is a position where no Case can be assigned. As a result, the comparee phrase moves to the specifier of IP, where it is assigned Nominative Case.
 
 \begin{enumerate}
     \item \label{equality_example_2}
-    $ wai bi ba bo, ma ka ba ka$
+    $ [_{IP} NP [_{I'} I_0[_{...}[_{DegP}stndP[_{Deg'}Deg^0[_{AP}[A^0]]]]]]]$
 \end{enumerate}
 
 \begin{figure}[H]
@@ -1031,22 +1026,82 @@ The comparative of equality only need two layer structure ``DegP-AP'' to finish 
     \includegraphics[width=0.5\textwidth]{pic/yiyanggao.png}
     \begin{caption}
         \\ \vspace{-1.1ex}
-        Structure for Positivity.
+        Structure for comparative of positivity.
     \end{caption}
 \end{figure}
 
-After syntactic analysis, followed semantic lexical entry calculation. 
+After syntactic analysis, followed semantic lexical entry calculation. \ref{equality_example_3} is semantic calculation corresponding example \ref{equality_example_1}. The crucial point is the lexical entry of morpheme \textit{yiyang}(`same'), as mentioned above, the essence of comparative of equality is the difference of two values is absolute zero, which is \ref{equality_example_3_a} represent. There is another kine of definition of the lexical entry of \textit{yiyang}(`same') which is shown in \ref{equality_example_3_a_prime}, using equal sign to replace the minus sign. Using this equal sign lexical entry, we can deduce a result which has same expression meaning with \ref{equality_example_3_d}, the reason we do not adopt this is the equal sign always gives a assignment meaning, which is conflict with the comparative meaning.
 
 \begin{enumerate}
     \item \label{equality_example_3}
     \begin{enumerate}
         \item \label{equality_example_3_a}
-        
+        $\begin{aligned}[t]
+            [\![yiyang]\!] 
+            &= \lambda G \lambda y \lambda x.[Max \enspace d_1 G(x,d_1) -  Max \enspace d_2 G(x,d_2) = 0]\\ &
+            <<d,<e,t>>,<e,<e,t>>>
+        \end{aligned}$
+
+        \item \label{equality_example_3_a_prime}
+        $\begin{aligned}[t]
+            [\![yiyang_{2}]\!] 
+            &= \lambda G \lambda y \lambda x.[Max \enspace d_1 G(x,d_1) =  Max \enspace d_2 G(x,d_2)]\\ &
+            <<d,<e,t>>,<e,<e,t>>>
+        \end{aligned}$
+
+        \item \label{equality_example_3_b}
+        $\begin{aligned}[t]
+            [\![yiyang \enspace gao]\!] 
+            &= \lambda G \lambda y \lambda x.[Max \enspace d_1 G(x,d_1) - Max \enspace d_2 G(x,d_2) = 0]([\![gao]\!] ) \\
+            &= \lambda y \lambda x.[Max \enspace d_1 (height(x) \geq d_1) - Max \enspace d_2 (height(y) \geq d_2) = 0] \\
+            & <e,<e,t>>
+        \end{aligned}$
+
+        \item \label{equality_example_3_c}
+        $\begin{aligned}[t]
+            [\![he &\enspace Mary \enspace yiyang \enspace gao]\!] \\
+            &= \lambda y \lambda x.[Max \enspace d_1 (height(x) \geq d_1) - Max \enspace d_2 (height(y) \geq d_2) = 0]([\![he \enspace Mary]\!]) \\
+            &= \lambda y \lambda x.[Max \enspace d_1 (height(x) \geq d_1) - Max \enspace d_2 (height(y) \geq d_2) = 0](Mary)  \\
+            &= \lambda x.[Max \enspace d_1 (height(x) \geq d_1) - Max \enspace d_2 (height(Mary) \geq d_2) = 0] \\
+            & <e,t>
+        \end{aligned}$
+
+        \item \label{equality_example_3_d}
+        $\begin{aligned}[t]
+            [\![John &\enspace he \enspace Mary \enspace yiyang \enspace gao]\!] \\
+            &= \lambda x.[Max \enspace d_1 (height(x) \geq d_1) - Max \enspace d_2 (height(Mary) \geq d_2) = 0]([\![John]\!]) \\
+            &= Max \enspace d_1 (height(John) \geq d_1) - Max \enspace d_2 (height(Mary) \geq d_2) = 0 \\
+            & <t>
+        \end{aligned}$
+    \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{equality_example_1}
+    \begin{enumerate}
+        \item \label{equality_example_1_a}
+        John he Mary yiyang gao 2 mi. \\
+        John and Mary same tall 2 meters. \\
+        `John is as 2 meters tall as Mary.'
+
+        \item \label{equality_example_1_b}
+        John he Mary yiyang gao 2 mi duo. \\
+        John and Mary same tall 2 meters more. \\
+        `John is as more than 2 meters tall as Mary.'
     \end{enumerate}
 \end{enumerate}
 
 
 \subsection{Assignable meaning}
+
+In assignable meaning degree Structure, this paper will adjust the standard lexical entry of gradable adjectives, modify the greater equal sign to absolute equal sign, which is shown in \ref{tallLE_re_b} and re-wrote in \ref{tallLE_re_re_b}. Because the gradable adjectives in assignable meaning bear the function of assignment, which is different with comparative meaning. If in assignable meaning with ``greater equal'' relation lexical entry, a mistake discussed in second 2 will occur, and the reason is the result of lexical entry calculation will be different with the original meaning. 
+
+\begin{enumerate}
+    \item \label{tallLE_re_re_b}
+    $[\![tall]\!]=\lambda d \lambda x.[Height(x) = d]$
+\end{enumerate}
+
+Examples shown in \ref{assignable_example_1} are classical expression in assignable meaning. 
 
 \begin{enumerate}
     \item \label{assignable_example_1}
@@ -1063,6 +1118,57 @@ After syntactic analysis, followed semantic lexical entry calculation.
         
     \end{enumerate}
 \end{enumerate}
+
+
+
+\begin{enumerate}
+    \item \label{assignable_structure}
+    $[_{IP} NP [_{I'} I_0[_{...}[_{DegP}assignP[_{Deg'}Deg^0[_{AP}[A^0]]]]]]]$
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pic/assignment_meaning.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Structure for assignable meaning.
+    \end{caption}
+\end{figure}
+
+
+\begin{enumerate}
+    \item \label{assignable_example_lambda}
+    \begin{enumerate}
+        \item \label{assignable_example_lambda_a}
+        $\begin{aligned}[t]
+            [\![\varphi]\!] = \lambda G \lambda d \lambda x.[G(x,d)] \qquad <<d,<e,t>>,<d,<e,t>>>
+        \end{aligned}$
+
+        \item \label{assignable_example_lambda_b}
+        $\begin{aligned}[t]
+            [\![\varphi \enspace gao]\!] 
+            &= \lambda G \lambda d \lambda x.[G(x,d)]([\![gao]\!]) \\
+            &= \lambda d \lambda x.[height(x) = d] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{assignable_example_lambda_c}
+        $\begin{aligned}[t]
+            [\![you \enspace 2m \enspace &\varphi \enspace gao]\!] \\
+            &= \lambda d \lambda x.[height(x) = d]([\![you \enspace 2mi]\!]) \\
+            &= \lambda d \lambda x.[height(x) = d](2mi) \\
+            &= \lambda x.[height(x) = 2mi] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{assignable_example_lambda_d}
+        $\begin{aligned}[t]
+            [\![John \enspace you \enspace &2m \enspace \varphi \enspace gao]\!] \\
+            &= \lambda x.[height(x) = 2mi]([\![John]\!]) \\
+            &= height(John)=2m \qquad <t>
+        \end{aligned}$
+        
+    \end{enumerate}
+\end{enumerate}
+
 
 \begin{enumerate}
     \item \label{assignable_example_transitive}
