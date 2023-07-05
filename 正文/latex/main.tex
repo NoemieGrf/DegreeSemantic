@@ -539,10 +539,8 @@ Since there are serval kinds of constructions of degree structures mentioned in 
 
 To fix this problem, this paper propose that the lexical entries of gradable adjective in superiority meaning and assignable meaning should be different. The detail will be discussed in next section.
 
+\subsection{Layout}
 
-\section{MANDARIN DEGREE SEMANTIC ANALYSIS}
-
-\noindent
 In this section, this paper will do serval works to give a semantic and syntactic analyses of simple degree structure in Mandarin. At the first, based on former researchers' work, this paper will give lexical entry of gradable adjectives. After that, based on classification given in introduction, this paper will give a whole analyses respectively.
 
 From this paper's view, different meaning of degree constructions should have different lexical entries of gradable adjectives. Because the function of gradable adjectives is totally different in superiority meaning and assignable meaning. As discussed in introduction, a degree structure is superiority meaning when gradable adjective bears comparison function, so this paper adopt the partial ordering definition of lexical entry, which is re-wrote in \ref{tallLE_re_a}; and on the opposite, a degree structure is assignable meaning when gradable adjective bears assignment function, thus the lexical entry of gradable adjective should have a equal sign, which is shown in \ref{tallLE_re_b}.
@@ -564,8 +562,6 @@ Another reason which supports the separation of lexical entries is the mistake m
 
 Next, follow the classification given in the introduction, the syntactic structure and semantic calculation will be given respectively in follow parts.
 
-\subsection{Comparative meaning}
-
 \noindent
 At the beginning, here we propose that there are two types syntactic structures in comparative meaning. For convenient, we give the two layers structure a name ``DegP-AP'' structure, and three layers structure a name ``DegP-DegP-AP''. 
 
@@ -573,7 +569,109 @@ In the ``DegP-DegP-AP'' structure, the head of the higher DegP functions to intr
 
 We further classifies the comparative meaning into three distinct subtypes, which are positivity, superiority and equality. We will unfold the syntactic structures and the semantic interpretations of these three subtypes below.
 
-\subsubsection{Positivity}
+\section{ASSIGNABLE MEANING}
+
+In assignable meaning degree Structure, this paper will adjust the standard lexical entry of gradable adjectives, modify the greater equal sign to absolute equal sign, which is shown in \ref{tallLE_re_b} and re-wrote in \ref{tallLE_re_re_b}. Because the gradable adjectives in assignable meaning bear the function of assignment, which is different with comparative meaning. If in assignable meaning with ``greater equal'' relation lexical entry, a mistake discussed in second 2 will occur, and the reason is the result of lexical entry calculation will be different with the original meaning. 
+
+\begin{enumerate}
+    \item \label{tallLE_re_re_b}
+    $[\![tall]\!]=\lambda d \lambda x.[Height(x) = d]$
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{assignable_example_1}
+    \begin{enumerate}
+        \item \label{assignable_example_1_a}
+        John you 2 mi gao. \\
+        John have 2 meters tall. \\
+        `John is 2 meters tall'
+        
+        \item \label{assignable_example_1_b}
+        John you 2 mi duo gao. \\
+        John have 2 meters more tall. \\
+        `John is more than 2 meters tall'
+        
+    \end{enumerate}
+\end{enumerate}
+
+Examples shown in \ref{assignable_example_1} are classical expression in assignable meaning, and the syntactic tree of \ref{assignable_example_1_a} is shown in \ref{assignable_structure}. The structure is quite similar with the syntactic structure of the comparative of superiority without DiffP shown in \ref{superiority_structure}. Little differences are, the morpheme \textit{you}(`have') take the place of the specifier of PredP, the measure phrase here we call it assignment phrase (assignP), and the operator at the head of DegP we call it $\varphi$. The movements in this tree are also similar with the movements in \ref{superiority_structure}, so there is need to repeat it.
+
+Example \ref{assignable_example_1_b} gives a truth that \textit{John}'s height is more than 2 meters, the morpheme \textit{duo}(`more') plays the role of suffix of \textit{2mi} and changes it's absolute value to a vague value. From this paper's perspective, \textit{duo}(`more') here does not have independent position in syntactic structure.
+
+\begin{enumerate}
+    \item \label{assignable_structure}
+    $[_{IP} NP [_{I'} I_0[_{...}[_{PredP}[_{Pred'}Pred^0[_{DegP}assignP[_{Deg'}Deg^0[_{AP}[A^0]]]]]]]]]$
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{pic/assignment_meaning.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Structure for assignable meaning.
+    \end{caption}
+\end{figure}
+
+The assignable meaning can also build transitive form. The transitive form of \ref{assignable_example_1_a} is \ref{assignable_example_1_a_transitive}, and the construction of this form is shown in \ref{assignable_example_1_a_transitive_tree}. When morpheme \textit{you}(`have') disappears, the gradable adjective moves up to occupy the position of the head of PredP.
+
+\begin{enumerate}
+    \item \label{assignable_example_1_a_transitive}
+    John gao 2 mi. \\
+    John tall 2 meters. \\
+    `John is 2 meters tall'
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{assignable_example_1_a_transitive_tree}
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pic/assignment_meaning_transitive.png}
+    \begin{caption}
+        \\ \vspace{-1.1ex}
+        Structure for assignable meaning.
+    \end{caption}
+\end{figure}
+
+Next, the lexical calculation of \ref{assignable_example_1_a} illustrated. The operator $\varphi$ is just a null operator whose job is pass the type $<d,<e,t>>$ to next part. Other deduction is trivial.
+
+\begin{enumerate}
+    \item \label{assignable_example_lambda}
+    \begin{enumerate}
+        \item \label{assignable_example_lambda_a}
+        $\begin{aligned}[t]
+            [\![\varphi]\!] = \lambda G \lambda d \lambda x.[G(x,d)] \qquad <<d,<e,t>>,<d,<e,t>>>
+        \end{aligned}$
+
+        \item \label{assignable_example_lambda_b}
+        $\begin{aligned}[t]
+            [\![\varphi \enspace gao]\!] 
+            &= \lambda G \lambda d \lambda x.[G(x,d)]([\![gao]\!]) \\
+            &= \lambda d \lambda x.[height(x) = d] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{assignable_example_lambda_c}
+        $\begin{aligned}[t]
+            [\![you \enspace 2m \enspace &\varphi \enspace gao]\!] \\
+            &= \lambda d \lambda x.[height(x) = d]([\![you \enspace 2mi]\!]) \\
+            &= \lambda d \lambda x.[height(x) = d](2mi) \\
+            &= \lambda x.[height(x) = 2mi] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{assignable_example_lambda_d}
+        $\begin{aligned}[t]
+            [\![John \enspace you \enspace &2m \enspace \varphi \enspace gao]\!] \\
+            &= \lambda x.[height(x) = 2mi]([\![John]\!]) \\
+            &= height(John)=2m \qquad <t>
+        \end{aligned}$
+        
+    \end{enumerate}
+\end{enumerate}
+
+\section{COMPARATIVE MEANING}
+
+\subsection{Positivity}
 
 \noindent
 Firstly, a example of comparative of positivity is shown in \ref{positivity_example_1}. Literaturally, it is classified into the positive form. In this paper, we identify this sentence as positivity ushered in the comparative meaning, which is significantly from previous analyses. The reason this sentence is classified as expressing kind of comparative meaning is that the positive judgment of this sentence is based on a comparison between the height of \textit{John} and a value of height considered as the standard by people in mind, which needs not to be indicated or inferred from the context. In fact, this standard value is encoded into the comparative morpheme in positivity sentences. It deserves some notice that positivity is different from comparative of superiority with implicit standard, in that the implicit standard can be inferred from the context rather than encoded by the comparative morpheme itself. The contrast between the sentences in \ref{positivity_example_2_a} and \ref{positivity_example_2_b} can well reveal this point, where the implicit standard is represented as ``Pro'', which can be replaced with the corresponding expression from the context. The meaning of \ref{positivity_example_2_a} and \ref{positivity_example_2_b} is exactly the same, which can also demonstrate the correctness of identifying the implicit standard as ``Pro''. In contrast, we cannot reconstruct the explicit standard from the context for comparative of positivity which explains for the illegitimacy of the sentence in \ref{positivity_example_3_a}.
@@ -711,6 +809,57 @@ With the lexical entry of the gradable adjective \textit{tall} given in \ref{tal
     \end{enumerate}
 \end{enumerate}
 
+\subsection{Superiority}
+
+Most of previous studies are inclined to appoint too heavy semantic function to one of the degree head and as a result make the semantic function of the other degree head marginal and transparent. What is worse, the ``greater than'' meaning encoded in the lexical entry of gradable adjective is seized by a degree head which should not have been in charge of indicating the ordering relation between the comparee and the standard. In addition, the transfer of the ``greater than'' meaning from gradable adjectives to the degree head would give rise to incorrect reading of sentences made out of gradable adjectives with DiffP.
+
+Here we illustrate this fatal disadvantage with an instance from von Stechow \cite{von1984a}. In his analysis, the comparative morpheme \textit{er}(`than') in English undertakes the ``greater than'' meaning, as well as serves to usher in the gap between the comparee and the standard along the dimension of scale denoted by the gradable adjective in the case of comparative constructions with differential phrase. In \ref{maomao_2_12} is displayed its lexical entry. The comparative morpheme successively absorb three arguments, i.e., the property of degree argument $D$ determined by the standard, the degree argument $d$ denoted by the differential phrase and  the property of degree argument $G$ determined by the comparee.
+
+\begin{enumerate}
+    \item \label{maomao_2_12}
+    $[\![er]\!] = \lambda D_{<d,t>} \lambda d' \lambda G_{<d,t>} . [Max(G) \geq Max(D) + d'] \qquad <<d,t>,<d,<<d,t>,t>>>$
+\end{enumerate}
+
+Example in \ref{maomao_2_13_a} for instance and apply von Stechow's analysis to this sentence. \ref{maomao_2_13_b} roughly shows the logical form. Although von Stechow's analysis is built on sentences in English, the core spirit can be well transplanted to analysis of Mandarin comparative constructions.
+
+Given that there is no overt comparative morpheme in \ref{maomao_2_13_a}, \textit{comp} is used to indicate the covert comparative morpheme (i.e., equivalent to mu in our notation system). Due to the same meaning and function with \textit{er}(`than') in English, its lexical entry shown as \ref{maomao_2_13_c} is also as same as the lexical entry of \textit{er}(`than') given in \ref{maomao_2_12}. The comparison between two individuals, i.e., the comparee and the standard, is shifted to the comparison between properties of degree, of which the formalizations are respectively displayed in (13d) and (13e). The technical details involved are not discussed here given that they are not related to the core interpretation of the comparative morpheme which is the current essential issue. Based on semantic compositionality, after the comparatives morpheme successively absorbing the property of degree determined by the standard \textit{Mary}, the degree denoted by the differential phrase \textit{2 limi}(`2 centimeters'), and the the property of degree determined by the comparee \textit{John}, the ultimate formalization is derived out as \ref{maomao_2_13_f}, which is paraphrased as ``the maximal degree to which John is tall exceeds or equal to the maximal degree to which Mary is tall plus 2 limi''. Its equivalent form is given in \ref{maomao_2_13_g}, but in a more concise way. The formalization implies ``John can be more than 2 limi taller than Mary'', which does not adhere to our understanding of the sentence given in \ref{maomao_2_13_a} that ``\textit{John is exactly 2 centimeters taller than Mary}''. As a result, von Stechow's analysis of the comparative morpheme fails to derive the correct semantic interpretation for comparatives of Superiority with DiffP. This failure is owed to the lack of clear division of labour among different functional morphemes and the gradable adjective.
+
+\begin{enumerate}
+    \item \label{maomao_2_13}
+    \begin{enumerate}
+        \item \label{maomao_2_13_a}
+        John bi Mary gao 2 limi. \\
+        John than Mary tall 2 centimeters. \\
+        `John is 2 centimeters taller than Mary.'
+
+        \item \label{maomao_2_13_b}
+        $[_{DegP}[_{DegP'}[_{PP}bi \enspace op_i \enspace Mary \enspace d_i \enspace gao] comp][_{DiffP}2limi]]_j John \enspace d_j gao$
+
+        \item \label{maomao_2_13_c}
+        $\begin{aligned}[t]
+            [\![comp]\!]&=\lambda D_{<d,t>} \lambda d' \lambda G_{<d,t>} . [Max(G) \geq Max(D) + d'] \\ & <<d,t>,<d,<<d,t>,t>>>
+        \end{aligned}$
+
+        \item \label{maomao_2_13_d}
+        $[\![bi \enspace op_i \enspace Mary \enspace d_i \enspace gao]\!]
+        = \lambda d.[height(Mary) \geq d] \qquad <d,t>$
+
+        \item \label{maomao_2_13_e}
+        $[\![John \enspace gao]\!] = \lambda d.[height(John) \geq d] \qquad <d,t>$
+
+        \item \label{maomao_2_13_f}
+        $\begin{aligned}[t]
+            [\![John &\enspace bi \enspace Mary \enspace gao \enspace 2 limi]\!] 
+            = Max(\lambda d.[height(John) \geq d]) \\ &\geq Max(height(Mary) \geq d) + 2limi \qquad <t>
+        \end{aligned}$
+
+        \item \label{maomao_2_13_g}
+        \ref{maomao_2_13_f} $\Leftrightarrow height(John) \geq height(Mary) + 2limi$
+
+    \end{enumerate}
+\end{enumerate}
+
+This clear division of labor in terms of the semantic meaning bore by each component is crucial for the whole analysis and this perspective is also significantly different from previous analyses.
 
 \subsubsection{Superiority without differential phrase}
 
@@ -1064,13 +1213,256 @@ There is an alternative solution which inverse the hierarchy of the lower DegP a
 
 In spite of the correct linear order derived, \hl{ref} has argued that the direction of head movements in the syntactic structure shown in \ref{superiority_example_11} is actually impossible. He claims that a functional head is an incorporated element rather than an incorporating element, giving rise to the impossibility of the movement from a functional degree head to a lexical adjective head. \hl{this ref} eliminate the alternative ``DegP-AP-DegP'' solution from a view of lexicon-syntax, while I propose another piece of evidence for eliminating the ``DegP-AP-DeP'' analysis from the perspective of formal semantics, which will be illustrated immediately below.
 
-Then turn to semantic part of comparative of superiority with DiffP. The semantic interpretation of the higher DegP remains the same as that of the comparative of superiority without DiffP, so here we will not illustrate it in detail again. For the lower DegP, in this paper we assume that it undertake the mere function of measuring the difference between the value of the comparee and the value of  the standard along the dimension of scale denoted by the gradable adjective. It should be pointed out that this difference is expressed in the form of the absolute value for the reason that this difference itself indicates no ordering relation between the two values input into the comparative construction.  The ordering relation is encoded in the lexical entry of gradable adjectives,  indicated neither by the head of higher DegP (which serves merely to usher in the standard) nor by the head of lower DegP (which serves merely to introduce the absolute value of the difference between the two values compared). 
+Now let us turn to semantic part of Superiority sentences with DiffP. The semantic interpretation of the higher DegP remains the same as that of Superiority sentences without DiffP, so we will not illustrate it in detail again. For the lower DegP, in this paper we assume that it undertake the mere function of measuring the difference between the value of the comparee and the value of  the standard along the dimension of scale denoted by the gradable adjective. It should be pointed out that this difference is expressed in the form of the absolute value for the reason that this difference itself indicates no ordering relation between the two values input into the comparative construction.  The ordering relation is encoded in the lexical entry of gradable adjectives,  indicated neither by the head of higher DegP (which serves merely to usher in the standard) nor by the head of lower DegP (which serves merely to introduce the absolute value of the difference between the two values compared). 
 
-Most of  previous studied are inclined to appoint too heavy semantic function to one of the degree head and as a result make the semantic function of the other degree head marginal and transparent. What is worse, the ``greater than'' meaning encoded in the lexical entry of gradable adjective is seized by a degree head which should not have been in charge of indicating the ordering relation between the comparee and the standard. In addition, the transfer of the ``greater than'' meaning from gradable adjectives to the degree head would give rise to  wrong reading of sentences made out of gradable adjectives with DiffP. Here we illustrate this fatal disadvantage with an instance from von Stechow \hl{ref}.
+\hl{Comparative meanings measurable gradable adjectives-positive adjectives negative adjectives ref!!! Assignable meanings negative adjective non-measurable gradable adjectives.}
 
-This clear division of labor in terms of the semantic meaning bore by each component is crucial for the whole analysis and this perspective is also significantly different from previous analyses.
+Based on above analyses, the lexical entry of the head of lower DegP is displayed in \ref{maomao14}.  It merely serves to calculate the absolute value of the gap denoted by the differential phrase and whether the comparee or the standard is greater is determined by the gradable adjective which is absorbed by the head of lower DegP. If the gradable adjective is a positive one, like \textit{gao}(`tall'), which encodes $\geq$ relation in its lexical entry repeated as \ref{maomao15_a}, then the difference between the comparee and the standard is a positive value, as proven in \ref{maomao15}. Otherwise, if the gradable adjective is a negative one, like \textit{ai}(`short'), which encodes $\leq$ relation in its lexical entry repeated as \ref{maomao15_a}, then the difference between the comparee and the standard is a negative value, as proven in \ref{maomao16}. Here we use an antonymous pair of gradable adjective to back our analysis of the lower head of DegP as introducer  of the absolute value of the difference between the comparee and the standard.
 
-\subsubsection{Equality}
+\begin{enumerate}
+    \item \label{maomao14}
+    $\begin{aligned}[t]
+        [\![\mu]\!] &= \lambda G_{<d,<e,t>>} \lambda d' \lambda d \lambda x.[G(x,d) \land | G-degree(x) - d | = d'] \\
+        & <d,<e,t>,<d,<d,<e,t>>>>
+    \end{aligned}$
+\end{enumerate}
+
+
+\begin{enumerate}
+    \item \label{maomao15}
+    \begin{enumerate}
+        \item \label{maomao15_a}
+        $\begin{aligned}[t]
+            [\![gao]\!] &= \lambda d \lambda x.[height(x) \geq d] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{maomao15_b}
+        $\begin{aligned}[t]
+            [\![\mu \enspace gao]\!] &= \lambda d' \lambda d \lambda x.[height(x) \geq d \land |height(x) - d|=d'] \\
+            & <d,<d,<e,t>>>
+        \end{aligned}$
+        
+        \item \label{maomao15_c}
+        \ref{maomao15_b}
+        $\begin{aligned}[t]
+            \Leftrightarrow [\![\mu \enspace ai]\!] = \lambda d' \lambda d \lambda x.[height(x)-d=-d'] \qquad <d,<d,<e,t>>>
+        \end{aligned}$
+    \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{maomao16}
+    \begin{enumerate}
+        \item \label{maomao16_a}
+        $[\![ai]\!] = \lambda d \lambda x.[height(x) leq d] \qquad <d,<e,t>>$
+
+        \item \label{maomao16_b}
+        $\begin{aligned}[t]
+            [\![\mu \enspace ai]\!] &= \lambda d' \lambda d \lambda x.[height(x) \leq d \land |height(x) - d|=d'] \\
+            & <d,<d,<e,t>>>
+        \end{aligned}$
+        
+        \item \label{maomao16_c}
+        \ref{maomao16_b}
+        $\begin{aligned}[t]
+            \Leftrightarrow [\![\mu \enspace gao]\!] = \lambda d' \lambda d \lambda x.[height(x)-d=-d'] \qquad <d,<d,<e,t>>>
+        \end{aligned}$
+    \end{enumerate}
+\end{enumerate}
+
+Sentences classified as comparatives of superiority with DiffP will be conducted with the complete semantic calculations based on semantic compositionality. We will see our analysis can indeed derive out the correct semantic interpretation.
+
+Firstly, \ref{maomao17_a} is a comparative of Superiority with DiffP where the standard \textit{1.7 mi}(`1.7meters') is a degree typed $d$. Procedures of its semantic calculations are shown as \ref{maomao17}. The ultimate formalizations actually indicates that ``the height of John is equal to 1.72 meters'', which is equivalent to the meaning of \ref{maomao17_a}.
+
+\begin{enumerate}
+    \item \label{maomao17_a}
+    John bi 1.7mi gao 2limi. \\
+    John than 1.7meters tall 2 centimeters. \\
+    `John is 2 centimeters taller than 1.7 meters.'
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{maomao17}
+    \begin{enumerate}
+        \item \label{maomao17_b}
+        $\begin{aligned}[t]
+            [\![\mu]\!] &= \lambda G_{<d,<e,t>>} \lambda d' \lambda d \lambda x.[G(x,d) \land | G-degree(x) - d | = d'] \\
+            & <d,<e,t>,<d,<d,<e,t>>>>
+        \end{aligned}$
+        
+        \item \label{maomao17_c}
+        $\begin{aligned}[t]
+            [\![\mu \enspace gao]\!] &= \lambda d' \lambda d \lambda x.[height(x) \geq d \land |height(x) - d|=d'] \\
+            & <d,<d,<e,t>>>
+        \end{aligned}$
+
+        \item \label{maomao17_d}
+        $\begin{aligned}[t]
+            [\![2limi \enspace \mu \enspace gao]\!] &= [\![\mu \enspace gao]\!](2limi) \\
+            &= \lambda d \lambda x. [height(x) - d = 2 limi] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{maomao17_e}
+        $\begin{aligned}[t]
+            [\![\xi_1 \enspace 2limi \enspace \mu \enspace gao]\!] &= [\![\xi_1]\!]([\![2limi \enspace \mu \enspace gao]\!]) \\
+            &= \lambda G_{<d,<e,t>>} \lambda d \lambda x. [G(x,d)](\lambda d' \lambda x'. [height(x') - d' = 2 limi])\\
+            &= \lambda d \lambda x. [height(x)-d=2limi] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{maomao17_f}
+        $\begin{aligned}[t]
+            [\![1.7mi \enspace \xi_1 \enspace 2limi \enspace \mu \enspace gao]\!] &= [\![\xi_1 \enspace 2limi \enspace \mu \enspace gao]\!](1.7mi) \\
+            &=\lambda x.[height(x) -1.7mi=2limi] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{maomao17_g}
+        $\begin{aligned}[t]
+            [\![John \enspace bi \enspace 1.7mi \enspace \xi_1 \enspace 2limi \enspace \mu \enspace gao]\!] &= [\![1.7mi \enspace \xi_1 \enspace 2limi \enspace \mu \enspace gao]\!](John) \\
+            &=height(John) -1.7mi=2limi \qquad <t>
+        \end{aligned}$
+
+    \end{enumerate}
+\end{enumerate}
+
+Secondly, \ref{maomao18_a} is a comparative of Superiority with DiffP where the standard \textit{Mary} is an individual typed $e$. Procedures of its semantic calculations are shown as \ref{maomao18}, where similar procedures are not repeated again. In contrast with the formalizations of \ref{maomao_2_13_g} where the wrong semantic interpretation which allows the possibility ``John's height exceeds Mary's height plus 2 centimeters'' derived out via von Stechow's analysis, the ultimate formalizations given in \ref{maomao18_e} via our analysis successfully captures the real meaning of \ref{maomao18_a} that ``John is exactly 2 centimeters taller than Mary''.
+
+\begin{enumerate}
+    \item \label{maomao18_a}
+    John bi Mary gao 2limi. \\
+    John than Mary tall 2 centimeters. \\
+    `John is 2 centimeters taller than Mary.'
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{maomao18}
+    \begin{enumerate}
+        \item \label{maomao18_b}
+        $\begin{aligned}[t]
+            [\![2limi \enspace \mu \enspace gao]\!] &= [\![\mu \enspace gao]\!](2limi) \\
+            &= \lambda d \lambda x. [height(x) - d = 2 limi] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{maomao18_c}
+        $\begin{aligned}[t]
+            [\![\xi_2 \enspace & 2limi \enspace \mu \enspace gao]\!] \\
+            &= [\![\xi_2]\!]([\![2limi \enspace \mu \enspace gao]\!]) \\
+            &= \lambda G_{<d,<e,t>>} \lambda y \lambda x. [G(x,G-degree(y))](\lambda d' \lambda x'. [height(x') - d' = 2 limi])\\
+            &= \lambda y \lambda x. [height(x) - height(y) = 2 limi] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{maomao18_d}
+        $\begin{aligned}[t]
+            [\![Mar&y \enspace \xi_2 \enspace 2limi \enspace \mu \enspace gao]\!] \\
+            &= [\![\xi_2 \enspace 2limi \enspace \mu \enspace gao]\!](Mary) \\
+            &=\lambda x.[height(x) - height(Mary)=2limi] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{maomao18_e}
+        $\begin{aligned}[t]
+            [\![John \enspace &bi \enspace Mary \enspace \xi_2 \enspace 2limi \enspace \mu \enspace gao]\!] \\
+            &= [\![Mary \enspace \xi_2 \enspace 2limi \enspace \mu \enspace gao]\!](John) \\
+            &=height(John) - height(Mary) = 2limi \qquad <t>
+        \end{aligned}$
+
+    \end{enumerate}
+\end{enumerate}
+
+
+Thirdly, \ref{maomao19_a} is a comparative of Superiority with DiffP which is build around a negative gradable adjective \textit{ai}(`short'). Procedures of its semantic calculations are shown as \ref{maomao19}, where similar procedures are not detailed. For ease of understanding, an equivalent form of the ultimate formalization of \ref{maomao19_f} is given in \ref{maomao19_g}, which is paraphrased as "the height of John equals to the height of Mary minus 2 limi". This formalizations derives out the correct semantic interpretation of the sentence in \ref{maomao19_a}.
+
+\begin{enumerate}
+    \item \label{maomao19_a}
+    John bi Mary ai 2limi. \\
+    John than Mary ai 2 centimeters. \\
+    `John is 2 centimeters shorter than Mary.'
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{maomao19}
+    \begin{enumerate}
+        \item \label{maomao19_b}
+        $[\![\mu \enspace ai]\!]=\lambda d' \lambda d \lambda x.[height(x)-d=d'] \quad <d,<d,<e,t>>>$
+
+        \item \label{maomao19_c}
+        $\begin{aligned}[t]
+            [\![2limi \enspace \mu \enspace ai]\!] &= [\![\mu \enspace ai]\!](2limi) \\
+            &= \lambda d \lambda x. [height(x) - d = -2 limi] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{maomao19_d}
+        $\begin{aligned}[t]
+            [\![\xi_2 \enspace & 2limi \enspace \mu \enspace ai]\!] \\
+            &= [\![\xi_2]\!]([\![2limi \enspace \mu \enspace ai]\!]) \\
+            &= \lambda G_{<d,<e,t>>} \lambda y \lambda x. [G(x,G-degree(y))](\lambda d' \lambda x'. [height(x') - d' = -2 limi])\\
+            &= \lambda y \lambda x. [height(x) - height(y) = -2 limi] \qquad <d,<e,t>>
+        \end{aligned}$
+
+        \item \label{maomao19_e}
+        $\begin{aligned}[t]
+            [\![Mar&y \enspace \xi_2 \enspace 2limi \enspace \mu \enspace ai]\!] \\
+            &= [\![\xi_2 \enspace 2limi \enspace \mu \enspace ai]\!](Mary) \\
+            &=\lambda x.[height(x) - height(Mary)=-2limi] \qquad <e,t>
+        \end{aligned}$
+
+        \item \label{maomao19_f}
+        $\begin{aligned}[t]
+            [\![John \enspace &bi \enspace Mary \enspace \xi_2 \enspace 2limi \enspace \mu \enspace ai]\!] \\
+            &= [\![Mary \enspace \xi_2 \enspace 2limi \enspace \mu \enspace ai]\!](John) \\
+            &=height(John) - height(Mary) = -2limi \qquad <t>
+        \end{aligned}$
+
+        \item \label{maomao19_g}
+        \ref{maomao19_f} $\Leftrightarrow height(John) = height(Mary) - 2limi$
+
+    \end{enumerate}
+\end{enumerate}
+
+Fourthly, (20a) is a comparative of Superiority with DiffP where the standard \textit{yi ban}(`half') is a set of individual typed $<e,t>$. However, this pattern manifests itself as ungrammatical. To explain the reason, a review of the semantic interpretation of $\xi_3$, which is always instantiated as \textit{zui}(`most'), is necessary. The lexical entry of $\xi_3$ is repeated in (20b). With a close look at the formalizations, we find that it is actually equivalent to (20c) which means ``the comparee is exactly the one owns the highest degree denoted by the gradable adjective among all people in the appointed set including the comparee himself''. Naturally, it can imply (20d), which is paraphrased as ``the difference between the degree  of the standard denoted by the gradable adjective and the highest degree owned by someone in the appointed set is equal to zero''. However, the composition of $\xi_3$ and the lower DegP will give a semantic interpretation contradictory to that of (20d). As shown in (20e), it indicates that the difference between the degree of the standard denoted by the gradable adjective and the highest degree owned by someone in the appointed set, is not equal to zero. Hence, a comparative of Superiority with DiffP in the case of the standard is a set of individual typed $<e,t>$, is deemed ungrammatical.
+
+\begin{enumerate}
+    \item \label{maomao20_a}
+    * John zai yi ban zui gao 2 limi. \\
+    \hspace*{0.5em} John in class.one most tall 2 centimeters. \\
+    \hspace*{0.5em} `John is 2 centimeters tallest in class one.'
+\end{enumerate}
+
+\begin{enumerate}
+    \item \label{maomao20}
+    \begin{enumerate}
+        \item \label{maomao20_b}
+        $\begin{aligned}[t]
+            [\![\xi_3]\!] &= \lambda G_{<d,<e,t>>} \lambda C \lambda x. [x \in C \land G(x,Max \enspace v(v=G-degree(z) \land z \in C))] \\
+            & <<d,<e,t>>, <<e,t>,<e,t>>>
+        \end{aligned}$
+
+        \item \label{maomao20_c}
+        \ref{maomao19_f} 
+        $\begin{aligned}[t]
+            \Leftrightarrow &\lambda G_{<d,<e,t>>} \lambda C \lambda x. [x \in C \\
+            & \land G-degree(x)=Max \enspace v(v=G-degree(z) \land z \in C)]
+        \end{aligned}$
+
+        \item \label{maomao20_d}
+        \ref{maomao19_f} 
+        $\begin{aligned}[t]
+            \Leftrightarrow &\lambda G_{<d,<e,t>>} \lambda C \lambda x. [x \in C \\
+            & \land G-degree(x) - (Max \enspace v(v=G-degree(z) \land z \in C)) = 0]
+        \end{aligned}$
+
+        \item \label{maomao20_e}
+        * $\begin{aligned}[t]
+            &[\![\xi_3 \enspace 2 limi \enspace \mu \enspace gao]\!] = [\![\xi_3]\!]([\![2 limi \enspace \mu \enspace gao]\!]) \\
+            &= \lambda G_{<d,<e,t>>}\lambda C \lambda x. [x \in C \\
+            &\qquad \land G(x,Max \enspace v(v=G-degree(z) \land z \in C))](\lambda d' \lambda x'.[height(x)-d=2limi]) \\
+            &=\lambda C \lambda x.[x \in C \land height(x)-max \enspace v(v=height(z) \land z \in C)=2limi]\\
+            & <<e,t>,<e,t>>
+        \end{aligned}$
+
+    \end{enumerate}
+\end{enumerate}
+
+
+\subsection{Equality}
 
 A simple example of comparative of equality are shown in \ref{equality_example}. What should be noticed again is that, the equality form is kind of comparative meaning under the classification given in the introduction. The gradable adjectives in equality form bear the function of ``comparsion'' rather than ``assignment''. For example, in \ref{equality_example_1}, gradable adjective \textit{gao}(`tall') does not assign the value of \textit{Mary}'s height to \textit{John}'s height, but make difference between the value of \textit{Mary}'s height and \textit{John}'s height, and the morpheme \textit{yiyang}(`same') gives the truth that this difference is equal to zero. Thus the equality form is a kind of comparative meaning.
 
@@ -1159,105 +1551,7 @@ After syntactic analysis, followed semantic lexical entry calculation. \ref{equa
 \end{enumerate}
 
 
-\subsection{Assignable meaning}
 
-In assignable meaning degree Structure, this paper will adjust the standard lexical entry of gradable adjectives, modify the greater equal sign to absolute equal sign, which is shown in \ref{tallLE_re_b} and re-wrote in \ref{tallLE_re_re_b}. Because the gradable adjectives in assignable meaning bear the function of assignment, which is different with comparative meaning. If in assignable meaning with ``greater equal'' relation lexical entry, a mistake discussed in second 2 will occur, and the reason is the result of lexical entry calculation will be different with the original meaning. 
-
-\begin{enumerate}
-    \item \label{tallLE_re_re_b}
-    $[\![tall]\!]=\lambda d \lambda x.[Height(x) = d]$
-\end{enumerate}
-
-\begin{enumerate}
-    \item \label{assignable_example_1}
-    \begin{enumerate}
-        \item \label{assignable_example_1_a}
-        John you 2 mi gao. \\
-        John have 2 meters tall. \\
-        `John is 2 meters tall'
-        
-        \item \label{assignable_example_1_b}
-        John you 2 mi duo gao. \\
-        John have 2 meters more tall. \\
-        `John is more than 2 meters tall'
-        
-    \end{enumerate}
-\end{enumerate}
-
-Examples shown in \ref{assignable_example_1} are classical expression in assignable meaning, and the syntactic tree of \ref{assignable_example_1_a} is shown in \ref{assignable_structure}. The structure is quite similar with the syntactic structure of the comparative of superiority without DiffP shown in \ref{superiority_structure}. Little differences are, the morpheme \textit{you}(`have') take the place of the specifier of PredP, the measure phrase here we call it assignment phrase (assignP), and the operator at the head of DegP we call it $\varphi$. The movements in this tree are also similar with the movements in \ref{superiority_structure}, so there is need to repeat it.
-
-Example \ref{assignable_example_1_b} gives a truth that \textit{John}'s height is more than 2 meters, the morpheme \textit{duo}(`more') plays the role of suffix of \textit{2mi} and changes it's absolute value to a vague value. From this paper's perspective, \textit{duo}(`more') here does not have independent position in syntactic structure.
-
-\begin{enumerate}
-    \item \label{assignable_structure}
-    $[_{IP} NP [_{I'} I_0[_{...}[_{PredP}[_{Pred'}Pred^0[_{DegP}assignP[_{Deg'}Deg^0[_{AP}[A^0]]]]]]]]]$
-\end{enumerate}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{pic/assignment_meaning.png}
-    \begin{caption}
-        \\ \vspace{-1.1ex}
-        Structure for assignable meaning.
-    \end{caption}
-\end{figure}
-
-The assignable meaning can also build transitive form. The transitive form of \ref{assignable_example_1_a} is \ref{assignable_example_1_a_transitive}, and the construction of this form is shown in \ref{assignable_example_1_a_transitive_tree}. When morpheme \textit{you}(`have') disappears, the gradable adjective moves up to occupy the position of the head of PredP.
-
-\begin{enumerate}
-    \item \label{assignable_example_1_a_transitive}
-    John gao 2 mi. \\
-    John tall 2 meters. \\
-    `John is 2 meters tall'
-\end{enumerate}
-
-\begin{enumerate}
-    \item \label{assignable_example_1_a_transitive_tree}
-\end{enumerate}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{pic/assignment_meaning_transitive.png}
-    \begin{caption}
-        \\ \vspace{-1.1ex}
-        Structure for assignable meaning.
-    \end{caption}
-\end{figure}
-
-Next, the lexical calculation of \ref{assignable_example_1_a} illustrated. The operator $\varphi$ is just a null operator whose job is pass the type $<d,<e,t>>$ to next part. Other deduction is trivial.
-
-\begin{enumerate}
-    \item \label{assignable_example_lambda}
-    \begin{enumerate}
-        \item \label{assignable_example_lambda_a}
-        $\begin{aligned}[t]
-            [\![\varphi]\!] = \lambda G \lambda d \lambda x.[G(x,d)] \qquad <<d,<e,t>>,<d,<e,t>>>
-        \end{aligned}$
-
-        \item \label{assignable_example_lambda_b}
-        $\begin{aligned}[t]
-            [\![\varphi \enspace gao]\!] 
-            &= \lambda G \lambda d \lambda x.[G(x,d)]([\![gao]\!]) \\
-            &= \lambda d \lambda x.[height(x) = d] \qquad <d,<e,t>>
-        \end{aligned}$
-
-        \item \label{assignable_example_lambda_c}
-        $\begin{aligned}[t]
-            [\![you \enspace 2m \enspace &\varphi \enspace gao]\!] \\
-            &= \lambda d \lambda x.[height(x) = d]([\![you \enspace 2mi]\!]) \\
-            &= \lambda d \lambda x.[height(x) = d](2mi) \\
-            &= \lambda x.[height(x) = 2mi] \qquad <e,t>
-        \end{aligned}$
-
-        \item \label{assignable_example_lambda_d}
-        $\begin{aligned}[t]
-            [\![John \enspace you \enspace &2m \enspace \varphi \enspace gao]\!] \\
-            &= \lambda x.[height(x) = 2mi]([\![John]\!]) \\
-            &= height(John)=2m \qquad <t>
-        \end{aligned}$
-        
-    \end{enumerate}
-\end{enumerate}
 
 \section{CONCLUSION}
 
